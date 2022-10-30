@@ -1,0 +1,1230 @@
+-- Merging decision tree log ---
+manifest
+ADDED from C:\Users\boxla\Documents\GitHub\chatapps\app\src\main\AndroidManifest.xml:2:1-111:12
+INJECTED from C:\Users\boxla\Documents\GitHub\chatapps\app\src\main\AndroidManifest.xml:2:1-111:12
+INJECTED from C:\Users\boxla\Documents\GitHub\chatapps\app\src\main\AndroidManifest.xml:2:1-111:12
+INJECTED from C:\Users\boxla\Documents\GitHub\chatapps\app\src\main\AndroidManifest.xml:2:1-111:12
+MERGED from [com.mesibo.api:uihelper:1.8.2] C:\Users\boxla\.gradle\caches\transforms-2\files-2.1\35f1d776e9f905213ea6b964a0055c0f\jetified-uihelper-1.8.2\AndroidManifest.xml:2:1-29:12
+MERGED from [com.mesibo.api:ui:1.9.53] C:\Users\boxla\.gradle\caches\transforms-2\files-2.1\1c6a8f9a68f75aef0cd24065bce150a7\jetified-ui-1.9.53\AndroidManifest.xml:2:1-33:12
+MERGED from [com.mesibo.api:callui:1.9.53] C:\Users\boxla\.gradle\caches\transforms-2\files-2.1\6ccc9ff5db4e4f16ad49b79b503fa9ce\jetified-callui-1.9.53\AndroidManifest.xml:2:1-26:12
+MERGED from [com.mesibo.api:mediapicker:1.6.1] C:\Users\boxla\.gradle\caches\transforms-2\files-2.1\14f9cf399f9989124995645a8626efbc\jetified-mediapicker-1.6.1\AndroidManifest.xml:2:1-41:12
+MERGED from [com.mesibo.api:calls:1.9.53] C:\Users\boxla\.gradle\caches\transforms-2\files-2.1\429c037de8ef8c5c1a67ba2bda63af0c\jetified-calls-1.9.53\AndroidManifest.xml:2:1-107:12
+MERGED from [com.google.android.material:material:1.0.0] C:\Users\boxla\.gradle\caches\transforms-2\files-2.1\46659514cdf12fbd7a9932bb01ff96bf\material-1.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.preference:preference:1.0.0] C:\Users\boxla\.gradle\caches\transforms-2\files-2.1\c4572f8b38d34142876181312248e858\preference-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.mesibo.api:ContactUtils:1.6.3] C:\Users\boxla\.gradle\caches\transforms-2\files-2.1\d2a6372232edd32ff0b5bb7a63802707\jetified-ContactUtils-1.6.3\AndroidManifest.xml:2:1-42:12
+MERGED from [com.mesibo.api:mesibo:1.9.53] C:\Users\boxla\.gradle\caches\transforms-2\files-2.1\3a0270acd5517463989765cbb330550f\jetified-mesibo-1.9.53\AndroidManifest.xml:2:1-63:12
+MERGED from [com.google.android.libraries.places:places:2.6.0] C:\Users\boxla\.gradle\caches\transforms-2\files-2.1\3e80ab14bbabd569e211ac1860c37633\jetified-places-2.6.0\AndroidManifest.xml:2:1-23:12
+MERGED from [androidx.appcompat:appcompat:1.0.0] C:\Users\boxla\.gradle\caches\transforms-2\files-2.1\59ce8a707aeb80134489ce4c2b8c720d\appcompat-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.mesibo.api:emojiview:0.1.13] C:\Users\boxla\.gradle\caches\transforms-2\files-2.1\c2df75fc0a587352726ae90319dd65a8\jetified-emojiview-0.1.13\AndroidManifest.xml:2:1-14:12
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] C:\Users\boxla\.gradle\caches\transforms-2\files-2.1\83995f663748344e4a11c6fe2a174049\legacy-support-v4-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.recyclerview:recyclerview:1.0.0] C:\Users\boxla\.gradle\caches\transforms-2\files-2.1\41015688c62115cc59e5b6e5e38017c3\recyclerview-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\boxla\.gradle\caches\transforms-2\files-2.1\6e838f14f5c545e29a41705e55ad140d\cardview-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.0.0] C:\Users\boxla\.gradle\caches\transforms-2\files-2.1\9d59d9e41c3a642beabe29499dfb465b\vectordrawable-animated-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.gridlayout:gridlayout:1.0.0] C:\Users\boxla\.gradle\caches\transforms-2\files-2.1\4e00f58057978d577cbafebd8cb9749b\gridlayout-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] C:\Users\boxla\.gradle\caches\transforms-2\files-2.1\dbfed7dadb05113a368a8b48a6e06f93\legacy-support-core-ui-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\boxla\.gradle\caches\transforms-2\files-2.1\c2687be9fc99b876db48caea56c6ea1b\cursoradapter-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\boxla\.gradle\caches\transforms-2\files-2.1\39a5c90711409ff132241fa7a3c2fbc8\legacy-support-core-utils-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.0.0] C:\Users\boxla\.gradle\caches\transforms-2\files-2.1\88e22f1d732fac50690ceb19d19f35df\vectordrawable-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.media:media:1.0.0] C:\Users\boxla\.gradle\caches\transforms-2\files-2.1\4ba651502e104b7a37aa6e8613234913\media-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.transition:transition:1.0.0] C:\Users\boxla\.gradle\caches\transforms-2\files-2.1\bc31adfb611bd7bb2d8efdbe22c8927b\transition-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\boxla\.gradle\caches\transforms-2\files-2.1\fe5239e61d1df3430984678b5580bd73\documentfile-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-extensions:2.0.0] C:\Users\boxla\.gradle\caches\transforms-2\files-2.1\87389555f08d3dd7dfe062cedf0090a2\lifecycle-extensions-2.0.0\AndroidManifest.xml:17:1-25:12
+MERGED from [com.google.android.gms:play-services-places:16.0.0] C:\Users\boxla\.gradle\caches\transforms-2\files-2.1\8f3594b82945849971774181bf10d71a\jetified-play-services-places-16.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-auth:16.0.1] C:\Users\boxla\.gradle\caches\transforms-2\files-2.1\c5c71505525c360990892529605f9198\jetified-play-services-auth-16.0.1\AndroidManifest.xml:17:1-39:12
+MERGED from [com.google.firebase:firebase-messaging:18.0.0] C:\Users\boxla\.gradle\caches\transforms-2\files-2.1\4f361da270a7c409c35c81134a4b0ff4\jetified-firebase-messaging-18.0.0\AndroidManifest.xml:17:1-37:12
+MERGED from [com.google.firebase:firebase-core:16.0.9] C:\Users\boxla\.gradle\caches\transforms-2\files-2.1\e01f7c2e698bc043bd26a3ee9d5fd61e\jetified-firebase-core-16.0.9\AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.firebase:firebase-analytics:16.5.0] C:\Users\boxla\.gradle\caches\transforms-2\files-2.1\de445b2bf77aea73b045f68ae85c9989\jetified-firebase-analytics-16.5.0\AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-measurement-api:16.5.0] C:\Users\boxla\.gradle\caches\transforms-2\files-2.1\ee4acb9561e8a718f0e2d2e237a7550f\jetified-play-services-measurement-api-16.5.0\AndroidManifest.xml:17:1-36:12
+MERGED from [com.google.firebase:firebase-iid:18.0.0] C:\Users\boxla\.gradle\caches\transforms-2\files-2.1\7b296d16f19647438690df5d4bf9abb5\jetified-firebase-iid-18.0.0\AndroidManifest.xml:17:1-47:12
+MERGED from [com.google.firebase:firebase-iid-interop:16.0.1] C:\Users\boxla\.gradle\caches\transforms-2\files-2.1\ab175a707a39a9b8b169ff463ae6f295\jetified-firebase-iid-interop-16.0.1\AndroidManifest.xml:2:1-10:12
+MERGED from [com.google.android.gms:play-services-auth-api-phone:16.0.0] C:\Users\boxla\.gradle\caches\transforms-2\files-2.1\34c9b5bdc33d2498dbe3beb3ae3450d2\jetified-play-services-auth-api-phone-16.0.0\AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.android.gms:play-services-auth-base:16.0.0] C:\Users\boxla\.gradle\caches\transforms-2\files-2.1\686f229a5b3e36bcd9e176015f957e68\jetified-play-services-auth-base-16.0.0\AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.android.gms:play-services-location:17.1.0] C:\Users\boxla\.gradle\caches\transforms-2\files-2.1\c6db7119921b2cfd232830b85e4a01a6\jetified-play-services-location-17.1.0\AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-maps:17.0.0] C:\Users\boxla\.gradle\caches\transforms-2\files-2.1\09b6dd3e7c87a3d12384e8a4a2a85e44\jetified-play-services-maps-17.0.0\AndroidManifest.xml:17:1-38:12
+MERGED from [com.google.android.gms:play-services-base:18.0.1] C:\Users\boxla\.gradle\caches\transforms-2\files-2.1\37b595b2d2745886dcd0edc0a5df4b65\jetified-play-services-base-18.0.1\AndroidManifest.xml:16:1-24:12
+MERGED from [com.google.firebase:firebase-common:17.0.0] C:\Users\boxla\.gradle\caches\transforms-2\files-2.1\e406c13e15f53398374ab553ddc9c28a\jetified-firebase-common-17.0.0\AndroidManifest.xml:2:1-19:12
+MERGED from [com.google.firebase:firebase-measurement-connector:17.0.1] C:\Users\boxla\.gradle\caches\transforms-2\files-2.1\9d921539f02ff64c257da3eee37f8a72\jetified-firebase-measurement-connector-17.0.1\AndroidManifest.xml:17:1-25:12
+MERGED from [com.google.android.gms:play-services-measurement:16.5.0] C:\Users\boxla\.gradle\caches\transforms-2\files-2.1\f040517769c6e7dea4608481b75748d7\jetified-play-services-measurement-16.5.0\AndroidManifest.xml:17:1-55:12
+MERGED from [com.google.android.gms:play-services-measurement-sdk:16.5.0] C:\Users\boxla\.gradle\caches\transforms-2\files-2.1\22cf55f5d6a9d9530c7987280aa9c5cd\jetified-play-services-measurement-sdk-16.5.0\AndroidManifest.xml:17:1-25:12
+MERGED from [com.google.android.gms:play-services-measurement-impl:16.5.0] C:\Users\boxla\.gradle\caches\transforms-2\files-2.1\c3be7f042392793eccf230366a0b0077\jetified-play-services-measurement-impl-16.5.0\AndroidManifest.xml:17:1-40:12
+MERGED from [com.google.android.gms:play-services-stats:16.0.1] C:\Users\boxla\.gradle\caches\transforms-2\files-2.1\eb4c215efb7313d66b41d6e7b14e1e6a\jetified-play-services-stats-16.0.1\AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-tasks:18.0.1] C:\Users\boxla\.gradle\caches\transforms-2\files-2.1\7820838174c3ff2064faca9d6e75f723\jetified-play-services-tasks-18.0.1\AndroidManifest.xml:2:1-6:12
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:16.5.0] C:\Users\boxla\.gradle\caches\transforms-2\files-2.1\63c789e7a6bd34f2ee2200a81d8b67c6\jetified-play-services-measurement-sdk-api-16.5.0\AndroidManifest.xml:17:1-40:12
+MERGED from [com.google.android.gms:play-services-measurement-base:16.5.0] C:\Users\boxla\.gradle\caches\transforms-2\files-2.1\0ea3f6816fc547eb8357b57dc9dab502\jetified-play-services-measurement-base-16.5.0\AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-places-placereport:17.0.0] C:\Users\boxla\.gradle\caches\transforms-2\files-2.1\b638530ab067c46f309ae8b1bb3dc1dd\jetified-play-services-places-placereport-17.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-ads-identifier:16.0.0] C:\Users\boxla\.gradle\caches\transforms-2\files-2.1\8ec546538beae5ea272afc5dab241792\jetified-play-services-ads-identifier-16.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-basement:18.0.0] C:\Users\boxla\.gradle\caches\transforms-2\files-2.1\ceb38da7565134df0dc35b34d7f9f646\jetified-play-services-basement-18.0.0\AndroidManifest.xml:16:1-26:12
+MERGED from [androidx.fragment:fragment:1.1.0] C:\Users\boxla\.gradle\caches\transforms-2\files-2.1\c1adc0728270ee1b396ee5b27930ca5c\fragment-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\boxla\.gradle\caches\transforms-2\files-2.1\f3107770c3d49af78c17c46f32da5e20\loader-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\boxla\.gradle\caches\transforms-2\files-2.1\aaa8f59934b4b63b9c565273622acdf7\localbroadcastmanager-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.print:print:1.0.0] C:\Users\boxla\.gradle\caches\transforms-2\files-2.1\7804fe5c8eb1094c8d2866c7d75ffe33\print-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\boxla\.gradle\caches\transforms-2\files-2.1\2b90993159461f94e6d71ff2dcba134f\viewpager-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] C:\Users\boxla\.gradle\caches\transforms-2\files-2.1\ec7ecdc32404dfdded04aa64b7c72f86\coordinatorlayout-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\boxla\.gradle\caches\transforms-2\files-2.1\cfc1dee8a924bf8a21105cd2f941a57f\drawerlayout-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] C:\Users\boxla\.gradle\caches\transforms-2\files-2.1\ec663965e993cad794cf1c854444b7cc\slidingpanelayout-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.customview:customview:1.0.0] C:\Users\boxla\.gradle\caches\transforms-2\files-2.1\01d4229bb7e92a4f9df10b68b44f7e6e\customview-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] C:\Users\boxla\.gradle\caches\transforms-2\files-2.1\bba672a93749dd9e6851f0e8dd2a4a8a\swiperefreshlayout-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\boxla\.gradle\caches\transforms-2\files-2.1\2b8d20241c8de70ac0465ef1615cbfa1\interpolator-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] C:\Users\boxla\.gradle\caches\transforms-2\files-2.1\0da9e5bdbbe8acb0ab3c9da2c8110300\asynclayoutinflater-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\boxla\.gradle\caches\transforms-2\files-2.1\c7c8228fa4177f5e71035d168ce4d783\lifecycle-livedata-2.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] C:\Users\boxla\.gradle\caches\transforms-2\files-2.1\5def8075d977f93d6f96060565f8166e\lifecycle-livedata-core-2.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.arch.core:core-runtime:2.0.0] C:\Users\boxla\.gradle\caches\transforms-2\files-2.1\ce151a00397f64fcbcd1802c0eacf366\core-runtime-2.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.exifinterface:exifinterface:1.0.0] C:\Users\boxla\.gradle\caches\transforms-2\files-2.1\4da423d1e4189cdaf8628d294bac69fa\exifinterface-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.android.datatransport:transport-backend-cct:2.3.0] C:\Users\boxla\.gradle\caches\transforms-2\files-2.1\0a3b0ef6850894272622c25d5a5af2ba\jetified-transport-backend-cct-2.3.0\AndroidManifest.xml:15:1-38:12
+MERGED from [com.google.android.datatransport:transport-runtime:2.2.3] C:\Users\boxla\.gradle\caches\transforms-2\files-2.1\99a4f9408f7872ea688ac3bf34c11d30\jetified-transport-runtime-2.2.3\AndroidManifest.xml:15:1-41:12
+MERGED from [androidx.activity:activity:1.0.0] C:\Users\boxla\.gradle\caches\transforms-2\files-2.1\b6286cf443ec278561fe787907e3c9c4\jetified-activity-1.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.core:core:1.2.0] C:\Users\boxla\.gradle\caches\transforms-2\files-2.1\9ba3c5b3668408979874ab21eefbfb61\core-1.2.0\AndroidManifest.xml:17:1-26:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\boxla\.gradle\caches\transforms-2\files-2.1\bbcb86a58d211d8bcf96683bbe394b2e\versionedparcelable-1.1.0\AndroidManifest.xml:17:1-27:12
+MERGED from [com.google.firebase:firebase-encoders-json:16.1.0] C:\Users\boxla\.gradle\caches\transforms-2\files-2.1\17597606606e66df183a7f851e69580b\jetified-firebase-encoders-json-16.1.0\AndroidManifest.xml:15:1-23:12
+MERGED from [androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\boxla\.gradle\caches\transforms-2\files-2.1\22148d685580ed3826a245eb225c8e0c\jetified-lifecycle-process-2.0.0\AndroidManifest.xml:17:1-30:12
+MERGED from [androidx.lifecycle:lifecycle-service:2.0.0] C:\Users\boxla\.gradle\caches\transforms-2\files-2.1\9752b65e613f87c458da31cb36c161bc\jetified-lifecycle-service-2.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.1.0] C:\Users\boxla\.gradle\caches\transforms-2\files-2.1\6634fb750e043836abbd5f1b04c655e9\lifecycle-runtime-2.1.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] C:\Users\boxla\.gradle\caches\transforms-2\files-2.1\7384f95dfc68c1f9b45dc373308725b1\lifecycle-viewmodel-2.1.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.savedstate:savedstate:1.0.0] C:\Users\boxla\.gradle\caches\transforms-2\files-2.1\af5b7f7342bc4d56dd1f005fbedce908\jetified-savedstate-1.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [com.intuit.sdp:sdp-android:1.0.6] C:\Users\boxla\.gradle\caches\transforms-2\files-2.1\9f5edfb750afd6f4ab9aa2aaf4fc4a87\jetified-sdp-android-1.0.6\AndroidManifest.xml:2:1-11:12
+MERGED from [com.android.volley:volley:1.2.1] C:\Users\boxla\.gradle\caches\transforms-2\files-2.1\5b1c8e366e96824b25565e5c894b841f\jetified-volley-1.2.1\AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.android.datatransport:transport-api:2.2.0] C:\Users\boxla\.gradle\caches\transforms-2\files-2.1\cf7e55dc66c80f014d54e39836979243\jetified-transport-api-2.2.0\AndroidManifest.xml:15:1-22:12
+MERGED from [com.mesibo.api:webrtc:1.0.5] C:\Users\boxla\.gradle\caches\transforms-2\files-2.1\890952389280a5c1af9f29fcbf8e36f2\jetified-webrtc-1.0.5\AndroidManifest.xml:11:1-14:12
+INJECTED from C:\Users\boxla\Documents\GitHub\chatapps\app\src\main\AndroidManifest.xml:2:1-111:12
+INJECTED from C:\Users\boxla\Documents\GitHub\chatapps\app\src\main\AndroidManifest.xml:2:1-111:12
+INJECTED from C:\Users\boxla\Documents\GitHub\chatapps\app\src\main\AndroidManifest.xml:2:1-111:12
+	package
+		ADDED from C:\Users\boxla\Documents\GitHub\chatapps\app\src\main\AndroidManifest.xml:3:5-37
+		INJECTED from C:\Users\boxla\Documents\GitHub\chatapps\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\boxla\Documents\GitHub\chatapps\app\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from C:\Users\boxla\Documents\GitHub\chatapps\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\boxla\Documents\GitHub\chatapps\app\src\main\AndroidManifest.xml:2:1-111:12
+		INJECTED from C:\Users\boxla\Documents\GitHub\chatapps\app\src\main\AndroidManifest.xml
+	android:versionCode
+		INJECTED from C:\Users\boxla\Documents\GitHub\chatapps\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\boxla\Documents\GitHub\chatapps\app\src\main\AndroidManifest.xml:2:1-111:12
+		INJECTED from C:\Users\boxla\Documents\GitHub\chatapps\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from C:\Users\boxla\Documents\GitHub\chatapps\app\src\main\AndroidManifest.xml:2:11-69
+uses-permission#android.permission.INTERNET
+ADDED from C:\Users\boxla\Documents\GitHub\chatapps\app\src\main\AndroidManifest.xml:5:5-67
+MERGED from [com.mesibo.api:uihelper:1.8.2] C:\Users\boxla\.gradle\caches\transforms-2\files-2.1\35f1d776e9f905213ea6b964a0055c0f\jetified-uihelper-1.8.2\AndroidManifest.xml:12:5-67
+MERGED from [com.mesibo.api:uihelper:1.8.2] C:\Users\boxla\.gradle\caches\transforms-2\files-2.1\35f1d776e9f905213ea6b964a0055c0f\jetified-uihelper-1.8.2\AndroidManifest.xml:12:5-67
+MERGED from [com.mesibo.api:mesibo:1.9.53] C:\Users\boxla\.gradle\caches\transforms-2\files-2.1\3a0270acd5517463989765cbb330550f\jetified-mesibo-1.9.53\AndroidManifest.xml:11:5-67
+MERGED from [com.mesibo.api:mesibo:1.9.53] C:\Users\boxla\.gradle\caches\transforms-2\files-2.1\3a0270acd5517463989765cbb330550f\jetified-mesibo-1.9.53\AndroidManifest.xml:11:5-67
+MERGED from [com.google.android.libraries.places:places:2.6.0] C:\Users\boxla\.gradle\caches\transforms-2\files-2.1\3e80ab14bbabd569e211ac1860c37633\jetified-places-2.6.0\AndroidManifest.xml:11:5-67
+MERGED from [com.google.android.libraries.places:places:2.6.0] C:\Users\boxla\.gradle\caches\transforms-2\files-2.1\3e80ab14bbabd569e211ac1860c37633\jetified-places-2.6.0\AndroidManifest.xml:11:5-67
+MERGED from [com.google.android.gms:play-services-measurement-api:16.5.0] C:\Users\boxla\.gradle\caches\transforms-2\files-2.1\ee4acb9561e8a718f0e2d2e237a7550f\jetified-play-services-measurement-api-16.5.0\AndroidManifest.xml:22:5-67
+MERGED from [com.google.android.gms:play-services-measurement-api:16.5.0] C:\Users\boxla\.gradle\caches\transforms-2\files-2.1\ee4acb9561e8a718f0e2d2e237a7550f\jetified-play-services-measurement-api-16.5.0\AndroidManifest.xml:22:5-67
+MERGED from [com.google.firebase:firebase-iid:18.0.0] C:\Users\boxla\.gradle\caches\transforms-2\files-2.1\7b296d16f19647438690df5d4bf9abb5\jetified-firebase-iid-18.0.0\AndroidManifest.xml:23:5-67
+MERGED from [com.google.firebase:firebase-iid:18.0.0] C:\Users\boxla\.gradle\caches\transforms-2\files-2.1\7b296d16f19647438690df5d4bf9abb5\jetified-firebase-iid-18.0.0\AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-maps:17.0.0] C:\Users\boxla\.gradle\caches\transforms-2\files-2.1\09b6dd3e7c87a3d12384e8a4a2a85e44\jetified-play-services-maps-17.0.0\AndroidManifest.xml:24:5-67
+MERGED from [com.google.android.gms:play-services-maps:17.0.0] C:\Users\boxla\.gradle\caches\transforms-2\files-2.1\09b6dd3e7c87a3d12384e8a4a2a85e44\jetified-play-services-maps-17.0.0\AndroidManifest.xml:24:5-67
+MERGED from [com.google.android.gms:play-services-measurement:16.5.0] C:\Users\boxla\.gradle\caches\transforms-2\files-2.1\f040517769c6e7dea4608481b75748d7\jetified-play-services-measurement-16.5.0\AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-measurement:16.5.0] C:\Users\boxla\.gradle\caches\transforms-2\files-2.1\f040517769c6e7dea4608481b75748d7\jetified-play-services-measurement-16.5.0\AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-measurement-impl:16.5.0] C:\Users\boxla\.gradle\caches\transforms-2\files-2.1\c3be7f042392793eccf230366a0b0077\jetified-play-services-measurement-impl-16.5.0\AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-measurement-impl:16.5.0] C:\Users\boxla\.gradle\caches\transforms-2\files-2.1\c3be7f042392793eccf230366a0b0077\jetified-play-services-measurement-impl-16.5.0\AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:16.5.0] C:\Users\boxla\.gradle\caches\transforms-2\files-2.1\63c789e7a6bd34f2ee2200a81d8b67c6\jetified-play-services-measurement-sdk-api-16.5.0\AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:16.5.0] C:\Users\boxla\.gradle\caches\transforms-2\files-2.1\63c789e7a6bd34f2ee2200a81d8b67c6\jetified-play-services-measurement-sdk-api-16.5.0\AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.datatransport:transport-backend-cct:2.3.0] C:\Users\boxla\.gradle\caches\transforms-2\files-2.1\0a3b0ef6850894272622c25d5a5af2ba\jetified-transport-backend-cct-2.3.0\AndroidManifest.xml:26:5-67
+MERGED from [com.google.android.datatransport:transport-backend-cct:2.3.0] C:\Users\boxla\.gradle\caches\transforms-2\files-2.1\0a3b0ef6850894272622c25d5a5af2ba\jetified-transport-backend-cct-2.3.0\AndroidManifest.xml:26:5-67
+	android:name
+		ADDED from C:\Users\boxla\Documents\GitHub\chatapps\app\src\main\AndroidManifest.xml:5:22-64
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from C:\Users\boxla\Documents\GitHub\chatapps\app\src\main\AndroidManifest.xml:6:5-79
+MERGED from [com.mesibo.api:mesibo:1.9.53] C:\Users\boxla\.gradle\caches\transforms-2\files-2.1\3a0270acd5517463989765cbb330550f\jetified-mesibo-1.9.53\AndroidManifest.xml:9:5-79
+MERGED from [com.mesibo.api:mesibo:1.9.53] C:\Users\boxla\.gradle\caches\transforms-2\files-2.1\3a0270acd5517463989765cbb330550f\jetified-mesibo-1.9.53\AndroidManifest.xml:9:5-79
+MERGED from [com.google.android.gms:play-services-measurement-api:16.5.0] C:\Users\boxla\.gradle\caches\transforms-2\files-2.1\ee4acb9561e8a718f0e2d2e237a7550f\jetified-play-services-measurement-api-16.5.0\AndroidManifest.xml:23:5-79
+MERGED from [com.google.android.gms:play-services-measurement-api:16.5.0] C:\Users\boxla\.gradle\caches\transforms-2\files-2.1\ee4acb9561e8a718f0e2d2e237a7550f\jetified-play-services-measurement-api-16.5.0\AndroidManifest.xml:23:5-79
+MERGED from [com.google.firebase:firebase-iid:18.0.0] C:\Users\boxla\.gradle\caches\transforms-2\files-2.1\7b296d16f19647438690df5d4bf9abb5\jetified-firebase-iid-18.0.0\AndroidManifest.xml:22:5-79
+MERGED from [com.google.firebase:firebase-iid:18.0.0] C:\Users\boxla\.gradle\caches\transforms-2\files-2.1\7b296d16f19647438690df5d4bf9abb5\jetified-firebase-iid-18.0.0\AndroidManifest.xml:22:5-79
+MERGED from [com.google.android.gms:play-services-maps:17.0.0] C:\Users\boxla\.gradle\caches\transforms-2\files-2.1\09b6dd3e7c87a3d12384e8a4a2a85e44\jetified-play-services-maps-17.0.0\AndroidManifest.xml:23:5-79
+MERGED from [com.google.android.gms:play-services-maps:17.0.0] C:\Users\boxla\.gradle\caches\transforms-2\files-2.1\09b6dd3e7c87a3d12384e8a4a2a85e44\jetified-play-services-maps-17.0.0\AndroidManifest.xml:23:5-79
+MERGED from [com.google.android.gms:play-services-measurement:16.5.0] C:\Users\boxla\.gradle\caches\transforms-2\files-2.1\f040517769c6e7dea4608481b75748d7\jetified-play-services-measurement-16.5.0\AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-measurement:16.5.0] C:\Users\boxla\.gradle\caches\transforms-2\files-2.1\f040517769c6e7dea4608481b75748d7\jetified-play-services-measurement-16.5.0\AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-measurement-impl:16.5.0] C:\Users\boxla\.gradle\caches\transforms-2\files-2.1\c3be7f042392793eccf230366a0b0077\jetified-play-services-measurement-impl-16.5.0\AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-measurement-impl:16.5.0] C:\Users\boxla\.gradle\caches\transforms-2\files-2.1\c3be7f042392793eccf230366a0b0077\jetified-play-services-measurement-impl-16.5.0\AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:16.5.0] C:\Users\boxla\.gradle\caches\transforms-2\files-2.1\63c789e7a6bd34f2ee2200a81d8b67c6\jetified-play-services-measurement-sdk-api-16.5.0\AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:16.5.0] C:\Users\boxla\.gradle\caches\transforms-2\files-2.1\63c789e7a6bd34f2ee2200a81d8b67c6\jetified-play-services-measurement-sdk-api-16.5.0\AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.datatransport:transport-backend-cct:2.3.0] C:\Users\boxla\.gradle\caches\transforms-2\files-2.1\0a3b0ef6850894272622c25d5a5af2ba\jetified-transport-backend-cct-2.3.0\AndroidManifest.xml:25:5-79
+MERGED from [com.google.android.datatransport:transport-backend-cct:2.3.0] C:\Users\boxla\.gradle\caches\transforms-2\files-2.1\0a3b0ef6850894272622c25d5a5af2ba\jetified-transport-backend-cct-2.3.0\AndroidManifest.xml:25:5-79
+MERGED from [com.google.android.datatransport:transport-runtime:2.2.3] C:\Users\boxla\.gradle\caches\transforms-2\files-2.1\99a4f9408f7872ea688ac3bf34c11d30\jetified-transport-runtime-2.2.3\AndroidManifest.xml:22:5-79
+MERGED from [com.google.android.datatransport:transport-runtime:2.2.3] C:\Users\boxla\.gradle\caches\transforms-2\files-2.1\99a4f9408f7872ea688ac3bf34c11d30\jetified-transport-runtime-2.2.3\AndroidManifest.xml:22:5-79
+	android:name
+		ADDED from C:\Users\boxla\Documents\GitHub\chatapps\app\src\main\AndroidManifest.xml:6:22-76
+uses-permission#android.permission.ACCESS_WIFI_STATE
+ADDED from C:\Users\boxla\Documents\GitHub\chatapps\app\src\main\AndroidManifest.xml:7:5-76
+MERGED from [com.mesibo.api:mesibo:1.9.53] C:\Users\boxla\.gradle\caches\transforms-2\files-2.1\3a0270acd5517463989765cbb330550f\jetified-mesibo-1.9.53\AndroidManifest.xml:10:5-76
+MERGED from [com.mesibo.api:mesibo:1.9.53] C:\Users\boxla\.gradle\caches\transforms-2\files-2.1\3a0270acd5517463989765cbb330550f\jetified-mesibo-1.9.53\AndroidManifest.xml:10:5-76
+MERGED from [com.google.android.libraries.places:places:2.6.0] C:\Users\boxla\.gradle\caches\transforms-2\files-2.1\3e80ab14bbabd569e211ac1860c37633\jetified-places-2.6.0\AndroidManifest.xml:10:5-76
+MERGED from [com.google.android.libraries.places:places:2.6.0] C:\Users\boxla\.gradle\caches\transforms-2\files-2.1\3e80ab14bbabd569e211ac1860c37633\jetified-places-2.6.0\AndroidManifest.xml:10:5-76
+	android:name
+		ADDED from C:\Users\boxla\Documents\GitHub\chatapps\app\src\main\AndroidManifest.xml:7:22-73
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from C:\Users\boxla\Documents\GitHub\chatapps\app\src\main\AndroidManifest.xml:8:5-81
+MERGED from [com.mesibo.api:uihelper:1.8.2] C:\Users\boxla\.gradle\caches\transforms-2\files-2.1\35f1d776e9f905213ea6b964a0055c0f\jetified-uihelper-1.8.2\AndroidManifest.xml:14:5-81
+MERGED from [com.mesibo.api:uihelper:1.8.2] C:\Users\boxla\.gradle\caches\transforms-2\files-2.1\35f1d776e9f905213ea6b964a0055c0f\jetified-uihelper-1.8.2\AndroidManifest.xml:14:5-81
+MERGED from [com.mesibo.api:mediapicker:1.6.1] C:\Users\boxla\.gradle\caches\transforms-2\files-2.1\14f9cf399f9989124995645a8626efbc\jetified-mediapicker-1.6.1\AndroidManifest.xml:12:5-81
+MERGED from [com.mesibo.api:mediapicker:1.6.1] C:\Users\boxla\.gradle\caches\transforms-2\files-2.1\14f9cf399f9989124995645a8626efbc\jetified-mediapicker-1.6.1\AndroidManifest.xml:12:5-81
+MERGED from [com.mesibo.api:mesibo:1.9.53] C:\Users\boxla\.gradle\caches\transforms-2\files-2.1\3a0270acd5517463989765cbb330550f\jetified-mesibo-1.9.53\AndroidManifest.xml:13:5-81
+MERGED from [com.mesibo.api:mesibo:1.9.53] C:\Users\boxla\.gradle\caches\transforms-2\files-2.1\3a0270acd5517463989765cbb330550f\jetified-mesibo-1.9.53\AndroidManifest.xml:13:5-81
+	android:name
+		ADDED from C:\Users\boxla\Documents\GitHub\chatapps\app\src\main\AndroidManifest.xml:8:22-78
+uses-permission#android.permission.ACCESS_COARSE_LOCATION
+ADDED from C:\Users\boxla\Documents\GitHub\chatapps\app\src\main\AndroidManifest.xml:9:5-81
+MERGED from [com.mesibo.api:ui:1.9.53] C:\Users\boxla\.gradle\caches\transforms-2\files-2.1\1c6a8f9a68f75aef0cd24065bce150a7\jetified-ui-1.9.53\AndroidManifest.xml:9:5-81
+MERGED from [com.mesibo.api:ui:1.9.53] C:\Users\boxla\.gradle\caches\transforms-2\files-2.1\1c6a8f9a68f75aef0cd24065bce150a7\jetified-ui-1.9.53\AndroidManifest.xml:9:5-81
+MERGED from [com.mesibo.api:ContactUtils:1.6.3] C:\Users\boxla\.gradle\caches\transforms-2\files-2.1\d2a6372232edd32ff0b5bb7a63802707\jetified-ContactUtils-1.6.3\AndroidManifest.xml:35:5-37:36
+MERGED from [com.mesibo.api:ContactUtils:1.6.3] C:\Users\boxla\.gradle\caches\transforms-2\files-2.1\d2a6372232edd32ff0b5bb7a63802707\jetified-ContactUtils-1.6.3\AndroidManifest.xml:35:5-37:36
+	android:required
+		ADDED from [com.mesibo.api:ContactUtils:1.6.3] C:\Users\boxla\.gradle\caches\transforms-2\files-2.1\d2a6372232edd32ff0b5bb7a63802707\jetified-ContactUtils-1.6.3\AndroidManifest.xml:37:9-33
+	android:name
+		ADDED from C:\Users\boxla\Documents\GitHub\chatapps\app\src\main\AndroidManifest.xml:9:22-78
+uses-permission#android.permission.ACCESS_FINE_LOCATION
+ADDED from C:\Users\boxla\Documents\GitHub\chatapps\app\src\main\AndroidManifest.xml:10:5-79
+MERGED from [com.mesibo.api:ui:1.9.53] C:\Users\boxla\.gradle\caches\transforms-2\files-2.1\1c6a8f9a68f75aef0cd24065bce150a7\jetified-ui-1.9.53\AndroidManifest.xml:10:5-79
+MERGED from [com.mesibo.api:ui:1.9.53] C:\Users\boxla\.gradle\caches\transforms-2\files-2.1\1c6a8f9a68f75aef0cd24065bce150a7\jetified-ui-1.9.53\AndroidManifest.xml:10:5-79
+MERGED from [com.mesibo.api:ContactUtils:1.6.3] C:\Users\boxla\.gradle\caches\transforms-2\files-2.1\d2a6372232edd32ff0b5bb7a63802707\jetified-ContactUtils-1.6.3\AndroidManifest.xml:38:5-40:36
+MERGED from [com.mesibo.api:ContactUtils:1.6.3] C:\Users\boxla\.gradle\caches\transforms-2\files-2.1\d2a6372232edd32ff0b5bb7a63802707\jetified-ContactUtils-1.6.3\AndroidManifest.xml:38:5-40:36
+MERGED from [com.google.android.libraries.places:places:2.6.0] C:\Users\boxla\.gradle\caches\transforms-2\files-2.1\3e80ab14bbabd569e211ac1860c37633\jetified-places-2.6.0\AndroidManifest.xml:9:5-79
+MERGED from [com.google.android.libraries.places:places:2.6.0] C:\Users\boxla\.gradle\caches\transforms-2\files-2.1\3e80ab14bbabd569e211ac1860c37633\jetified-places-2.6.0\AndroidManifest.xml:9:5-79
+	android:required
+		ADDED from [com.mesibo.api:ContactUtils:1.6.3] C:\Users\boxla\.gradle\caches\transforms-2\files-2.1\d2a6372232edd32ff0b5bb7a63802707\jetified-ContactUtils-1.6.3\AndroidManifest.xml:40:9-33
+	android:name
+		ADDED from C:\Users\boxla\Documents\GitHub\chatapps\app\src\main\AndroidManifest.xml:10:22-76
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from C:\Users\boxla\Documents\GitHub\chatapps\app\src\main\AndroidManifest.xml:12:5-80
+MERGED from [com.mesibo.api:uihelper:1.8.2] C:\Users\boxla\.gradle\caches\transforms-2\files-2.1\35f1d776e9f905213ea6b964a0055c0f\jetified-uihelper-1.8.2\AndroidManifest.xml:13:5-80
+MERGED from [com.mesibo.api:uihelper:1.8.2] C:\Users\boxla\.gradle\caches\transforms-2\files-2.1\35f1d776e9f905213ea6b964a0055c0f\jetified-uihelper-1.8.2\AndroidManifest.xml:13:5-80
+MERGED from [com.mesibo.api:mediapicker:1.6.1] C:\Users\boxla\.gradle\caches\transforms-2\files-2.1\14f9cf399f9989124995645a8626efbc\jetified-mediapicker-1.6.1\AndroidManifest.xml:11:5-80
+MERGED from [com.mesibo.api:mediapicker:1.6.1] C:\Users\boxla\.gradle\caches\transforms-2\files-2.1\14f9cf399f9989124995645a8626efbc\jetified-mediapicker-1.6.1\AndroidManifest.xml:11:5-80
+MERGED from [com.mesibo.api:calls:1.9.53] C:\Users\boxla\.gradle\caches\transforms-2\files-2.1\429c037de8ef8c5c1a67ba2bda63af0c\jetified-calls-1.9.53\AndroidManifest.xml:41:5-80
+MERGED from [com.mesibo.api:calls:1.9.53] C:\Users\boxla\.gradle\caches\transforms-2\files-2.1\429c037de8ef8c5c1a67ba2bda63af0c\jetified-calls-1.9.53\AndroidManifest.xml:41:5-80
+MERGED from [com.mesibo.api:mesibo:1.9.53] C:\Users\boxla\.gradle\caches\transforms-2\files-2.1\3a0270acd5517463989765cbb330550f\jetified-mesibo-1.9.53\AndroidManifest.xml:12:5-80
+MERGED from [com.mesibo.api:mesibo:1.9.53] C:\Users\boxla\.gradle\caches\transforms-2\files-2.1\3a0270acd5517463989765cbb330550f\jetified-mesibo-1.9.53\AndroidManifest.xml:12:5-80
+	android:name
+		ADDED from C:\Users\boxla\Documents\GitHub\chatapps\app\src\main\AndroidManifest.xml:12:22-77
+uses-permission#android.permission.CAMERA
+ADDED from C:\Users\boxla\Documents\GitHub\chatapps\app\src\main\AndroidManifest.xml:13:5-65
+MERGED from [com.mesibo.api:ui:1.9.53] C:\Users\boxla\.gradle\caches\transforms-2\files-2.1\1c6a8f9a68f75aef0cd24065bce150a7\jetified-ui-1.9.53\AndroidManifest.xml:11:5-65
+MERGED from [com.mesibo.api:ui:1.9.53] C:\Users\boxla\.gradle\caches\transforms-2\files-2.1\1c6a8f9a68f75aef0cd24065bce150a7\jetified-ui-1.9.53\AndroidManifest.xml:11:5-65
+MERGED from [com.mesibo.api:calls:1.9.53] C:\Users\boxla\.gradle\caches\transforms-2\files-2.1\429c037de8ef8c5c1a67ba2bda63af0c\jetified-calls-1.9.53\AndroidManifest.xml:40:5-65
+MERGED from [com.mesibo.api:calls:1.9.53] C:\Users\boxla\.gradle\caches\transforms-2\files-2.1\429c037de8ef8c5c1a67ba2bda63af0c\jetified-calls-1.9.53\AndroidManifest.xml:40:5-65
+	android:name
+		ADDED from C:\Users\boxla\Documents\GitHub\chatapps\app\src\main\AndroidManifest.xml:13:22-62
+uses-permission#android.permission.READ_CONTACTS
+ADDED from C:\Users\boxla\Documents\GitHub\chatapps\app\src\main\AndroidManifest.xml:14:5-72
+MERGED from [com.mesibo.api:ContactUtils:1.6.3] C:\Users\boxla\.gradle\caches\transforms-2\files-2.1\d2a6372232edd32ff0b5bb7a63802707\jetified-ContactUtils-1.6.3\AndroidManifest.xml:11:5-72
+MERGED from [com.mesibo.api:ContactUtils:1.6.3] C:\Users\boxla\.gradle\caches\transforms-2\files-2.1\d2a6372232edd32ff0b5bb7a63802707\jetified-ContactUtils-1.6.3\AndroidManifest.xml:11:5-72
+	android:name
+		ADDED from C:\Users\boxla\Documents\GitHub\chatapps\app\src\main\AndroidManifest.xml:14:22-69
+uses-permission#android.permission.RECEIVE_BOOT_COMPLETED
+ADDED from C:\Users\boxla\Documents\GitHub\chatapps\app\src\main\AndroidManifest.xml:15:5-81
+	android:name
+		ADDED from C:\Users\boxla\Documents\GitHub\chatapps\app\src\main\AndroidManifest.xml:15:22-78
+uses-permission#android.permission.WAKE_LOCK
+ADDED from C:\Users\boxla\Documents\GitHub\chatapps\app\src\main\AndroidManifest.xml:16:5-68
+MERGED from [com.mesibo.api:calls:1.9.53] C:\Users\boxla\.gradle\caches\transforms-2\files-2.1\429c037de8ef8c5c1a67ba2bda63af0c\jetified-calls-1.9.53\AndroidManifest.xml:28:5-68
+MERGED from [com.mesibo.api:calls:1.9.53] C:\Users\boxla\.gradle\caches\transforms-2\files-2.1\429c037de8ef8c5c1a67ba2bda63af0c\jetified-calls-1.9.53\AndroidManifest.xml:28:5-68
+MERGED from [com.google.android.gms:play-services-measurement-api:16.5.0] C:\Users\boxla\.gradle\caches\transforms-2\files-2.1\ee4acb9561e8a718f0e2d2e237a7550f\jetified-play-services-measurement-api-16.5.0\AndroidManifest.xml:24:5-68
+MERGED from [com.google.android.gms:play-services-measurement-api:16.5.0] C:\Users\boxla\.gradle\caches\transforms-2\files-2.1\ee4acb9561e8a718f0e2d2e237a7550f\jetified-play-services-measurement-api-16.5.0\AndroidManifest.xml:24:5-68
+MERGED from [com.google.firebase:firebase-iid:18.0.0] C:\Users\boxla\.gradle\caches\transforms-2\files-2.1\7b296d16f19647438690df5d4bf9abb5\jetified-firebase-iid-18.0.0\AndroidManifest.xml:24:5-68
+MERGED from [com.google.firebase:firebase-iid:18.0.0] C:\Users\boxla\.gradle\caches\transforms-2\files-2.1\7b296d16f19647438690df5d4bf9abb5\jetified-firebase-iid-18.0.0\AndroidManifest.xml:24:5-68
+MERGED from [com.google.android.gms:play-services-measurement:16.5.0] C:\Users\boxla\.gradle\caches\transforms-2\files-2.1\f040517769c6e7dea4608481b75748d7\jetified-play-services-measurement-16.5.0\AndroidManifest.xml:25:5-68
+MERGED from [com.google.android.gms:play-services-measurement:16.5.0] C:\Users\boxla\.gradle\caches\transforms-2\files-2.1\f040517769c6e7dea4608481b75748d7\jetified-play-services-measurement-16.5.0\AndroidManifest.xml:25:5-68
+MERGED from [com.google.android.gms:play-services-measurement-impl:16.5.0] C:\Users\boxla\.gradle\caches\transforms-2\files-2.1\c3be7f042392793eccf230366a0b0077\jetified-play-services-measurement-impl-16.5.0\AndroidManifest.xml:25:5-68
+MERGED from [com.google.android.gms:play-services-measurement-impl:16.5.0] C:\Users\boxla\.gradle\caches\transforms-2\files-2.1\c3be7f042392793eccf230366a0b0077\jetified-play-services-measurement-impl-16.5.0\AndroidManifest.xml:25:5-68
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:16.5.0] C:\Users\boxla\.gradle\caches\transforms-2\files-2.1\63c789e7a6bd34f2ee2200a81d8b67c6\jetified-play-services-measurement-sdk-api-16.5.0\AndroidManifest.xml:25:5-68
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:16.5.0] C:\Users\boxla\.gradle\caches\transforms-2\files-2.1\63c789e7a6bd34f2ee2200a81d8b67c6\jetified-play-services-measurement-sdk-api-16.5.0\AndroidManifest.xml:25:5-68
+	android:name
+		ADDED from C:\Users\boxla\Documents\GitHub\chatapps\app\src\main\AndroidManifest.xml:16:22-65
+uses-permission#android.permission.USE_FULL_SCREEN_INTENT
+ADDED from C:\Users\boxla\Documents\GitHub\chatapps\app\src\main\AndroidManifest.xml:17:5-81
+MERGED from [com.mesibo.api:calls:1.9.53] C:\Users\boxla\.gradle\caches\transforms-2\files-2.1\429c037de8ef8c5c1a67ba2bda63af0c\jetified-calls-1.9.53\AndroidManifest.xml:29:5-81
+MERGED from [com.mesibo.api:calls:1.9.53] C:\Users\boxla\.gradle\caches\transforms-2\files-2.1\429c037de8ef8c5c1a67ba2bda63af0c\jetified-calls-1.9.53\AndroidManifest.xml:29:5-81
+	android:name
+		ADDED from C:\Users\boxla\Documents\GitHub\chatapps\app\src\main\AndroidManifest.xml:17:22-78
+application
+ADDED from C:\Users\boxla\Documents\GitHub\chatapps\app\src\main\AndroidManifest.xml:20:5-109:19
+MERGED from [com.mesibo.api:uihelper:1.8.2] C:\Users\boxla\.gradle\caches\transforms-2\files-2.1\35f1d776e9f905213ea6b964a0055c0f\jetified-uihelper-1.8.2\AndroidManifest.xml:19:5-27:19
+MERGED from [com.mesibo.api:uihelper:1.8.2] C:\Users\boxla\.gradle\caches\transforms-2\files-2.1\35f1d776e9f905213ea6b964a0055c0f\jetified-uihelper-1.8.2\AndroidManifest.xml:19:5-27:19
+MERGED from [com.mesibo.api:ui:1.9.53] C:\Users\boxla\.gradle\caches\transforms-2\files-2.1\1c6a8f9a68f75aef0cd24065bce150a7\jetified-ui-1.9.53\AndroidManifest.xml:14:5-31:19
+MERGED from [com.mesibo.api:ui:1.9.53] C:\Users\boxla\.gradle\caches\transforms-2\files-2.1\1c6a8f9a68f75aef0cd24065bce150a7\jetified-ui-1.9.53\AndroidManifest.xml:14:5-31:19
+MERGED from [com.mesibo.api:callui:1.9.53] C:\Users\boxla\.gradle\caches\transforms-2\files-2.1\6ccc9ff5db4e4f16ad49b79b503fa9ce\jetified-callui-1.9.53\AndroidManifest.xml:11:5-24:19
+MERGED from [com.mesibo.api:callui:1.9.53] C:\Users\boxla\.gradle\caches\transforms-2\files-2.1\6ccc9ff5db4e4f16ad49b79b503fa9ce\jetified-callui-1.9.53\AndroidManifest.xml:11:5-24:19
+MERGED from [com.mesibo.api:mediapicker:1.6.1] C:\Users\boxla\.gradle\caches\transforms-2\files-2.1\14f9cf399f9989124995645a8626efbc\jetified-mediapicker-1.6.1\AndroidManifest.xml:15:5-39:19
+MERGED from [com.mesibo.api:mediapicker:1.6.1] C:\Users\boxla\.gradle\caches\transforms-2\files-2.1\14f9cf399f9989124995645a8626efbc\jetified-mediapicker-1.6.1\AndroidManifest.xml:15:5-39:19
+MERGED from [com.mesibo.api:calls:1.9.53] C:\Users\boxla\.gradle\caches\transforms-2\files-2.1\429c037de8ef8c5c1a67ba2bda63af0c\jetified-calls-1.9.53\AndroidManifest.xml:45:5-105:19
+MERGED from [com.mesibo.api:calls:1.9.53] C:\Users\boxla\.gradle\caches\transforms-2\files-2.1\429c037de8ef8c5c1a67ba2bda63af0c\jetified-calls-1.9.53\AndroidManifest.xml:45:5-105:19
+MERGED from [com.google.android.material:material:1.0.0] C:\Users\boxla\.gradle\caches\transforms-2\files-2.1\46659514cdf12fbd7a9932bb01ff96bf\material-1.0.0\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.material:material:1.0.0] C:\Users\boxla\.gradle\caches\transforms-2\files-2.1\46659514cdf12fbd7a9932bb01ff96bf\material-1.0.0\AndroidManifest.xml:22:5-20
+MERGED from [com.mesibo.api:mesibo:1.9.53] C:\Users\boxla\.gradle\caches\transforms-2\files-2.1\3a0270acd5517463989765cbb330550f\jetified-mesibo-1.9.53\AndroidManifest.xml:16:5-61:19
+MERGED from [com.mesibo.api:mesibo:1.9.53] C:\Users\boxla\.gradle\caches\transforms-2\files-2.1\3a0270acd5517463989765cbb330550f\jetified-mesibo-1.9.53\AndroidManifest.xml:16:5-61:19
+MERGED from [com.google.android.libraries.places:places:2.6.0] C:\Users\boxla\.gradle\caches\transforms-2\files-2.1\3e80ab14bbabd569e211ac1860c37633\jetified-places-2.6.0\AndroidManifest.xml:13:5-21:19
+MERGED from [com.google.android.libraries.places:places:2.6.0] C:\Users\boxla\.gradle\caches\transforms-2\files-2.1\3e80ab14bbabd569e211ac1860c37633\jetified-places-2.6.0\AndroidManifest.xml:13:5-21:19
+MERGED from [com.mesibo.api:emojiview:0.1.13] C:\Users\boxla\.gradle\caches\transforms-2\files-2.1\c2df75fc0a587352726ae90319dd65a8\jetified-emojiview-0.1.13\AndroidManifest.xml:11:5-12:19
+MERGED from [com.mesibo.api:emojiview:0.1.13] C:\Users\boxla\.gradle\caches\transforms-2\files-2.1\c2df75fc0a587352726ae90319dd65a8\jetified-emojiview-0.1.13\AndroidManifest.xml:11:5-12:19
+MERGED from [androidx.lifecycle:lifecycle-extensions:2.0.0] C:\Users\boxla\.gradle\caches\transforms-2\files-2.1\87389555f08d3dd7dfe062cedf0090a2\lifecycle-extensions-2.0.0\AndroidManifest.xml:22:5-23:19
+MERGED from [androidx.lifecycle:lifecycle-extensions:2.0.0] C:\Users\boxla\.gradle\caches\transforms-2\files-2.1\87389555f08d3dd7dfe062cedf0090a2\lifecycle-extensions-2.0.0\AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.android.gms:play-services-places:16.0.0] C:\Users\boxla\.gradle\caches\transforms-2\files-2.1\8f3594b82945849971774181bf10d71a\jetified-play-services-places-16.0.0\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-places:16.0.0] C:\Users\boxla\.gradle\caches\transforms-2\files-2.1\8f3594b82945849971774181bf10d71a\jetified-play-services-places-16.0.0\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-auth:16.0.1] C:\Users\boxla\.gradle\caches\transforms-2\files-2.1\c5c71505525c360990892529605f9198\jetified-play-services-auth-16.0.1\AndroidManifest.xml:22:5-37:19
+MERGED from [com.google.android.gms:play-services-auth:16.0.1] C:\Users\boxla\.gradle\caches\transforms-2\files-2.1\c5c71505525c360990892529605f9198\jetified-play-services-auth-16.0.1\AndroidManifest.xml:22:5-37:19
+MERGED from [com.google.firebase:firebase-messaging:18.0.0] C:\Users\boxla\.gradle\caches\transforms-2\files-2.1\4f361da270a7c409c35c81134a4b0ff4\jetified-firebase-messaging-18.0.0\AndroidManifest.xml:22:5-35:19
+MERGED from [com.google.firebase:firebase-messaging:18.0.0] C:\Users\boxla\.gradle\caches\transforms-2\files-2.1\4f361da270a7c409c35c81134a4b0ff4\jetified-firebase-messaging-18.0.0\AndroidManifest.xml:22:5-35:19
+MERGED from [com.google.firebase:firebase-core:16.0.9] C:\Users\boxla\.gradle\caches\transforms-2\files-2.1\e01f7c2e698bc043bd26a3ee9d5fd61e\jetified-firebase-core-16.0.9\AndroidManifest.xml:7:5-20
+MERGED from [com.google.firebase:firebase-core:16.0.9] C:\Users\boxla\.gradle\caches\transforms-2\files-2.1\e01f7c2e698bc043bd26a3ee9d5fd61e\jetified-firebase-core-16.0.9\AndroidManifest.xml:7:5-20
+MERGED from [com.google.firebase:firebase-analytics:16.5.0] C:\Users\boxla\.gradle\caches\transforms-2\files-2.1\de445b2bf77aea73b045f68ae85c9989\jetified-firebase-analytics-16.5.0\AndroidManifest.xml:7:5-20
+MERGED from [com.google.firebase:firebase-analytics:16.5.0] C:\Users\boxla\.gradle\caches\transforms-2\files-2.1\de445b2bf77aea73b045f68ae85c9989\jetified-firebase-analytics-16.5.0\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-measurement-api:16.5.0] C:\Users\boxla\.gradle\caches\transforms-2\files-2.1\ee4acb9561e8a718f0e2d2e237a7550f\jetified-play-services-measurement-api-16.5.0\AndroidManifest.xml:26:5-34:19
+MERGED from [com.google.android.gms:play-services-measurement-api:16.5.0] C:\Users\boxla\.gradle\caches\transforms-2\files-2.1\ee4acb9561e8a718f0e2d2e237a7550f\jetified-play-services-measurement-api-16.5.0\AndroidManifest.xml:26:5-34:19
+MERGED from [com.google.firebase:firebase-iid:18.0.0] C:\Users\boxla\.gradle\caches\transforms-2\files-2.1\7b296d16f19647438690df5d4bf9abb5\jetified-firebase-iid-18.0.0\AndroidManifest.xml:28:5-45:19
+MERGED from [com.google.firebase:firebase-iid:18.0.0] C:\Users\boxla\.gradle\caches\transforms-2\files-2.1\7b296d16f19647438690df5d4bf9abb5\jetified-firebase-iid-18.0.0\AndroidManifest.xml:28:5-45:19
+MERGED from [com.google.firebase:firebase-iid-interop:16.0.1] C:\Users\boxla\.gradle\caches\transforms-2\files-2.1\ab175a707a39a9b8b169ff463ae6f295\jetified-firebase-iid-interop-16.0.1\AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.firebase:firebase-iid-interop:16.0.1] C:\Users\boxla\.gradle\caches\transforms-2\files-2.1\ab175a707a39a9b8b169ff463ae6f295\jetified-firebase-iid-interop-16.0.1\AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.android.gms:play-services-location:17.1.0] C:\Users\boxla\.gradle\caches\transforms-2\files-2.1\c6db7119921b2cfd232830b85e4a01a6\jetified-play-services-location-17.1.0\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-location:17.1.0] C:\Users\boxla\.gradle\caches\transforms-2\files-2.1\c6db7119921b2cfd232830b85e4a01a6\jetified-play-services-location-17.1.0\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-maps:17.0.0] C:\Users\boxla\.gradle\caches\transforms-2\files-2.1\09b6dd3e7c87a3d12384e8a4a2a85e44\jetified-play-services-maps-17.0.0\AndroidManifest.xml:30:5-36:19
+MERGED from [com.google.android.gms:play-services-maps:17.0.0] C:\Users\boxla\.gradle\caches\transforms-2\files-2.1\09b6dd3e7c87a3d12384e8a4a2a85e44\jetified-play-services-maps-17.0.0\AndroidManifest.xml:30:5-36:19
+MERGED from [com.google.android.gms:play-services-base:18.0.1] C:\Users\boxla\.gradle\caches\transforms-2\files-2.1\37b595b2d2745886dcd0edc0a5df4b65\jetified-play-services-base-18.0.1\AndroidManifest.xml:19:5-23:19
+MERGED from [com.google.android.gms:play-services-base:18.0.1] C:\Users\boxla\.gradle\caches\transforms-2\files-2.1\37b595b2d2745886dcd0edc0a5df4b65\jetified-play-services-base-18.0.1\AndroidManifest.xml:19:5-23:19
+MERGED from [com.google.firebase:firebase-common:17.0.0] C:\Users\boxla\.gradle\caches\transforms-2\files-2.1\e406c13e15f53398374ab553ddc9c28a\jetified-firebase-common-17.0.0\AndroidManifest.xml:11:5-17:19
+MERGED from [com.google.firebase:firebase-common:17.0.0] C:\Users\boxla\.gradle\caches\transforms-2\files-2.1\e406c13e15f53398374ab553ddc9c28a\jetified-firebase-common-17.0.0\AndroidManifest.xml:11:5-17:19
+MERGED from [com.google.firebase:firebase-measurement-connector:17.0.1] C:\Users\boxla\.gradle\caches\transforms-2\files-2.1\9d921539f02ff64c257da3eee37f8a72\jetified-firebase-measurement-connector-17.0.1\AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.firebase:firebase-measurement-connector:17.0.1] C:\Users\boxla\.gradle\caches\transforms-2\files-2.1\9d921539f02ff64c257da3eee37f8a72\jetified-firebase-measurement-connector-17.0.1\AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.android.gms:play-services-measurement:16.5.0] C:\Users\boxla\.gradle\caches\transforms-2\files-2.1\f040517769c6e7dea4608481b75748d7\jetified-play-services-measurement-16.5.0\AndroidManifest.xml:28:5-53:19
+MERGED from [com.google.android.gms:play-services-measurement:16.5.0] C:\Users\boxla\.gradle\caches\transforms-2\files-2.1\f040517769c6e7dea4608481b75748d7\jetified-play-services-measurement-16.5.0\AndroidManifest.xml:28:5-53:19
+MERGED from [com.google.android.gms:play-services-measurement-sdk:16.5.0] C:\Users\boxla\.gradle\caches\transforms-2\files-2.1\22cf55f5d6a9d9530c7987280aa9c5cd\jetified-play-services-measurement-sdk-16.5.0\AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.android.gms:play-services-measurement-sdk:16.5.0] C:\Users\boxla\.gradle\caches\transforms-2\files-2.1\22cf55f5d6a9d9530c7987280aa9c5cd\jetified-play-services-measurement-sdk-16.5.0\AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.android.gms:play-services-measurement-impl:16.5.0] C:\Users\boxla\.gradle\caches\transforms-2\files-2.1\c3be7f042392793eccf230366a0b0077\jetified-play-services-measurement-impl-16.5.0\AndroidManifest.xml:28:5-38:19
+MERGED from [com.google.android.gms:play-services-measurement-impl:16.5.0] C:\Users\boxla\.gradle\caches\transforms-2\files-2.1\c3be7f042392793eccf230366a0b0077\jetified-play-services-measurement-impl-16.5.0\AndroidManifest.xml:28:5-38:19
+MERGED from [com.google.android.gms:play-services-stats:16.0.1] C:\Users\boxla\.gradle\caches\transforms-2\files-2.1\eb4c215efb7313d66b41d6e7b14e1e6a\jetified-play-services-stats-16.0.1\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-stats:16.0.1] C:\Users\boxla\.gradle\caches\transforms-2\files-2.1\eb4c215efb7313d66b41d6e7b14e1e6a\jetified-play-services-stats-16.0.1\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-tasks:18.0.1] C:\Users\boxla\.gradle\caches\transforms-2\files-2.1\7820838174c3ff2064faca9d6e75f723\jetified-play-services-tasks-18.0.1\AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-tasks:18.0.1] C:\Users\boxla\.gradle\caches\transforms-2\files-2.1\7820838174c3ff2064faca9d6e75f723\jetified-play-services-tasks-18.0.1\AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:16.5.0] C:\Users\boxla\.gradle\caches\transforms-2\files-2.1\63c789e7a6bd34f2ee2200a81d8b67c6\jetified-play-services-measurement-sdk-api-16.5.0\AndroidManifest.xml:28:5-38:19
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:16.5.0] C:\Users\boxla\.gradle\caches\transforms-2\files-2.1\63c789e7a6bd34f2ee2200a81d8b67c6\jetified-play-services-measurement-sdk-api-16.5.0\AndroidManifest.xml:28:5-38:19
+MERGED from [com.google.android.gms:play-services-measurement-base:16.5.0] C:\Users\boxla\.gradle\caches\transforms-2\files-2.1\0ea3f6816fc547eb8357b57dc9dab502\jetified-play-services-measurement-base-16.5.0\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-measurement-base:16.5.0] C:\Users\boxla\.gradle\caches\transforms-2\files-2.1\0ea3f6816fc547eb8357b57dc9dab502\jetified-play-services-measurement-base-16.5.0\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-places-placereport:17.0.0] C:\Users\boxla\.gradle\caches\transforms-2\files-2.1\b638530ab067c46f309ae8b1bb3dc1dd\jetified-play-services-places-placereport-17.0.0\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-places-placereport:17.0.0] C:\Users\boxla\.gradle\caches\transforms-2\files-2.1\b638530ab067c46f309ae8b1bb3dc1dd\jetified-play-services-places-placereport-17.0.0\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-ads-identifier:16.0.0] C:\Users\boxla\.gradle\caches\transforms-2\files-2.1\8ec546538beae5ea272afc5dab241792\jetified-play-services-ads-identifier-16.0.0\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-ads-identifier:16.0.0] C:\Users\boxla\.gradle\caches\transforms-2\files-2.1\8ec546538beae5ea272afc5dab241792\jetified-play-services-ads-identifier-16.0.0\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-basement:18.0.0] C:\Users\boxla\.gradle\caches\transforms-2\files-2.1\ceb38da7565134df0dc35b34d7f9f646\jetified-play-services-basement-18.0.0\AndroidManifest.xml:20:5-24:19
+MERGED from [com.google.android.gms:play-services-basement:18.0.0] C:\Users\boxla\.gradle\caches\transforms-2\files-2.1\ceb38da7565134df0dc35b34d7f9f646\jetified-play-services-basement-18.0.0\AndroidManifest.xml:20:5-24:19
+MERGED from [com.google.android.datatransport:transport-backend-cct:2.3.0] C:\Users\boxla\.gradle\caches\transforms-2\files-2.1\0a3b0ef6850894272622c25d5a5af2ba\jetified-transport-backend-cct-2.3.0\AndroidManifest.xml:28:5-36:19
+MERGED from [com.google.android.datatransport:transport-backend-cct:2.3.0] C:\Users\boxla\.gradle\caches\transforms-2\files-2.1\0a3b0ef6850894272622c25d5a5af2ba\jetified-transport-backend-cct-2.3.0\AndroidManifest.xml:28:5-36:19
+MERGED from [com.google.android.datatransport:transport-runtime:2.2.3] C:\Users\boxla\.gradle\caches\transforms-2\files-2.1\99a4f9408f7872ea688ac3bf34c11d30\jetified-transport-runtime-2.2.3\AndroidManifest.xml:25:5-39:19
+MERGED from [com.google.android.datatransport:transport-runtime:2.2.3] C:\Users\boxla\.gradle\caches\transforms-2\files-2.1\99a4f9408f7872ea688ac3bf34c11d30\jetified-transport-runtime-2.2.3\AndroidManifest.xml:25:5-39:19
+MERGED from [androidx.core:core:1.2.0] C:\Users\boxla\.gradle\caches\transforms-2\files-2.1\9ba3c5b3668408979874ab21eefbfb61\core-1.2.0\AndroidManifest.xml:24:5-89
+MERGED from [androidx.core:core:1.2.0] C:\Users\boxla\.gradle\caches\transforms-2\files-2.1\9ba3c5b3668408979874ab21eefbfb61\core-1.2.0\AndroidManifest.xml:24:5-89
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\boxla\.gradle\caches\transforms-2\files-2.1\bbcb86a58d211d8bcf96683bbe394b2e\versionedparcelable-1.1.0\AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\boxla\.gradle\caches\transforms-2\files-2.1\bbcb86a58d211d8bcf96683bbe394b2e\versionedparcelable-1.1.0\AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\boxla\.gradle\caches\transforms-2\files-2.1\22148d685580ed3826a245eb225c8e0c\jetified-lifecycle-process-2.0.0\AndroidManifest.xml:22:5-28:19
+MERGED from [androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\boxla\.gradle\caches\transforms-2\files-2.1\22148d685580ed3826a245eb225c8e0c\jetified-lifecycle-process-2.0.0\AndroidManifest.xml:22:5-28:19
+	android:requestLegacyExternalStorage
+		ADDED from C:\Users\boxla\Documents\GitHub\chatapps\app\src\main\AndroidManifest.xml:27:9-52
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.2.0] C:\Users\boxla\.gradle\caches\transforms-2\files-2.1\9ba3c5b3668408979874ab21eefbfb61\core-1.2.0\AndroidManifest.xml:24:18-86
+	android:supportsRtl
+		ADDED from C:\Users\boxla\Documents\GitHub\chatapps\app\src\main\AndroidManifest.xml:25:9-35
+	android:label
+		ADDED from C:\Users\boxla\Documents\GitHub\chatapps\app\src\main\AndroidManifest.xml:24:9-33
+	android:testOnly
+		ADDED from C:\Users\boxla\Documents\GitHub\chatapps\app\src\main\AndroidManifest.xml:26:9-33
+	android:icon
+		ADDED from C:\Users\boxla\Documents\GitHub\chatapps\app\src\main\AndroidManifest.xml:23:9-43
+	android:allowBackup
+		ADDED from C:\Users\boxla\Documents\GitHub\chatapps\app\src\main\AndroidManifest.xml:22:9-36
+	android:theme
+		ADDED from C:\Users\boxla\Documents\GitHub\chatapps\app\src\main\AndroidManifest.xml:28:9-40
+	android:name
+		ADDED from C:\Users\boxla\Documents\GitHub\chatapps\app\src\main\AndroidManifest.xml:21:9-62
+meta-data#com.google.android.geo.API_KEY
+ADDED from C:\Users\boxla\Documents\GitHub\chatapps\app\src\main\AndroidManifest.xml:31:9-33:71
+	android:value
+		ADDED from C:\Users\boxla\Documents\GitHub\chatapps\app\src\main\AndroidManifest.xml:33:13-68
+	android:name
+		ADDED from C:\Users\boxla\Documents\GitHub\chatapps\app\src\main\AndroidManifest.xml:32:13-58
+activity#org.chatapps.messenger.EditProfileActivity
+ADDED from C:\Users\boxla\Documents\GitHub\chatapps\app\src\main\AndroidManifest.xml:36:9-39:55
+	android:windowSoftInputMode
+		ADDED from C:\Users\boxla\Documents\GitHub\chatapps\app\src\main\AndroidManifest.xml:39:13-52
+	android:theme
+		ADDED from C:\Users\boxla\Documents\GitHub\chatapps\app\src\main\AndroidManifest.xml:38:13-52
+	android:name
+		ADDED from C:\Users\boxla\Documents\GitHub\chatapps\app\src\main\AndroidManifest.xml:37:13-70
+activity#org.chatapps.messenger.ShowProfileActivity
+ADDED from C:\Users\boxla\Documents\GitHub\chatapps\app\src\main\AndroidManifest.xml:41:9-43:15
+	android:theme
+		ADDED from C:\Users\boxla\Documents\GitHub\chatapps\app\src\main\AndroidManifest.xml:42:13-56
+	android:name
+		ADDED from C:\Users\boxla\Documents\GitHub\chatapps\app\src\main\AndroidManifest.xml:41:19-76
+activity#org.chatapps.messenger.StartUpActivity
+ADDED from C:\Users\boxla\Documents\GitHub\chatapps\app\src\main\AndroidManifest.xml:45:9-59:20
+	android:screenOrientation
+		ADDED from C:\Users\boxla\Documents\GitHub\chatapps\app\src\main\AndroidManifest.xml:48:13-49
+	android:label
+		ADDED from C:\Users\boxla\Documents\GitHub\chatapps\app\src\main\AndroidManifest.xml:47:13-45
+	android:launchMode
+		ADDED from C:\Users\boxla\Documents\GitHub\chatapps\app\src\main\AndroidManifest.xml:51:13-43
+	android:windowSoftInputMode
+		ADDED from C:\Users\boxla\Documents\GitHub\chatapps\app\src\main\AndroidManifest.xml:49:13-60
+	android:noHistory
+		ADDED from C:\Users\boxla\Documents\GitHub\chatapps\app\src\main\AndroidManifest.xml:50:13-37
+	android:exported
+		ADDED from C:\Users\boxla\Documents\GitHub\chatapps\app\src\main\AndroidManifest.xml:52:6-29
+	android:theme
+		ADDED from C:\Users\boxla\Documents\GitHub\chatapps\app\src\main\AndroidManifest.xml:46:13-56
+	android:name
+		ADDED from C:\Users\boxla\Documents\GitHub\chatapps\app\src\main\AndroidManifest.xml:45:19-72
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from C:\Users\boxla\Documents\GitHub\chatapps\app\src\main\AndroidManifest.xml:54:13-58:29
+action#android.intent.action.MAIN
+ADDED from C:\Users\boxla\Documents\GitHub\chatapps\app\src\main\AndroidManifest.xml:55:17-69
+	android:name
+		ADDED from C:\Users\boxla\Documents\GitHub\chatapps\app\src\main\AndroidManifest.xml:55:25-66
+category#android.intent.category.LAUNCHER
+ADDED from C:\Users\boxla\Documents\GitHub\chatapps\app\src\main\AndroidManifest.xml:57:17-77
+	android:name
+		ADDED from C:\Users\boxla\Documents\GitHub\chatapps\app\src\main\AndroidManifest.xml:57:27-74
+meta-data#com.facebook.sdk.ApplicationId
+ADDED from C:\Users\boxla\Documents\GitHub\chatapps\app\src\main\AndroidManifest.xml:61:9-62:55
+	android:value
+		ADDED from C:\Users\boxla\Documents\GitHub\chatapps\app\src\main\AndroidManifest.xml:62:13-52
+	android:name
+		ADDED from C:\Users\boxla\Documents\GitHub\chatapps\app\src\main\AndroidManifest.xml:61:20-65
+meta-data#com.google.android.gms.version
+ADDED from C:\Users\boxla\Documents\GitHub\chatapps\app\src\main\AndroidManifest.xml:65:9-67:69
+MERGED from [com.google.android.gms:play-services-basement:18.0.0] C:\Users\boxla\.gradle\caches\transforms-2\files-2.1\ceb38da7565134df0dc35b34d7f9f646\jetified-play-services-basement-18.0.0\AndroidManifest.xml:21:9-23:69
+MERGED from [com.google.android.gms:play-services-basement:18.0.0] C:\Users\boxla\.gradle\caches\transforms-2\files-2.1\ceb38da7565134df0dc35b34d7f9f646\jetified-play-services-basement-18.0.0\AndroidManifest.xml:21:9-23:69
+	android:value
+		ADDED from C:\Users\boxla\Documents\GitHub\chatapps\app\src\main\AndroidManifest.xml:67:13-66
+	android:name
+		ADDED from C:\Users\boxla\Documents\GitHub\chatapps\app\src\main\AndroidManifest.xml:66:13-58
+activity#org.chatapps.messenger.AppSettings.SettingsActivity
+ADDED from C:\Users\boxla\Documents\GitHub\chatapps\app\src\main\AndroidManifest.xml:69:9-72:55
+	android:windowSoftInputMode
+		ADDED from C:\Users\boxla\Documents\GitHub\chatapps\app\src\main\AndroidManifest.xml:72:13-52
+	android:theme
+		ADDED from C:\Users\boxla\Documents\GitHub\chatapps\app\src\main\AndroidManifest.xml:71:13-49
+	android:name
+		ADDED from C:\Users\boxla\Documents\GitHub\chatapps\app\src\main\AndroidManifest.xml:70:13-79
+receiver#org.chatapps.messenger.AutoStart
+ADDED from C:\Users\boxla\Documents\GitHub\chatapps\app\src\main\AndroidManifest.xml:74:9-81:20
+	android:exported
+		ADDED from C:\Users\boxla\Documents\GitHub\chatapps\app\src\main\AndroidManifest.xml:75:3-26
+	android:name
+		ADDED from C:\Users\boxla\Documents\GitHub\chatapps\app\src\main\AndroidManifest.xml:74:19-66
+intent-filter#action:name:android.intent.action.BOOT_COMPLETED+action:name:org.mesibo.messenger.restart
+ADDED from C:\Users\boxla\Documents\GitHub\chatapps\app\src\main\AndroidManifest.xml:77:13-80:29
+action#android.intent.action.BOOT_COMPLETED
+ADDED from C:\Users\boxla\Documents\GitHub\chatapps\app\src\main\AndroidManifest.xml:78:17-79
+	android:name
+		ADDED from C:\Users\boxla\Documents\GitHub\chatapps\app\src\main\AndroidManifest.xml:78:25-76
+action#org.mesibo.messenger.restart
+ADDED from C:\Users\boxla\Documents\GitHub\chatapps\app\src\main\AndroidManifest.xml:79:17-71
+	android:name
+		ADDED from C:\Users\boxla\Documents\GitHub\chatapps\app\src\main\AndroidManifest.xml:79:25-68
+service#org.chatapps.messenger.fcm.MesiboGcmListenerService
+ADDED from C:\Users\boxla\Documents\GitHub\chatapps\app\src\main\AndroidManifest.xml:84:9-90:19
+	android:exported
+		ADDED from C:\Users\boxla\Documents\GitHub\chatapps\app\src\main\AndroidManifest.xml:85:3-27
+	android:name
+		ADDED from C:\Users\boxla\Documents\GitHub\chatapps\app\src\main\AndroidManifest.xml:84:18-84
+intent-filter#action:name:com.google.firebase.MESSAGING_EVENT
+ADDED from C:\Users\boxla\Documents\GitHub\chatapps\app\src\main\AndroidManifest.xml:87:13-89:29
+action#com.google.firebase.MESSAGING_EVENT
+ADDED from C:\Users\boxla\Documents\GitHub\chatapps\app\src\main\AndroidManifest.xml:88:17-78
+	android:name
+		ADDED from C:\Users\boxla\Documents\GitHub\chatapps\app\src\main\AndroidManifest.xml:88:25-75
+service#org.chatapps.messenger.fcm.MesiboInstanceIDListenerService
+ADDED from C:\Users\boxla\Documents\GitHub\chatapps\app\src\main\AndroidManifest.xml:92:9-98:19
+	android:exported
+		ADDED from C:\Users\boxla\Documents\GitHub\chatapps\app\src\main\AndroidManifest.xml:93:13-37
+	android:name
+		ADDED from C:\Users\boxla\Documents\GitHub\chatapps\app\src\main\AndroidManifest.xml:92:18-91
+intent-filter#action:name:com.google.android.gms.iid.InstanceID
+ADDED from C:\Users\boxla\Documents\GitHub\chatapps\app\src\main\AndroidManifest.xml:95:13-97:29
+action#com.google.android.gms.iid.InstanceID
+ADDED from C:\Users\boxla\Documents\GitHub\chatapps\app\src\main\AndroidManifest.xml:96:17-80
+	android:name
+		ADDED from C:\Users\boxla\Documents\GitHub\chatapps\app\src\main\AndroidManifest.xml:96:25-77
+service#org.chatapps.messenger.fcm.MesiboRegistrationIntentService
+ADDED from C:\Users\boxla\Documents\GitHub\chatapps\app\src\main\AndroidManifest.xml:99:9-102:71
+	android:exported
+		ADDED from C:\Users\boxla\Documents\GitHub\chatapps\app\src\main\AndroidManifest.xml:101:13-37
+	android:permission
+		ADDED from C:\Users\boxla\Documents\GitHub\chatapps\app\src\main\AndroidManifest.xml:102:13-69
+	android:name
+		ADDED from C:\Users\boxla\Documents\GitHub\chatapps\app\src\main\AndroidManifest.xml:100:13-86
+service#org.chatapps.messenger.fcm.MesiboJobIntentService
+ADDED from C:\Users\boxla\Documents\GitHub\chatapps\app\src\main\AndroidManifest.xml:103:9-106:72
+	android:exported
+		ADDED from C:\Users\boxla\Documents\GitHub\chatapps\app\src\main\AndroidManifest.xml:105:13-37
+	android:permission
+		ADDED from C:\Users\boxla\Documents\GitHub\chatapps\app\src\main\AndroidManifest.xml:106:13-69
+	android:name
+		ADDED from C:\Users\boxla\Documents\GitHub\chatapps\app\src\main\AndroidManifest.xml:104:13-77
+uses-sdk
+INJECTED from C:\Users\boxla\Documents\GitHub\chatapps\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from C:\Users\boxla\Documents\GitHub\chatapps\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\boxla\Documents\GitHub\chatapps\app\src\main\AndroidManifest.xml
+MERGED from [com.mesibo.api:uihelper:1.8.2] C:\Users\boxla\.gradle\caches\transforms-2\files-2.1\35f1d776e9f905213ea6b964a0055c0f\jetified-uihelper-1.8.2\AndroidManifest.xml:8:5-10:41
+MERGED from [com.mesibo.api:uihelper:1.8.2] C:\Users\boxla\.gradle\caches\transforms-2\files-2.1\35f1d776e9f905213ea6b964a0055c0f\jetified-uihelper-1.8.2\AndroidManifest.xml:8:5-10:41
+MERGED from [com.mesibo.api:ui:1.9.53] C:\Users\boxla\.gradle\caches\transforms-2\files-2.1\1c6a8f9a68f75aef0cd24065bce150a7\jetified-ui-1.9.53\AndroidManifest.xml:5:5-7:41
+MERGED from [com.mesibo.api:ui:1.9.53] C:\Users\boxla\.gradle\caches\transforms-2\files-2.1\1c6a8f9a68f75aef0cd24065bce150a7\jetified-ui-1.9.53\AndroidManifest.xml:5:5-7:41
+MERGED from [com.mesibo.api:callui:1.9.53] C:\Users\boxla\.gradle\caches\transforms-2\files-2.1\6ccc9ff5db4e4f16ad49b79b503fa9ce\jetified-callui-1.9.53\AndroidManifest.xml:7:5-9:41
+MERGED from [com.mesibo.api:callui:1.9.53] C:\Users\boxla\.gradle\caches\transforms-2\files-2.1\6ccc9ff5db4e4f16ad49b79b503fa9ce\jetified-callui-1.9.53\AndroidManifest.xml:7:5-9:41
+MERGED from [com.mesibo.api:mediapicker:1.6.1] C:\Users\boxla\.gradle\caches\transforms-2\files-2.1\14f9cf399f9989124995645a8626efbc\jetified-mediapicker-1.6.1\AndroidManifest.xml:6:5-8:41
+MERGED from [com.mesibo.api:mediapicker:1.6.1] C:\Users\boxla\.gradle\caches\transforms-2\files-2.1\14f9cf399f9989124995645a8626efbc\jetified-mediapicker-1.6.1\AndroidManifest.xml:6:5-8:41
+MERGED from [com.mesibo.api:calls:1.9.53] C:\Users\boxla\.gradle\caches\transforms-2\files-2.1\429c037de8ef8c5c1a67ba2bda63af0c\jetified-calls-1.9.53\AndroidManifest.xml:5:5-7:41
+MERGED from [com.mesibo.api:calls:1.9.53] C:\Users\boxla\.gradle\caches\transforms-2\files-2.1\429c037de8ef8c5c1a67ba2bda63af0c\jetified-calls-1.9.53\AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.android.material:material:1.0.0] C:\Users\boxla\.gradle\caches\transforms-2\files-2.1\46659514cdf12fbd7a9932bb01ff96bf\material-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.material:material:1.0.0] C:\Users\boxla\.gradle\caches\transforms-2\files-2.1\46659514cdf12fbd7a9932bb01ff96bf\material-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.preference:preference:1.0.0] C:\Users\boxla\.gradle\caches\transforms-2\files-2.1\c4572f8b38d34142876181312248e858\preference-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.preference:preference:1.0.0] C:\Users\boxla\.gradle\caches\transforms-2\files-2.1\c4572f8b38d34142876181312248e858\preference-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.mesibo.api:ContactUtils:1.6.3] C:\Users\boxla\.gradle\caches\transforms-2\files-2.1\d2a6372232edd32ff0b5bb7a63802707\jetified-ContactUtils-1.6.3\AndroidManifest.xml:7:5-9:41
+MERGED from [com.mesibo.api:ContactUtils:1.6.3] C:\Users\boxla\.gradle\caches\transforms-2\files-2.1\d2a6372232edd32ff0b5bb7a63802707\jetified-ContactUtils-1.6.3\AndroidManifest.xml:7:5-9:41
+MERGED from [com.mesibo.api:mesibo:1.9.53] C:\Users\boxla\.gradle\caches\transforms-2\files-2.1\3a0270acd5517463989765cbb330550f\jetified-mesibo-1.9.53\AndroidManifest.xml:5:5-7:41
+MERGED from [com.mesibo.api:mesibo:1.9.53] C:\Users\boxla\.gradle\caches\transforms-2\files-2.1\3a0270acd5517463989765cbb330550f\jetified-mesibo-1.9.53\AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.android.libraries.places:places:2.6.0] C:\Users\boxla\.gradle\caches\transforms-2\files-2.1\3e80ab14bbabd569e211ac1860c37633\jetified-places-2.6.0\AndroidManifest.xml:7:5-44
+MERGED from [com.google.android.libraries.places:places:2.6.0] C:\Users\boxla\.gradle\caches\transforms-2\files-2.1\3e80ab14bbabd569e211ac1860c37633\jetified-places-2.6.0\AndroidManifest.xml:7:5-44
+MERGED from [androidx.appcompat:appcompat:1.0.0] C:\Users\boxla\.gradle\caches\transforms-2\files-2.1\59ce8a707aeb80134489ce4c2b8c720d\appcompat-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat:1.0.0] C:\Users\boxla\.gradle\caches\transforms-2\files-2.1\59ce8a707aeb80134489ce4c2b8c720d\appcompat-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.mesibo.api:emojiview:0.1.13] C:\Users\boxla\.gradle\caches\transforms-2\files-2.1\c2df75fc0a587352726ae90319dd65a8\jetified-emojiview-0.1.13\AndroidManifest.xml:7:5-9:41
+MERGED from [com.mesibo.api:emojiview:0.1.13] C:\Users\boxla\.gradle\caches\transforms-2\files-2.1\c2df75fc0a587352726ae90319dd65a8\jetified-emojiview-0.1.13\AndroidManifest.xml:7:5-9:41
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] C:\Users\boxla\.gradle\caches\transforms-2\files-2.1\83995f663748344e4a11c6fe2a174049\legacy-support-v4-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] C:\Users\boxla\.gradle\caches\transforms-2\files-2.1\83995f663748344e4a11c6fe2a174049\legacy-support-v4-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.recyclerview:recyclerview:1.0.0] C:\Users\boxla\.gradle\caches\transforms-2\files-2.1\41015688c62115cc59e5b6e5e38017c3\recyclerview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.recyclerview:recyclerview:1.0.0] C:\Users\boxla\.gradle\caches\transforms-2\files-2.1\41015688c62115cc59e5b6e5e38017c3\recyclerview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\boxla\.gradle\caches\transforms-2\files-2.1\6e838f14f5c545e29a41705e55ad140d\cardview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\boxla\.gradle\caches\transforms-2\files-2.1\6e838f14f5c545e29a41705e55ad140d\cardview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.0.0] C:\Users\boxla\.gradle\caches\transforms-2\files-2.1\9d59d9e41c3a642beabe29499dfb465b\vectordrawable-animated-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.0.0] C:\Users\boxla\.gradle\caches\transforms-2\files-2.1\9d59d9e41c3a642beabe29499dfb465b\vectordrawable-animated-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.gridlayout:gridlayout:1.0.0] C:\Users\boxla\.gradle\caches\transforms-2\files-2.1\4e00f58057978d577cbafebd8cb9749b\gridlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.gridlayout:gridlayout:1.0.0] C:\Users\boxla\.gradle\caches\transforms-2\files-2.1\4e00f58057978d577cbafebd8cb9749b\gridlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] C:\Users\boxla\.gradle\caches\transforms-2\files-2.1\dbfed7dadb05113a368a8b48a6e06f93\legacy-support-core-ui-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] C:\Users\boxla\.gradle\caches\transforms-2\files-2.1\dbfed7dadb05113a368a8b48a6e06f93\legacy-support-core-ui-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\boxla\.gradle\caches\transforms-2\files-2.1\c2687be9fc99b876db48caea56c6ea1b\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\boxla\.gradle\caches\transforms-2\files-2.1\c2687be9fc99b876db48caea56c6ea1b\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\boxla\.gradle\caches\transforms-2\files-2.1\39a5c90711409ff132241fa7a3c2fbc8\legacy-support-core-utils-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\boxla\.gradle\caches\transforms-2\files-2.1\39a5c90711409ff132241fa7a3c2fbc8\legacy-support-core-utils-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.vectordrawable:vectordrawable:1.0.0] C:\Users\boxla\.gradle\caches\transforms-2\files-2.1\88e22f1d732fac50690ceb19d19f35df\vectordrawable-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.vectordrawable:vectordrawable:1.0.0] C:\Users\boxla\.gradle\caches\transforms-2\files-2.1\88e22f1d732fac50690ceb19d19f35df\vectordrawable-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.media:media:1.0.0] C:\Users\boxla\.gradle\caches\transforms-2\files-2.1\4ba651502e104b7a37aa6e8613234913\media-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.media:media:1.0.0] C:\Users\boxla\.gradle\caches\transforms-2\files-2.1\4ba651502e104b7a37aa6e8613234913\media-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.transition:transition:1.0.0] C:\Users\boxla\.gradle\caches\transforms-2\files-2.1\bc31adfb611bd7bb2d8efdbe22c8927b\transition-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.transition:transition:1.0.0] C:\Users\boxla\.gradle\caches\transforms-2\files-2.1\bc31adfb611bd7bb2d8efdbe22c8927b\transition-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\boxla\.gradle\caches\transforms-2\files-2.1\fe5239e61d1df3430984678b5580bd73\documentfile-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\boxla\.gradle\caches\transforms-2\files-2.1\fe5239e61d1df3430984678b5580bd73\documentfile-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-extensions:2.0.0] C:\Users\boxla\.gradle\caches\transforms-2\files-2.1\87389555f08d3dd7dfe062cedf0090a2\lifecycle-extensions-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-extensions:2.0.0] C:\Users\boxla\.gradle\caches\transforms-2\files-2.1\87389555f08d3dd7dfe062cedf0090a2\lifecycle-extensions-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-places:16.0.0] C:\Users\boxla\.gradle\caches\transforms-2\files-2.1\8f3594b82945849971774181bf10d71a\jetified-play-services-places-16.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-places:16.0.0] C:\Users\boxla\.gradle\caches\transforms-2\files-2.1\8f3594b82945849971774181bf10d71a\jetified-play-services-places-16.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-auth:16.0.1] C:\Users\boxla\.gradle\caches\transforms-2\files-2.1\c5c71505525c360990892529605f9198\jetified-play-services-auth-16.0.1\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-auth:16.0.1] C:\Users\boxla\.gradle\caches\transforms-2\files-2.1\c5c71505525c360990892529605f9198\jetified-play-services-auth-16.0.1\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-messaging:18.0.0] C:\Users\boxla\.gradle\caches\transforms-2\files-2.1\4f361da270a7c409c35c81134a4b0ff4\jetified-firebase-messaging-18.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-messaging:18.0.0] C:\Users\boxla\.gradle\caches\transforms-2\files-2.1\4f361da270a7c409c35c81134a4b0ff4\jetified-firebase-messaging-18.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-core:16.0.9] C:\Users\boxla\.gradle\caches\transforms-2\files-2.1\e01f7c2e698bc043bd26a3ee9d5fd61e\jetified-firebase-core-16.0.9\AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-core:16.0.9] C:\Users\boxla\.gradle\caches\transforms-2\files-2.1\e01f7c2e698bc043bd26a3ee9d5fd61e\jetified-firebase-core-16.0.9\AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-analytics:16.5.0] C:\Users\boxla\.gradle\caches\transforms-2\files-2.1\de445b2bf77aea73b045f68ae85c9989\jetified-firebase-analytics-16.5.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-analytics:16.5.0] C:\Users\boxla\.gradle\caches\transforms-2\files-2.1\de445b2bf77aea73b045f68ae85c9989\jetified-firebase-analytics-16.5.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-measurement-api:16.5.0] C:\Users\boxla\.gradle\caches\transforms-2\files-2.1\ee4acb9561e8a718f0e2d2e237a7550f\jetified-play-services-measurement-api-16.5.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-api:16.5.0] C:\Users\boxla\.gradle\caches\transforms-2\files-2.1\ee4acb9561e8a718f0e2d2e237a7550f\jetified-play-services-measurement-api-16.5.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-iid:18.0.0] C:\Users\boxla\.gradle\caches\transforms-2\files-2.1\7b296d16f19647438690df5d4bf9abb5\jetified-firebase-iid-18.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-iid:18.0.0] C:\Users\boxla\.gradle\caches\transforms-2\files-2.1\7b296d16f19647438690df5d4bf9abb5\jetified-firebase-iid-18.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-iid-interop:16.0.1] C:\Users\boxla\.gradle\caches\transforms-2\files-2.1\ab175a707a39a9b8b169ff463ae6f295\jetified-firebase-iid-interop-16.0.1\AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-iid-interop:16.0.1] C:\Users\boxla\.gradle\caches\transforms-2\files-2.1\ab175a707a39a9b8b169ff463ae6f295\jetified-firebase-iid-interop-16.0.1\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-auth-api-phone:16.0.0] C:\Users\boxla\.gradle\caches\transforms-2\files-2.1\34c9b5bdc33d2498dbe3beb3ae3450d2\jetified-play-services-auth-api-phone-16.0.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-auth-api-phone:16.0.0] C:\Users\boxla\.gradle\caches\transforms-2\files-2.1\34c9b5bdc33d2498dbe3beb3ae3450d2\jetified-play-services-auth-api-phone-16.0.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-auth-base:16.0.0] C:\Users\boxla\.gradle\caches\transforms-2\files-2.1\686f229a5b3e36bcd9e176015f957e68\jetified-play-services-auth-base-16.0.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-auth-base:16.0.0] C:\Users\boxla\.gradle\caches\transforms-2\files-2.1\686f229a5b3e36bcd9e176015f957e68\jetified-play-services-auth-base-16.0.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-location:17.1.0] C:\Users\boxla\.gradle\caches\transforms-2\files-2.1\c6db7119921b2cfd232830b85e4a01a6\jetified-play-services-location-17.1.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-location:17.1.0] C:\Users\boxla\.gradle\caches\transforms-2\files-2.1\c6db7119921b2cfd232830b85e4a01a6\jetified-play-services-location-17.1.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-maps:17.0.0] C:\Users\boxla\.gradle\caches\transforms-2\files-2.1\09b6dd3e7c87a3d12384e8a4a2a85e44\jetified-play-services-maps-17.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-maps:17.0.0] C:\Users\boxla\.gradle\caches\transforms-2\files-2.1\09b6dd3e7c87a3d12384e8a4a2a85e44\jetified-play-services-maps-17.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-base:18.0.1] C:\Users\boxla\.gradle\caches\transforms-2\files-2.1\37b595b2d2745886dcd0edc0a5df4b65\jetified-play-services-base-18.0.1\AndroidManifest.xml:18:5-43
+MERGED from [com.google.android.gms:play-services-base:18.0.1] C:\Users\boxla\.gradle\caches\transforms-2\files-2.1\37b595b2d2745886dcd0edc0a5df4b65\jetified-play-services-base-18.0.1\AndroidManifest.xml:18:5-43
+MERGED from [com.google.firebase:firebase-common:17.0.0] C:\Users\boxla\.gradle\caches\transforms-2\files-2.1\e406c13e15f53398374ab553ddc9c28a\jetified-firebase-common-17.0.0\AndroidManifest.xml:6:5-8:41
+MERGED from [com.google.firebase:firebase-common:17.0.0] C:\Users\boxla\.gradle\caches\transforms-2\files-2.1\e406c13e15f53398374ab553ddc9c28a\jetified-firebase-common-17.0.0\AndroidManifest.xml:6:5-8:41
+MERGED from [com.google.firebase:firebase-measurement-connector:17.0.1] C:\Users\boxla\.gradle\caches\transforms-2\files-2.1\9d921539f02ff64c257da3eee37f8a72\jetified-firebase-measurement-connector-17.0.1\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-measurement-connector:17.0.1] C:\Users\boxla\.gradle\caches\transforms-2\files-2.1\9d921539f02ff64c257da3eee37f8a72\jetified-firebase-measurement-connector-17.0.1\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement:16.5.0] C:\Users\boxla\.gradle\caches\transforms-2\files-2.1\f040517769c6e7dea4608481b75748d7\jetified-play-services-measurement-16.5.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement:16.5.0] C:\Users\boxla\.gradle\caches\transforms-2\files-2.1\f040517769c6e7dea4608481b75748d7\jetified-play-services-measurement-16.5.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-sdk:16.5.0] C:\Users\boxla\.gradle\caches\transforms-2\files-2.1\22cf55f5d6a9d9530c7987280aa9c5cd\jetified-play-services-measurement-sdk-16.5.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-sdk:16.5.0] C:\Users\boxla\.gradle\caches\transforms-2\files-2.1\22cf55f5d6a9d9530c7987280aa9c5cd\jetified-play-services-measurement-sdk-16.5.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-impl:16.5.0] C:\Users\boxla\.gradle\caches\transforms-2\files-2.1\c3be7f042392793eccf230366a0b0077\jetified-play-services-measurement-impl-16.5.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-impl:16.5.0] C:\Users\boxla\.gradle\caches\transforms-2\files-2.1\c3be7f042392793eccf230366a0b0077\jetified-play-services-measurement-impl-16.5.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-stats:16.0.1] C:\Users\boxla\.gradle\caches\transforms-2\files-2.1\eb4c215efb7313d66b41d6e7b14e1e6a\jetified-play-services-stats-16.0.1\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-stats:16.0.1] C:\Users\boxla\.gradle\caches\transforms-2\files-2.1\eb4c215efb7313d66b41d6e7b14e1e6a\jetified-play-services-stats-16.0.1\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-tasks:18.0.1] C:\Users\boxla\.gradle\caches\transforms-2\files-2.1\7820838174c3ff2064faca9d6e75f723\jetified-play-services-tasks-18.0.1\AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-tasks:18.0.1] C:\Users\boxla\.gradle\caches\transforms-2\files-2.1\7820838174c3ff2064faca9d6e75f723\jetified-play-services-tasks-18.0.1\AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:16.5.0] C:\Users\boxla\.gradle\caches\transforms-2\files-2.1\63c789e7a6bd34f2ee2200a81d8b67c6\jetified-play-services-measurement-sdk-api-16.5.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:16.5.0] C:\Users\boxla\.gradle\caches\transforms-2\files-2.1\63c789e7a6bd34f2ee2200a81d8b67c6\jetified-play-services-measurement-sdk-api-16.5.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-base:16.5.0] C:\Users\boxla\.gradle\caches\transforms-2\files-2.1\0ea3f6816fc547eb8357b57dc9dab502\jetified-play-services-measurement-base-16.5.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-measurement-base:16.5.0] C:\Users\boxla\.gradle\caches\transforms-2\files-2.1\0ea3f6816fc547eb8357b57dc9dab502\jetified-play-services-measurement-base-16.5.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-places-placereport:17.0.0] C:\Users\boxla\.gradle\caches\transforms-2\files-2.1\b638530ab067c46f309ae8b1bb3dc1dd\jetified-play-services-places-placereport-17.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-places-placereport:17.0.0] C:\Users\boxla\.gradle\caches\transforms-2\files-2.1\b638530ab067c46f309ae8b1bb3dc1dd\jetified-play-services-places-placereport-17.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-ads-identifier:16.0.0] C:\Users\boxla\.gradle\caches\transforms-2\files-2.1\8ec546538beae5ea272afc5dab241792\jetified-play-services-ads-identifier-16.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-ads-identifier:16.0.0] C:\Users\boxla\.gradle\caches\transforms-2\files-2.1\8ec546538beae5ea272afc5dab241792\jetified-play-services-ads-identifier-16.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-basement:18.0.0] C:\Users\boxla\.gradle\caches\transforms-2\files-2.1\ceb38da7565134df0dc35b34d7f9f646\jetified-play-services-basement-18.0.0\AndroidManifest.xml:18:5-43
+MERGED from [com.google.android.gms:play-services-basement:18.0.0] C:\Users\boxla\.gradle\caches\transforms-2\files-2.1\ceb38da7565134df0dc35b34d7f9f646\jetified-play-services-basement-18.0.0\AndroidManifest.xml:18:5-43
+MERGED from [androidx.fragment:fragment:1.1.0] C:\Users\boxla\.gradle\caches\transforms-2\files-2.1\c1adc0728270ee1b396ee5b27930ca5c\fragment-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.1.0] C:\Users\boxla\.gradle\caches\transforms-2\files-2.1\c1adc0728270ee1b396ee5b27930ca5c\fragment-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\boxla\.gradle\caches\transforms-2\files-2.1\f3107770c3d49af78c17c46f32da5e20\loader-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\boxla\.gradle\caches\transforms-2\files-2.1\f3107770c3d49af78c17c46f32da5e20\loader-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\boxla\.gradle\caches\transforms-2\files-2.1\aaa8f59934b4b63b9c565273622acdf7\localbroadcastmanager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\boxla\.gradle\caches\transforms-2\files-2.1\aaa8f59934b4b63b9c565273622acdf7\localbroadcastmanager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] C:\Users\boxla\.gradle\caches\transforms-2\files-2.1\7804fe5c8eb1094c8d2866c7d75ffe33\print-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] C:\Users\boxla\.gradle\caches\transforms-2\files-2.1\7804fe5c8eb1094c8d2866c7d75ffe33\print-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\boxla\.gradle\caches\transforms-2\files-2.1\2b90993159461f94e6d71ff2dcba134f\viewpager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\boxla\.gradle\caches\transforms-2\files-2.1\2b90993159461f94e6d71ff2dcba134f\viewpager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] C:\Users\boxla\.gradle\caches\transforms-2\files-2.1\ec7ecdc32404dfdded04aa64b7c72f86\coordinatorlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] C:\Users\boxla\.gradle\caches\transforms-2\files-2.1\ec7ecdc32404dfdded04aa64b7c72f86\coordinatorlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\boxla\.gradle\caches\transforms-2\files-2.1\cfc1dee8a924bf8a21105cd2f941a57f\drawerlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\boxla\.gradle\caches\transforms-2\files-2.1\cfc1dee8a924bf8a21105cd2f941a57f\drawerlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] C:\Users\boxla\.gradle\caches\transforms-2\files-2.1\ec663965e993cad794cf1c854444b7cc\slidingpanelayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] C:\Users\boxla\.gradle\caches\transforms-2\files-2.1\ec663965e993cad794cf1c854444b7cc\slidingpanelayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] C:\Users\boxla\.gradle\caches\transforms-2\files-2.1\01d4229bb7e92a4f9df10b68b44f7e6e\customview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] C:\Users\boxla\.gradle\caches\transforms-2\files-2.1\01d4229bb7e92a4f9df10b68b44f7e6e\customview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] C:\Users\boxla\.gradle\caches\transforms-2\files-2.1\bba672a93749dd9e6851f0e8dd2a4a8a\swiperefreshlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] C:\Users\boxla\.gradle\caches\transforms-2\files-2.1\bba672a93749dd9e6851f0e8dd2a4a8a\swiperefreshlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\boxla\.gradle\caches\transforms-2\files-2.1\2b8d20241c8de70ac0465ef1615cbfa1\interpolator-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\boxla\.gradle\caches\transforms-2\files-2.1\2b8d20241c8de70ac0465ef1615cbfa1\interpolator-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] C:\Users\boxla\.gradle\caches\transforms-2\files-2.1\0da9e5bdbbe8acb0ab3c9da2c8110300\asynclayoutinflater-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] C:\Users\boxla\.gradle\caches\transforms-2\files-2.1\0da9e5bdbbe8acb0ab3c9da2c8110300\asynclayoutinflater-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\boxla\.gradle\caches\transforms-2\files-2.1\c7c8228fa4177f5e71035d168ce4d783\lifecycle-livedata-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\boxla\.gradle\caches\transforms-2\files-2.1\c7c8228fa4177f5e71035d168ce4d783\lifecycle-livedata-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] C:\Users\boxla\.gradle\caches\transforms-2\files-2.1\5def8075d977f93d6f96060565f8166e\lifecycle-livedata-core-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] C:\Users\boxla\.gradle\caches\transforms-2\files-2.1\5def8075d977f93d6f96060565f8166e\lifecycle-livedata-core-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.0.0] C:\Users\boxla\.gradle\caches\transforms-2\files-2.1\ce151a00397f64fcbcd1802c0eacf366\core-runtime-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.0.0] C:\Users\boxla\.gradle\caches\transforms-2\files-2.1\ce151a00397f64fcbcd1802c0eacf366\core-runtime-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.exifinterface:exifinterface:1.0.0] C:\Users\boxla\.gradle\caches\transforms-2\files-2.1\4da423d1e4189cdaf8628d294bac69fa\exifinterface-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.exifinterface:exifinterface:1.0.0] C:\Users\boxla\.gradle\caches\transforms-2\files-2.1\4da423d1e4189cdaf8628d294bac69fa\exifinterface-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.datatransport:transport-backend-cct:2.3.0] C:\Users\boxla\.gradle\caches\transforms-2\files-2.1\0a3b0ef6850894272622c25d5a5af2ba\jetified-transport-backend-cct-2.3.0\AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.android.datatransport:transport-backend-cct:2.3.0] C:\Users\boxla\.gradle\caches\transforms-2\files-2.1\0a3b0ef6850894272622c25d5a5af2ba\jetified-transport-backend-cct-2.3.0\AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.android.datatransport:transport-runtime:2.2.3] C:\Users\boxla\.gradle\caches\transforms-2\files-2.1\99a4f9408f7872ea688ac3bf34c11d30\jetified-transport-runtime-2.2.3\AndroidManifest.xml:18:5-20:41
+MERGED from [com.google.android.datatransport:transport-runtime:2.2.3] C:\Users\boxla\.gradle\caches\transforms-2\files-2.1\99a4f9408f7872ea688ac3bf34c11d30\jetified-transport-runtime-2.2.3\AndroidManifest.xml:18:5-20:41
+MERGED from [androidx.activity:activity:1.0.0] C:\Users\boxla\.gradle\caches\transforms-2\files-2.1\b6286cf443ec278561fe787907e3c9c4\jetified-activity-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.0.0] C:\Users\boxla\.gradle\caches\transforms-2\files-2.1\b6286cf443ec278561fe787907e3c9c4\jetified-activity-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.2.0] C:\Users\boxla\.gradle\caches\transforms-2\files-2.1\9ba3c5b3668408979874ab21eefbfb61\core-1.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.2.0] C:\Users\boxla\.gradle\caches\transforms-2\files-2.1\9ba3c5b3668408979874ab21eefbfb61\core-1.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\boxla\.gradle\caches\transforms-2\files-2.1\bbcb86a58d211d8bcf96683bbe394b2e\versionedparcelable-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\boxla\.gradle\caches\transforms-2\files-2.1\bbcb86a58d211d8bcf96683bbe394b2e\versionedparcelable-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.firebase:firebase-encoders-json:16.1.0] C:\Users\boxla\.gradle\caches\transforms-2\files-2.1\17597606606e66df183a7f851e69580b\jetified-firebase-encoders-json-16.1.0\AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.firebase:firebase-encoders-json:16.1.0] C:\Users\boxla\.gradle\caches\transforms-2\files-2.1\17597606606e66df183a7f851e69580b\jetified-firebase-encoders-json-16.1.0\AndroidManifest.xml:19:5-21:41
+MERGED from [androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\boxla\.gradle\caches\transforms-2\files-2.1\22148d685580ed3826a245eb225c8e0c\jetified-lifecycle-process-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\boxla\.gradle\caches\transforms-2\files-2.1\22148d685580ed3826a245eb225c8e0c\jetified-lifecycle-process-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-service:2.0.0] C:\Users\boxla\.gradle\caches\transforms-2\files-2.1\9752b65e613f87c458da31cb36c161bc\jetified-lifecycle-service-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-service:2.0.0] C:\Users\boxla\.gradle\caches\transforms-2\files-2.1\9752b65e613f87c458da31cb36c161bc\jetified-lifecycle-service-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.1.0] C:\Users\boxla\.gradle\caches\transforms-2\files-2.1\6634fb750e043836abbd5f1b04c655e9\lifecycle-runtime-2.1.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.1.0] C:\Users\boxla\.gradle\caches\transforms-2\files-2.1\6634fb750e043836abbd5f1b04c655e9\lifecycle-runtime-2.1.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] C:\Users\boxla\.gradle\caches\transforms-2\files-2.1\7384f95dfc68c1f9b45dc373308725b1\lifecycle-viewmodel-2.1.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] C:\Users\boxla\.gradle\caches\transforms-2\files-2.1\7384f95dfc68c1f9b45dc373308725b1\lifecycle-viewmodel-2.1.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate:1.0.0] C:\Users\boxla\.gradle\caches\transforms-2\files-2.1\af5b7f7342bc4d56dd1f005fbedce908\jetified-savedstate-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.0.0] C:\Users\boxla\.gradle\caches\transforms-2\files-2.1\af5b7f7342bc4d56dd1f005fbedce908\jetified-savedstate-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [com.intuit.sdp:sdp-android:1.0.6] C:\Users\boxla\.gradle\caches\transforms-2\files-2.1\9f5edfb750afd6f4ab9aa2aaf4fc4a87\jetified-sdp-android-1.0.6\AndroidManifest.xml:7:5-9:41
+MERGED from [com.intuit.sdp:sdp-android:1.0.6] C:\Users\boxla\.gradle\caches\transforms-2\files-2.1\9f5edfb750afd6f4ab9aa2aaf4fc4a87\jetified-sdp-android-1.0.6\AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.volley:volley:1.2.1] C:\Users\boxla\.gradle\caches\transforms-2\files-2.1\5b1c8e366e96824b25565e5c894b841f\jetified-volley-1.2.1\AndroidManifest.xml:5:5-43
+MERGED from [com.android.volley:volley:1.2.1] C:\Users\boxla\.gradle\caches\transforms-2\files-2.1\5b1c8e366e96824b25565e5c894b841f\jetified-volley-1.2.1\AndroidManifest.xml:5:5-43
+MERGED from [com.google.android.datatransport:transport-api:2.2.0] C:\Users\boxla\.gradle\caches\transforms-2\files-2.1\cf7e55dc66c80f014d54e39836979243\jetified-transport-api-2.2.0\AndroidManifest.xml:18:5-20:41
+MERGED from [com.google.android.datatransport:transport-api:2.2.0] C:\Users\boxla\.gradle\caches\transforms-2\files-2.1\cf7e55dc66c80f014d54e39836979243\jetified-transport-api-2.2.0\AndroidManifest.xml:18:5-20:41
+MERGED from [com.mesibo.api:webrtc:1.0.5] C:\Users\boxla\.gradle\caches\transforms-2\files-2.1\890952389280a5c1af9f29fcbf8e36f2\jetified-webrtc-1.0.5\AndroidManifest.xml:13:3-72
+MERGED from [com.mesibo.api:webrtc:1.0.5] C:\Users\boxla\.gradle\caches\transforms-2\files-2.1\890952389280a5c1af9f29fcbf8e36f2\jetified-webrtc-1.0.5\AndroidManifest.xml:13:3-72
+INJECTED from C:\Users\boxla\Documents\GitHub\chatapps\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\boxla\Documents\GitHub\chatapps\app\src\main\AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from C:\Users\boxla\Documents\GitHub\chatapps\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\boxla\Documents\GitHub\chatapps\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\boxla\Documents\GitHub\chatapps\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from C:\Users\boxla\Documents\GitHub\chatapps\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\boxla\Documents\GitHub\chatapps\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\boxla\Documents\GitHub\chatapps\app\src\main\AndroidManifest.xml
+uses-permission#android.permission.READ_PHONE_STATE
+ADDED from [com.mesibo.api:uihelper:1.8.2] C:\Users\boxla\.gradle\caches\transforms-2\files-2.1\35f1d776e9f905213ea6b964a0055c0f\jetified-uihelper-1.8.2\AndroidManifest.xml:15:5-17:36
+MERGED from [com.mesibo.api:calls:1.9.53] C:\Users\boxla\.gradle\caches\transforms-2\files-2.1\429c037de8ef8c5c1a67ba2bda63af0c\jetified-calls-1.9.53\AndroidManifest.xml:22:5-75
+MERGED from [com.mesibo.api:calls:1.9.53] C:\Users\boxla\.gradle\caches\transforms-2\files-2.1\429c037de8ef8c5c1a67ba2bda63af0c\jetified-calls-1.9.53\AndroidManifest.xml:22:5-75
+MERGED from [com.mesibo.api:ContactUtils:1.6.3] C:\Users\boxla\.gradle\caches\transforms-2\files-2.1\d2a6372232edd32ff0b5bb7a63802707\jetified-ContactUtils-1.6.3\AndroidManifest.xml:32:5-34:36
+MERGED from [com.mesibo.api:ContactUtils:1.6.3] C:\Users\boxla\.gradle\caches\transforms-2\files-2.1\d2a6372232edd32ff0b5bb7a63802707\jetified-ContactUtils-1.6.3\AndroidManifest.xml:32:5-34:36
+	android:required
+		ADDED from [com.mesibo.api:uihelper:1.8.2] C:\Users\boxla\.gradle\caches\transforms-2\files-2.1\35f1d776e9f905213ea6b964a0055c0f\jetified-uihelper-1.8.2\AndroidManifest.xml:17:9-33
+	android:name
+		ADDED from [com.mesibo.api:uihelper:1.8.2] C:\Users\boxla\.gradle\caches\transforms-2\files-2.1\35f1d776e9f905213ea6b964a0055c0f\jetified-uihelper-1.8.2\AndroidManifest.xml:16:9-59
+activity#com.mesibo.uihelper.LoginActivity
+ADDED from [com.mesibo.api:uihelper:1.8.2] C:\Users\boxla\.gradle\caches\transforms-2\files-2.1\35f1d776e9f905213ea6b964a0055c0f\jetified-uihelper-1.8.2\AndroidManifest.xml:20:9-22:51
+	android:theme
+		ADDED from [com.mesibo.api:uihelper:1.8.2] C:\Users\boxla\.gradle\caches\transforms-2\files-2.1\35f1d776e9f905213ea6b964a0055c0f\jetified-uihelper-1.8.2\AndroidManifest.xml:22:13-48
+	android:name
+		ADDED from [com.mesibo.api:uihelper:1.8.2] C:\Users\boxla\.gradle\caches\transforms-2\files-2.1\35f1d776e9f905213ea6b964a0055c0f\jetified-uihelper-1.8.2\AndroidManifest.xml:21:13-61
+activity#com.mesibo.uihelper.ProductTourActivity
+ADDED from [com.mesibo.api:uihelper:1.8.2] C:\Users\boxla\.gradle\caches\transforms-2\files-2.1\35f1d776e9f905213ea6b964a0055c0f\jetified-uihelper-1.8.2\AndroidManifest.xml:23:9-26:51
+	android:screenOrientation
+		ADDED from [com.mesibo.api:uihelper:1.8.2] C:\Users\boxla\.gradle\caches\transforms-2\files-2.1\35f1d776e9f905213ea6b964a0055c0f\jetified-uihelper-1.8.2\AndroidManifest.xml:25:13-49
+	android:theme
+		ADDED from [com.mesibo.api:uihelper:1.8.2] C:\Users\boxla\.gradle\caches\transforms-2\files-2.1\35f1d776e9f905213ea6b964a0055c0f\jetified-uihelper-1.8.2\AndroidManifest.xml:26:13-48
+	android:name
+		ADDED from [com.mesibo.api:uihelper:1.8.2] C:\Users\boxla\.gradle\caches\transforms-2\files-2.1\35f1d776e9f905213ea6b964a0055c0f\jetified-uihelper-1.8.2\AndroidManifest.xml:24:13-67
+uses-permission#android.permission.RECORD_AUDIO
+ADDED from [com.mesibo.api:ui:1.9.53] C:\Users\boxla\.gradle\caches\transforms-2\files-2.1\1c6a8f9a68f75aef0cd24065bce150a7\jetified-ui-1.9.53\AndroidManifest.xml:12:5-71
+MERGED from [com.mesibo.api:mediapicker:1.6.1] C:\Users\boxla\.gradle\caches\transforms-2\files-2.1\14f9cf399f9989124995645a8626efbc\jetified-mediapicker-1.6.1\AndroidManifest.xml:13:5-71
+MERGED from [com.mesibo.api:mediapicker:1.6.1] C:\Users\boxla\.gradle\caches\transforms-2\files-2.1\14f9cf399f9989124995645a8626efbc\jetified-mediapicker-1.6.1\AndroidManifest.xml:13:5-71
+MERGED from [com.mesibo.api:calls:1.9.53] C:\Users\boxla\.gradle\caches\transforms-2\files-2.1\429c037de8ef8c5c1a67ba2bda63af0c\jetified-calls-1.9.53\AndroidManifest.xml:25:5-71
+MERGED from [com.mesibo.api:calls:1.9.53] C:\Users\boxla\.gradle\caches\transforms-2\files-2.1\429c037de8ef8c5c1a67ba2bda63af0c\jetified-calls-1.9.53\AndroidManifest.xml:25:5-71
+	android:name
+		ADDED from [com.mesibo.api:ui:1.9.53] C:\Users\boxla\.gradle\caches\transforms-2\files-2.1\1c6a8f9a68f75aef0cd24065bce150a7\jetified-ui-1.9.53\AndroidManifest.xml:12:22-68
+activity#com.mesibo.messaging.MesiboActivity
+ADDED from [com.mesibo.api:ui:1.9.53] C:\Users\boxla\.gradle\caches\transforms-2\files-2.1\1c6a8f9a68f75aef0cd24065bce150a7\jetified-ui-1.9.53\AndroidManifest.xml:15:9-18:59
+	android:windowSoftInputMode
+		ADDED from [com.mesibo.api:ui:1.9.53] C:\Users\boxla\.gradle\caches\transforms-2\files-2.1\1c6a8f9a68f75aef0cd24065bce150a7\jetified-ui-1.9.53\AndroidManifest.xml:18:13-56
+	android:theme
+		ADDED from [com.mesibo.api:ui:1.9.53] C:\Users\boxla\.gradle\caches\transforms-2\files-2.1\1c6a8f9a68f75aef0cd24065bce150a7\jetified-ui-1.9.53\AndroidManifest.xml:17:13-50
+	android:name
+		ADDED from [com.mesibo.api:ui:1.9.53] C:\Users\boxla\.gradle\caches\transforms-2\files-2.1\1c6a8f9a68f75aef0cd24065bce150a7\jetified-ui-1.9.53\AndroidManifest.xml:16:13-63
+activity#com.mesibo.messaging.MessagingActivityNew
+ADDED from [com.mesibo.api:ui:1.9.53] C:\Users\boxla\.gradle\caches\transforms-2\files-2.1\1c6a8f9a68f75aef0cd24065bce150a7\jetified-ui-1.9.53\AndroidManifest.xml:19:9-21:53
+	android:theme
+		ADDED from [com.mesibo.api:ui:1.9.53] C:\Users\boxla\.gradle\caches\transforms-2\files-2.1\1c6a8f9a68f75aef0cd24065bce150a7\jetified-ui-1.9.53\AndroidManifest.xml:21:13-50
+	android:name
+		ADDED from [com.mesibo.api:ui:1.9.53] C:\Users\boxla\.gradle\caches\transforms-2\files-2.1\1c6a8f9a68f75aef0cd24065bce150a7\jetified-ui-1.9.53\AndroidManifest.xml:20:13-69
+activity#com.mesibo.messaging.CreateNewGroupActivity
+ADDED from [com.mesibo.api:ui:1.9.53] C:\Users\boxla\.gradle\caches\transforms-2\files-2.1\1c6a8f9a68f75aef0cd24065bce150a7\jetified-ui-1.9.53\AndroidManifest.xml:22:9-24:55
+	android:theme
+		ADDED from [com.mesibo.api:ui:1.9.53] C:\Users\boxla\.gradle\caches\transforms-2\files-2.1\1c6a8f9a68f75aef0cd24065bce150a7\jetified-ui-1.9.53\AndroidManifest.xml:24:13-52
+	android:name
+		ADDED from [com.mesibo.api:ui:1.9.53] C:\Users\boxla\.gradle\caches\transforms-2\files-2.1\1c6a8f9a68f75aef0cd24065bce150a7\jetified-ui-1.9.53\AndroidManifest.xml:23:13-71
+activity#com.mesibo.messaging.MesiboEndToEndEncryptionActivity
+ADDED from [com.mesibo.api:ui:1.9.53] C:\Users\boxla\.gradle\caches\transforms-2\files-2.1\1c6a8f9a68f75aef0cd24065bce150a7\jetified-ui-1.9.53\AndroidManifest.xml:25:9-27:53
+	android:theme
+		ADDED from [com.mesibo.api:ui:1.9.53] C:\Users\boxla\.gradle\caches\transforms-2\files-2.1\1c6a8f9a68f75aef0cd24065bce150a7\jetified-ui-1.9.53\AndroidManifest.xml:27:13-50
+	android:name
+		ADDED from [com.mesibo.api:ui:1.9.53] C:\Users\boxla\.gradle\caches\transforms-2\files-2.1\1c6a8f9a68f75aef0cd24065bce150a7\jetified-ui-1.9.53\AndroidManifest.xml:26:13-81
+activity#com.mesibo.messaging.MesiboMapActivity
+ADDED from [com.mesibo.api:ui:1.9.53] C:\Users\boxla\.gradle\caches\transforms-2\files-2.1\1c6a8f9a68f75aef0cd24065bce150a7\jetified-ui-1.9.53\AndroidManifest.xml:28:9-30:53
+	android:theme
+		ADDED from [com.mesibo.api:ui:1.9.53] C:\Users\boxla\.gradle\caches\transforms-2\files-2.1\1c6a8f9a68f75aef0cd24065bce150a7\jetified-ui-1.9.53\AndroidManifest.xml:30:13-50
+	android:name
+		ADDED from [com.mesibo.api:ui:1.9.53] C:\Users\boxla\.gradle\caches\transforms-2\files-2.1\1c6a8f9a68f75aef0cd24065bce150a7\jetified-ui-1.9.53\AndroidManifest.xml:29:13-66
+activity#com.mesibo.calls.ui.CallLogs.CallLogsActivity
+ADDED from [com.mesibo.api:callui:1.9.53] C:\Users\boxla\.gradle\caches\transforms-2\files-2.1\6ccc9ff5db4e4f16ad49b79b503fa9ce\jetified-callui-1.9.53\AndroidManifest.xml:12:9-17:63
+	android:screenOrientation
+		ADDED from [com.mesibo.api:callui:1.9.53] C:\Users\boxla\.gradle\caches\transforms-2\files-2.1\6ccc9ff5db4e4f16ad49b79b503fa9ce\jetified-callui-1.9.53\AndroidManifest.xml:15:13-49
+	android:windowSoftInputMode
+		ADDED from [com.mesibo.api:callui:1.9.53] C:\Users\boxla\.gradle\caches\transforms-2\files-2.1\6ccc9ff5db4e4f16ad49b79b503fa9ce\jetified-callui-1.9.53\AndroidManifest.xml:17:13-60
+	android:configChanges
+		ADDED from [com.mesibo.api:callui:1.9.53] C:\Users\boxla\.gradle\caches\transforms-2\files-2.1\6ccc9ff5db4e4f16ad49b79b503fa9ce\jetified-callui-1.9.53\AndroidManifest.xml:14:13-63
+	android:theme
+		ADDED from [com.mesibo.api:callui:1.9.53] C:\Users\boxla\.gradle\caches\transforms-2\files-2.1\6ccc9ff5db4e4f16ad49b79b503fa9ce\jetified-callui-1.9.53\AndroidManifest.xml:16:13-57
+	android:name
+		ADDED from [com.mesibo.api:callui:1.9.53] C:\Users\boxla\.gradle\caches\transforms-2\files-2.1\6ccc9ff5db4e4f16ad49b79b503fa9ce\jetified-callui-1.9.53\AndroidManifest.xml:13:13-73
+activity#com.mesibo.calls.ui.CallLogs.CallLogsDetailsActivity
+ADDED from [com.mesibo.api:callui:1.9.53] C:\Users\boxla\.gradle\caches\transforms-2\files-2.1\6ccc9ff5db4e4f16ad49b79b503fa9ce\jetified-callui-1.9.53\AndroidManifest.xml:18:9-23:63
+	android:screenOrientation
+		ADDED from [com.mesibo.api:callui:1.9.53] C:\Users\boxla\.gradle\caches\transforms-2\files-2.1\6ccc9ff5db4e4f16ad49b79b503fa9ce\jetified-callui-1.9.53\AndroidManifest.xml:21:13-49
+	android:windowSoftInputMode
+		ADDED from [com.mesibo.api:callui:1.9.53] C:\Users\boxla\.gradle\caches\transforms-2\files-2.1\6ccc9ff5db4e4f16ad49b79b503fa9ce\jetified-callui-1.9.53\AndroidManifest.xml:23:13-60
+	android:configChanges
+		ADDED from [com.mesibo.api:callui:1.9.53] C:\Users\boxla\.gradle\caches\transforms-2\files-2.1\6ccc9ff5db4e4f16ad49b79b503fa9ce\jetified-callui-1.9.53\AndroidManifest.xml:20:13-63
+	android:theme
+		ADDED from [com.mesibo.api:callui:1.9.53] C:\Users\boxla\.gradle\caches\transforms-2\files-2.1\6ccc9ff5db4e4f16ad49b79b503fa9ce\jetified-callui-1.9.53\AndroidManifest.xml:22:13-64
+	android:name
+		ADDED from [com.mesibo.api:callui:1.9.53] C:\Users\boxla\.gradle\caches\transforms-2\files-2.1\6ccc9ff5db4e4f16ad49b79b503fa9ce\jetified-callui-1.9.53\AndroidManifest.xml:19:13-80
+uses-permission#android.permission.STORAGE
+ADDED from [com.mesibo.api:mediapicker:1.6.1] C:\Users\boxla\.gradle\caches\transforms-2\files-2.1\14f9cf399f9989124995645a8626efbc\jetified-mediapicker-1.6.1\AndroidManifest.xml:10:5-66
+	android:name
+		ADDED from [com.mesibo.api:mediapicker:1.6.1] C:\Users\boxla\.gradle\caches\transforms-2\files-2.1\14f9cf399f9989124995645a8626efbc\jetified-mediapicker-1.6.1\AndroidManifest.xml:10:22-63
+activity#com.mesibo.mediapicker.AlbumStartActivity
+ADDED from [com.mesibo.api:mediapicker:1.6.1] C:\Users\boxla\.gradle\caches\transforms-2\files-2.1\14f9cf399f9989124995645a8626efbc\jetified-mediapicker-1.6.1\AndroidManifest.xml:16:9-19:59
+	android:label
+		ADDED from [com.mesibo.api:mediapicker:1.6.1] C:\Users\boxla\.gradle\caches\transforms-2\files-2.1\14f9cf399f9989124995645a8626efbc\jetified-mediapicker-1.6.1\AndroidManifest.xml:18:13-66
+	android:theme
+		ADDED from [com.mesibo.api:mediapicker:1.6.1] C:\Users\boxla\.gradle\caches\transforms-2\files-2.1\14f9cf399f9989124995645a8626efbc\jetified-mediapicker-1.6.1\AndroidManifest.xml:19:13-56
+	android:name
+		ADDED from [com.mesibo.api:mediapicker:1.6.1] C:\Users\boxla\.gradle\caches\transforms-2\files-2.1\14f9cf399f9989124995645a8626efbc\jetified-mediapicker-1.6.1\AndroidManifest.xml:17:13-69
+activity#com.mesibo.mediapicker.zoomVuPictureActivity
+ADDED from [com.mesibo.api:mediapicker:1.6.1] C:\Users\boxla\.gradle\caches\transforms-2\files-2.1\14f9cf399f9989124995645a8626efbc\jetified-mediapicker-1.6.1\AndroidManifest.xml:20:9-23:55
+	android:label
+		ADDED from [com.mesibo.api:mediapicker:1.6.1] C:\Users\boxla\.gradle\caches\transforms-2\files-2.1\14f9cf399f9989124995645a8626efbc\jetified-mediapicker-1.6.1\AndroidManifest.xml:22:13-65
+	android:theme
+		ADDED from [com.mesibo.api:mediapicker:1.6.1] C:\Users\boxla\.gradle\caches\transforms-2\files-2.1\14f9cf399f9989124995645a8626efbc\jetified-mediapicker-1.6.1\AndroidManifest.xml:23:13-52
+	android:name
+		ADDED from [com.mesibo.api:mediapicker:1.6.1] C:\Users\boxla\.gradle\caches\transforms-2\files-2.1\14f9cf399f9989124995645a8626efbc\jetified-mediapicker-1.6.1\AndroidManifest.xml:21:13-72
+activity#com.mesibo.mediapicker.ImageEditor
+ADDED from [com.mesibo.api:mediapicker:1.6.1] C:\Users\boxla\.gradle\caches\transforms-2\files-2.1\14f9cf399f9989124995645a8626efbc\jetified-mediapicker-1.6.1\AndroidManifest.xml:24:9-27:70
+	android:windowSoftInputMode
+		ADDED from [com.mesibo.api:mediapicker:1.6.1] C:\Users\boxla\.gradle\caches\transforms-2\files-2.1\14f9cf399f9989124995645a8626efbc\jetified-mediapicker-1.6.1\AndroidManifest.xml:27:13-67
+	android:theme
+		ADDED from [com.mesibo.api:mediapicker:1.6.1] C:\Users\boxla\.gradle\caches\transforms-2\files-2.1\14f9cf399f9989124995645a8626efbc\jetified-mediapicker-1.6.1\AndroidManifest.xml:26:13-52
+	android:name
+		ADDED from [com.mesibo.api:mediapicker:1.6.1] C:\Users\boxla\.gradle\caches\transforms-2\files-2.1\14f9cf399f9989124995645a8626efbc\jetified-mediapicker-1.6.1\AndroidManifest.xml:25:13-62
+provider#com.mesibo.mediapicker.MediaPickerFileProvider
+ADDED from [com.mesibo.api:mediapicker:1.6.1] C:\Users\boxla\.gradle\caches\transforms-2\files-2.1\14f9cf399f9989124995645a8626efbc\jetified-mediapicker-1.6.1\AndroidManifest.xml:30:9-38:20
+	android:grantUriPermissions
+		ADDED from [com.mesibo.api:mediapicker:1.6.1] C:\Users\boxla\.gradle\caches\transforms-2\files-2.1\14f9cf399f9989124995645a8626efbc\jetified-mediapicker-1.6.1\AndroidManifest.xml:34:13-47
+	android:authorities
+		ADDED from [com.mesibo.api:mediapicker:1.6.1] C:\Users\boxla\.gradle\caches\transforms-2\files-2.1\14f9cf399f9989124995645a8626efbc\jetified-mediapicker-1.6.1\AndroidManifest.xml:32:13-74
+	android:exported
+		ADDED from [com.mesibo.api:mediapicker:1.6.1] C:\Users\boxla\.gradle\caches\transforms-2\files-2.1\14f9cf399f9989124995645a8626efbc\jetified-mediapicker-1.6.1\AndroidManifest.xml:33:13-37
+	android:name
+		ADDED from [com.mesibo.api:mediapicker:1.6.1] C:\Users\boxla\.gradle\caches\transforms-2\files-2.1\14f9cf399f9989124995645a8626efbc\jetified-mediapicker-1.6.1\AndroidManifest.xml:31:13-74
+meta-data#android.support.FILE_PROVIDER_PATHS
+ADDED from [com.mesibo.api:mediapicker:1.6.1] C:\Users\boxla\.gradle\caches\transforms-2\files-2.1\14f9cf399f9989124995645a8626efbc\jetified-mediapicker-1.6.1\AndroidManifest.xml:35:13-37:58
+	android:resource
+		ADDED from [com.mesibo.api:mediapicker:1.6.1] C:\Users\boxla\.gradle\caches\transforms-2\files-2.1\14f9cf399f9989124995645a8626efbc\jetified-mediapicker-1.6.1\AndroidManifest.xml:37:17-55
+	android:name
+		ADDED from [com.mesibo.api:mediapicker:1.6.1] C:\Users\boxla\.gradle\caches\transforms-2\files-2.1\14f9cf399f9989124995645a8626efbc\jetified-mediapicker-1.6.1\AndroidManifest.xml:36:17-67
+uses-permission#android.permission.SYSTEM_ALERT_WINDOW
+ADDED from [com.mesibo.api:calls:1.9.53] C:\Users\boxla\.gradle\caches\transforms-2\files-2.1\429c037de8ef8c5c1a67ba2bda63af0c\jetified-calls-1.9.53\AndroidManifest.xml:9:5-78
+	android:name
+		ADDED from [com.mesibo.api:calls:1.9.53] C:\Users\boxla\.gradle\caches\transforms-2\files-2.1\429c037de8ef8c5c1a67ba2bda63af0c\jetified-calls-1.9.53\AndroidManifest.xml:9:22-75
+uses-permission#android.permission.ACTION_MANAGE_OVERLAY_PERMISSION
+ADDED from [com.mesibo.api:calls:1.9.53] C:\Users\boxla\.gradle\caches\transforms-2\files-2.1\429c037de8ef8c5c1a67ba2bda63af0c\jetified-calls-1.9.53\AndroidManifest.xml:10:5-91
+	android:name
+		ADDED from [com.mesibo.api:calls:1.9.53] C:\Users\boxla\.gradle\caches\transforms-2\files-2.1\429c037de8ef8c5c1a67ba2bda63af0c\jetified-calls-1.9.53\AndroidManifest.xml:10:22-88
+uses-feature#android.hardware.telephony
+ADDED from [com.mesibo.api:calls:1.9.53] C:\Users\boxla\.gradle\caches\transforms-2\files-2.1\429c037de8ef8c5c1a67ba2bda63af0c\jetified-calls-1.9.53\AndroidManifest.xml:12:5-14:36
+MERGED from [com.mesibo.api:ContactUtils:1.6.3] C:\Users\boxla\.gradle\caches\transforms-2\files-2.1\d2a6372232edd32ff0b5bb7a63802707\jetified-ContactUtils-1.6.3\AndroidManifest.xml:13:5-15:36
+MERGED from [com.mesibo.api:ContactUtils:1.6.3] C:\Users\boxla\.gradle\caches\transforms-2\files-2.1\d2a6372232edd32ff0b5bb7a63802707\jetified-ContactUtils-1.6.3\AndroidManifest.xml:13:5-15:36
+	android:required
+		ADDED from [com.mesibo.api:calls:1.9.53] C:\Users\boxla\.gradle\caches\transforms-2\files-2.1\429c037de8ef8c5c1a67ba2bda63af0c\jetified-calls-1.9.53\AndroidManifest.xml:14:9-33
+	android:name
+		ADDED from [com.mesibo.api:calls:1.9.53] C:\Users\boxla\.gradle\caches\transforms-2\files-2.1\429c037de8ef8c5c1a67ba2bda63af0c\jetified-calls-1.9.53\AndroidManifest.xml:13:9-50
+uses-feature#android.hardware.bluetooth
+ADDED from [com.mesibo.api:calls:1.9.53] C:\Users\boxla\.gradle\caches\transforms-2\files-2.1\429c037de8ef8c5c1a67ba2bda63af0c\jetified-calls-1.9.53\AndroidManifest.xml:15:5-17:36
+MERGED from [com.mesibo.api:ContactUtils:1.6.3] C:\Users\boxla\.gradle\caches\transforms-2\files-2.1\d2a6372232edd32ff0b5bb7a63802707\jetified-ContactUtils-1.6.3\AndroidManifest.xml:25:5-27:36
+MERGED from [com.mesibo.api:ContactUtils:1.6.3] C:\Users\boxla\.gradle\caches\transforms-2\files-2.1\d2a6372232edd32ff0b5bb7a63802707\jetified-ContactUtils-1.6.3\AndroidManifest.xml:25:5-27:36
+	android:required
+		ADDED from [com.mesibo.api:calls:1.9.53] C:\Users\boxla\.gradle\caches\transforms-2\files-2.1\429c037de8ef8c5c1a67ba2bda63af0c\jetified-calls-1.9.53\AndroidManifest.xml:17:9-33
+	android:name
+		ADDED from [com.mesibo.api:calls:1.9.53] C:\Users\boxla\.gradle\caches\transforms-2\files-2.1\429c037de8ef8c5c1a67ba2bda63af0c\jetified-calls-1.9.53\AndroidManifest.xml:16:9-50
+uses-permission#android.permission.BLUETOOTH
+ADDED from [com.mesibo.api:calls:1.9.53] C:\Users\boxla\.gradle\caches\transforms-2\files-2.1\429c037de8ef8c5c1a67ba2bda63af0c\jetified-calls-1.9.53\AndroidManifest.xml:19:5-68
+	android:name
+		ADDED from [com.mesibo.api:calls:1.9.53] C:\Users\boxla\.gradle\caches\transforms-2\files-2.1\429c037de8ef8c5c1a67ba2bda63af0c\jetified-calls-1.9.53\AndroidManifest.xml:19:22-65
+uses-permission#android.permission.BLUETOOTH_ADMIN
+ADDED from [com.mesibo.api:calls:1.9.53] C:\Users\boxla\.gradle\caches\transforms-2\files-2.1\429c037de8ef8c5c1a67ba2bda63af0c\jetified-calls-1.9.53\AndroidManifest.xml:20:5-74
+	android:name
+		ADDED from [com.mesibo.api:calls:1.9.53] C:\Users\boxla\.gradle\caches\transforms-2\files-2.1\429c037de8ef8c5c1a67ba2bda63af0c\jetified-calls-1.9.53\AndroidManifest.xml:20:22-71
+uses-permission#android.permission.BLUETOOTH_CONNECT
+ADDED from [com.mesibo.api:calls:1.9.53] C:\Users\boxla\.gradle\caches\transforms-2\files-2.1\429c037de8ef8c5c1a67ba2bda63af0c\jetified-calls-1.9.53\AndroidManifest.xml:21:5-76
+	android:name
+		ADDED from [com.mesibo.api:calls:1.9.53] C:\Users\boxla\.gradle\caches\transforms-2\files-2.1\429c037de8ef8c5c1a67ba2bda63af0c\jetified-calls-1.9.53\AndroidManifest.xml:21:22-73
+uses-permission#android.permission.MANAGE_OWN_CALLS
+ADDED from [com.mesibo.api:calls:1.9.53] C:\Users\boxla\.gradle\caches\transforms-2\files-2.1\429c037de8ef8c5c1a67ba2bda63af0c\jetified-calls-1.9.53\AndroidManifest.xml:23:5-75
+	android:name
+		ADDED from [com.mesibo.api:calls:1.9.53] C:\Users\boxla\.gradle\caches\transforms-2\files-2.1\429c037de8ef8c5c1a67ba2bda63af0c\jetified-calls-1.9.53\AndroidManifest.xml:23:22-72
+uses-permission#android.permission.MODIFY_AUDIO_SETTINGS
+ADDED from [com.mesibo.api:calls:1.9.53] C:\Users\boxla\.gradle\caches\transforms-2\files-2.1\429c037de8ef8c5c1a67ba2bda63af0c\jetified-calls-1.9.53\AndroidManifest.xml:24:5-80
+	android:name
+		ADDED from [com.mesibo.api:calls:1.9.53] C:\Users\boxla\.gradle\caches\transforms-2\files-2.1\429c037de8ef8c5c1a67ba2bda63af0c\jetified-calls-1.9.53\AndroidManifest.xml:24:22-77
+uses-permission#android.permission.USE_CREDENTIALS
+ADDED from [com.mesibo.api:calls:1.9.53] C:\Users\boxla\.gradle\caches\transforms-2\files-2.1\429c037de8ef8c5c1a67ba2bda63af0c\jetified-calls-1.9.53\AndroidManifest.xml:26:5-74
+	android:name
+		ADDED from [com.mesibo.api:calls:1.9.53] C:\Users\boxla\.gradle\caches\transforms-2\files-2.1\429c037de8ef8c5c1a67ba2bda63af0c\jetified-calls-1.9.53\AndroidManifest.xml:26:22-71
+uses-permission#android.permission.VIBRATE
+ADDED from [com.mesibo.api:calls:1.9.53] C:\Users\boxla\.gradle\caches\transforms-2\files-2.1\429c037de8ef8c5c1a67ba2bda63af0c\jetified-calls-1.9.53\AndroidManifest.xml:27:5-66
+	android:name
+		ADDED from [com.mesibo.api:calls:1.9.53] C:\Users\boxla\.gradle\caches\transforms-2\files-2.1\429c037de8ef8c5c1a67ba2bda63af0c\jetified-calls-1.9.53\AndroidManifest.xml:27:22-63
+uses-feature#android.hardware.camera
+ADDED from [com.mesibo.api:calls:1.9.53] C:\Users\boxla\.gradle\caches\transforms-2\files-2.1\429c037de8ef8c5c1a67ba2bda63af0c\jetified-calls-1.9.53\AndroidManifest.xml:30:5-32:36
+	android:required
+		ADDED from [com.mesibo.api:calls:1.9.53] C:\Users\boxla\.gradle\caches\transforms-2\files-2.1\429c037de8ef8c5c1a67ba2bda63af0c\jetified-calls-1.9.53\AndroidManifest.xml:32:9-33
+	android:name
+		ADDED from [com.mesibo.api:calls:1.9.53] C:\Users\boxla\.gradle\caches\transforms-2\files-2.1\429c037de8ef8c5c1a67ba2bda63af0c\jetified-calls-1.9.53\AndroidManifest.xml:31:9-47
+uses-feature#android.hardware.camera.autofocus
+ADDED from [com.mesibo.api:calls:1.9.53] C:\Users\boxla\.gradle\caches\transforms-2\files-2.1\429c037de8ef8c5c1a67ba2bda63af0c\jetified-calls-1.9.53\AndroidManifest.xml:33:5-35:36
+	android:required
+		ADDED from [com.mesibo.api:calls:1.9.53] C:\Users\boxla\.gradle\caches\transforms-2\files-2.1\429c037de8ef8c5c1a67ba2bda63af0c\jetified-calls-1.9.53\AndroidManifest.xml:35:9-33
+	android:name
+		ADDED from [com.mesibo.api:calls:1.9.53] C:\Users\boxla\.gradle\caches\transforms-2\files-2.1\429c037de8ef8c5c1a67ba2bda63af0c\jetified-calls-1.9.53\AndroidManifest.xml:34:9-57
+uses-feature#0x00020000
+ADDED from [com.mesibo.api:calls:1.9.53] C:\Users\boxla\.gradle\caches\transforms-2\files-2.1\429c037de8ef8c5c1a67ba2bda63af0c\jetified-calls-1.9.53\AndroidManifest.xml:36:5-38:35
+MERGED from [com.google.android.gms:play-services-maps:17.0.0] C:\Users\boxla\.gradle\caches\transforms-2\files-2.1\09b6dd3e7c87a3d12384e8a4a2a85e44\jetified-play-services-maps-17.0.0\AndroidManifest.xml:26:5-28:35
+MERGED from [com.google.android.gms:play-services-maps:17.0.0] C:\Users\boxla\.gradle\caches\transforms-2\files-2.1\09b6dd3e7c87a3d12384e8a4a2a85e44\jetified-play-services-maps-17.0.0\AndroidManifest.xml:26:5-28:35
+	android:glEsVersion
+		ADDED from [com.mesibo.api:calls:1.9.53] C:\Users\boxla\.gradle\caches\transforms-2\files-2.1\429c037de8ef8c5c1a67ba2bda63af0c\jetified-calls-1.9.53\AndroidManifest.xml:37:9-41
+	android:required
+		ADDED from [com.mesibo.api:calls:1.9.53] C:\Users\boxla\.gradle\caches\transforms-2\files-2.1\429c037de8ef8c5c1a67ba2bda63af0c\jetified-calls-1.9.53\AndroidManifest.xml:38:9-32
+uses-permission#android.permission.FOREGROUND_SERVICE
+ADDED from [com.mesibo.api:calls:1.9.53] C:\Users\boxla\.gradle\caches\transforms-2\files-2.1\429c037de8ef8c5c1a67ba2bda63af0c\jetified-calls-1.9.53\AndroidManifest.xml:42:5-77
+	android:name
+		ADDED from [com.mesibo.api:calls:1.9.53] C:\Users\boxla\.gradle\caches\transforms-2\files-2.1\429c037de8ef8c5c1a67ba2bda63af0c\jetified-calls-1.9.53\AndroidManifest.xml:42:22-74
+service#com.mesibo.calls.api.MesiboScreenSharingService
+ADDED from [com.mesibo.api:calls:1.9.53] C:\Users\boxla\.gradle\caches\transforms-2\files-2.1\429c037de8ef8c5c1a67ba2bda63af0c\jetified-calls-1.9.53\AndroidManifest.xml:46:9-50:63
+	android:enabled
+		ADDED from [com.mesibo.api:calls:1.9.53] C:\Users\boxla\.gradle\caches\transforms-2\files-2.1\429c037de8ef8c5c1a67ba2bda63af0c\jetified-calls-1.9.53\AndroidManifest.xml:48:13-35
+	android:exported
+		ADDED from [com.mesibo.api:calls:1.9.53] C:\Users\boxla\.gradle\caches\transforms-2\files-2.1\429c037de8ef8c5c1a67ba2bda63af0c\jetified-calls-1.9.53\AndroidManifest.xml:49:13-36
+	android:foregroundServiceType
+		ADDED from [com.mesibo.api:calls:1.9.53] C:\Users\boxla\.gradle\caches\transforms-2\files-2.1\429c037de8ef8c5c1a67ba2bda63af0c\jetified-calls-1.9.53\AndroidManifest.xml:50:13-60
+	android:name
+		ADDED from [com.mesibo.api:calls:1.9.53] C:\Users\boxla\.gradle\caches\transforms-2\files-2.1\429c037de8ef8c5c1a67ba2bda63af0c\jetified-calls-1.9.53\AndroidManifest.xml:47:13-75
+service#com.mesibo.calls.api.MesiboRingtoneService
+ADDED from [com.mesibo.api:calls:1.9.53] C:\Users\boxla\.gradle\caches\transforms-2\files-2.1\429c037de8ef8c5c1a67ba2bda63af0c\jetified-calls-1.9.53\AndroidManifest.xml:51:9-55:61
+	android:enabled
+		ADDED from [com.mesibo.api:calls:1.9.53] C:\Users\boxla\.gradle\caches\transforms-2\files-2.1\429c037de8ef8c5c1a67ba2bda63af0c\jetified-calls-1.9.53\AndroidManifest.xml:53:13-35
+	android:exported
+		ADDED from [com.mesibo.api:calls:1.9.53] C:\Users\boxla\.gradle\caches\transforms-2\files-2.1\429c037de8ef8c5c1a67ba2bda63af0c\jetified-calls-1.9.53\AndroidManifest.xml:54:13-36
+	android:foregroundServiceType
+		ADDED from [com.mesibo.api:calls:1.9.53] C:\Users\boxla\.gradle\caches\transforms-2\files-2.1\429c037de8ef8c5c1a67ba2bda63af0c\jetified-calls-1.9.53\AndroidManifest.xml:55:13-58
+	android:name
+		ADDED from [com.mesibo.api:calls:1.9.53] C:\Users\boxla\.gradle\caches\transforms-2\files-2.1\429c037de8ef8c5c1a67ba2bda63af0c\jetified-calls-1.9.53\AndroidManifest.xml:52:13-70
+receiver#com.mesibo.calls.api.MesiboCallsReceiver
+ADDED from [com.mesibo.api:calls:1.9.53] C:\Users\boxla\.gradle\caches\transforms-2\files-2.1\429c037de8ef8c5c1a67ba2bda63af0c\jetified-calls-1.9.53\AndroidManifest.xml:57:9-60:39
+	android:enabled
+		ADDED from [com.mesibo.api:calls:1.9.53] C:\Users\boxla\.gradle\caches\transforms-2\files-2.1\429c037de8ef8c5c1a67ba2bda63af0c\jetified-calls-1.9.53\AndroidManifest.xml:59:13-35
+	android:exported
+		ADDED from [com.mesibo.api:calls:1.9.53] C:\Users\boxla\.gradle\caches\transforms-2\files-2.1\429c037de8ef8c5c1a67ba2bda63af0c\jetified-calls-1.9.53\AndroidManifest.xml:60:13-36
+	android:name
+		ADDED from [com.mesibo.api:calls:1.9.53] C:\Users\boxla\.gradle\caches\transforms-2\files-2.1\429c037de8ef8c5c1a67ba2bda63af0c\jetified-calls-1.9.53\AndroidManifest.xml:58:13-68
+activity#com.mesibo.calls.api.MesiboCallActivity
+ADDED from [com.mesibo.api:calls:1.9.53] C:\Users\boxla\.gradle\caches\transforms-2\files-2.1\429c037de8ef8c5c1a67ba2bda63af0c\jetified-calls-1.9.53\AndroidManifest.xml:62:9-66:63
+	android:screenOrientation
+		ADDED from [com.mesibo.api:calls:1.9.53] C:\Users\boxla\.gradle\caches\transforms-2\files-2.1\429c037de8ef8c5c1a67ba2bda63af0c\jetified-calls-1.9.53\AndroidManifest.xml:65:13-49
+	android:windowSoftInputMode
+		ADDED from [com.mesibo.api:calls:1.9.53] C:\Users\boxla\.gradle\caches\transforms-2\files-2.1\429c037de8ef8c5c1a67ba2bda63af0c\jetified-calls-1.9.53\AndroidManifest.xml:66:13-60
+	android:configChanges
+		ADDED from [com.mesibo.api:calls:1.9.53] C:\Users\boxla\.gradle\caches\transforms-2\files-2.1\429c037de8ef8c5c1a67ba2bda63af0c\jetified-calls-1.9.53\AndroidManifest.xml:64:13-91
+	android:name
+		ADDED from [com.mesibo.api:calls:1.9.53] C:\Users\boxla\.gradle\caches\transforms-2\files-2.1\429c037de8ef8c5c1a67ba2bda63af0c\jetified-calls-1.9.53\AndroidManifest.xml:63:13-67
+activity#com.mesibo.calls.api.ui.MesiboDefaultCallActivity
+ADDED from [com.mesibo.api:calls:1.9.53] C:\Users\boxla\.gradle\caches\transforms-2\files-2.1\429c037de8ef8c5c1a67ba2bda63af0c\jetified-calls-1.9.53\AndroidManifest.xml:67:9-75:63
+	android:screenOrientation
+		ADDED from [com.mesibo.api:calls:1.9.53] C:\Users\boxla\.gradle\caches\transforms-2\files-2.1\429c037de8ef8c5c1a67ba2bda63af0c\jetified-calls-1.9.53\AndroidManifest.xml:70:13-49
+	android:windowNoTitle
+		ADDED from [com.mesibo.api:calls:1.9.53] C:\Users\boxla\.gradle\caches\transforms-2\files-2.1\429c037de8ef8c5c1a67ba2bda63af0c\jetified-calls-1.9.53\AndroidManifest.xml:74:13-41
+	android:windowActionBar
+		ADDED from [com.mesibo.api:calls:1.9.53] C:\Users\boxla\.gradle\caches\transforms-2\files-2.1\429c037de8ef8c5c1a67ba2bda63af0c\jetified-calls-1.9.53\AndroidManifest.xml:72:13-44
+	android:windowSoftInputMode
+		ADDED from [com.mesibo.api:calls:1.9.53] C:\Users\boxla\.gradle\caches\transforms-2\files-2.1\429c037de8ef8c5c1a67ba2bda63af0c\jetified-calls-1.9.53\AndroidManifest.xml:75:13-60
+	android:configChanges
+		ADDED from [com.mesibo.api:calls:1.9.53] C:\Users\boxla\.gradle\caches\transforms-2\files-2.1\429c037de8ef8c5c1a67ba2bda63af0c\jetified-calls-1.9.53\AndroidManifest.xml:69:13-63
+	android:windowFullscreen
+		ADDED from [com.mesibo.api:calls:1.9.53] C:\Users\boxla\.gradle\caches\transforms-2\files-2.1\429c037de8ef8c5c1a67ba2bda63af0c\jetified-calls-1.9.53\AndroidManifest.xml:73:13-44
+	android:theme
+		ADDED from [com.mesibo.api:calls:1.9.53] C:\Users\boxla\.gradle\caches\transforms-2\files-2.1\429c037de8ef8c5c1a67ba2bda63af0c\jetified-calls-1.9.53\AndroidManifest.xml:71:13-65
+	android:name
+		ADDED from [com.mesibo.api:calls:1.9.53] C:\Users\boxla\.gradle\caches\transforms-2\files-2.1\429c037de8ef8c5c1a67ba2bda63af0c\jetified-calls-1.9.53\AndroidManifest.xml:68:13-77
+activity#com.mesibo.calls.api.ui.MesiboDefaultGroupCallActivity
+ADDED from [com.mesibo.api:calls:1.9.53] C:\Users\boxla\.gradle\caches\transforms-2\files-2.1\429c037de8ef8c5c1a67ba2bda63af0c\jetified-calls-1.9.53\AndroidManifest.xml:76:9-84:63
+	android:screenOrientation
+		ADDED from [com.mesibo.api:calls:1.9.53] C:\Users\boxla\.gradle\caches\transforms-2\files-2.1\429c037de8ef8c5c1a67ba2bda63af0c\jetified-calls-1.9.53\AndroidManifest.xml:79:13-49
+	android:windowNoTitle
+		ADDED from [com.mesibo.api:calls:1.9.53] C:\Users\boxla\.gradle\caches\transforms-2\files-2.1\429c037de8ef8c5c1a67ba2bda63af0c\jetified-calls-1.9.53\AndroidManifest.xml:83:13-41
+	android:windowActionBar
+		ADDED from [com.mesibo.api:calls:1.9.53] C:\Users\boxla\.gradle\caches\transforms-2\files-2.1\429c037de8ef8c5c1a67ba2bda63af0c\jetified-calls-1.9.53\AndroidManifest.xml:81:13-44
+	android:windowSoftInputMode
+		ADDED from [com.mesibo.api:calls:1.9.53] C:\Users\boxla\.gradle\caches\transforms-2\files-2.1\429c037de8ef8c5c1a67ba2bda63af0c\jetified-calls-1.9.53\AndroidManifest.xml:84:13-60
+	android:configChanges
+		ADDED from [com.mesibo.api:calls:1.9.53] C:\Users\boxla\.gradle\caches\transforms-2\files-2.1\429c037de8ef8c5c1a67ba2bda63af0c\jetified-calls-1.9.53\AndroidManifest.xml:78:13-63
+	android:windowFullscreen
+		ADDED from [com.mesibo.api:calls:1.9.53] C:\Users\boxla\.gradle\caches\transforms-2\files-2.1\429c037de8ef8c5c1a67ba2bda63af0c\jetified-calls-1.9.53\AndroidManifest.xml:82:13-44
+	android:theme
+		ADDED from [com.mesibo.api:calls:1.9.53] C:\Users\boxla\.gradle\caches\transforms-2\files-2.1\429c037de8ef8c5c1a67ba2bda63af0c\jetified-calls-1.9.53\AndroidManifest.xml:80:13-65
+	android:name
+		ADDED from [com.mesibo.api:calls:1.9.53] C:\Users\boxla\.gradle\caches\transforms-2\files-2.1\429c037de8ef8c5c1a67ba2bda63af0c\jetified-calls-1.9.53\AndroidManifest.xml:77:13-82
+activity#com.mesibo.calls.api.ui.MesiboJoinRoomActivity
+ADDED from [com.mesibo.api:calls:1.9.53] C:\Users\boxla\.gradle\caches\transforms-2\files-2.1\429c037de8ef8c5c1a67ba2bda63af0c\jetified-calls-1.9.53\AndroidManifest.xml:85:9-94:20
+	android:screenOrientation
+		ADDED from [com.mesibo.api:calls:1.9.53] C:\Users\boxla\.gradle\caches\transforms-2\files-2.1\429c037de8ef8c5c1a67ba2bda63af0c\jetified-calls-1.9.53\AndroidManifest.xml:88:13-49
+	android:windowNoTitle
+		ADDED from [com.mesibo.api:calls:1.9.53] C:\Users\boxla\.gradle\caches\transforms-2\files-2.1\429c037de8ef8c5c1a67ba2bda63af0c\jetified-calls-1.9.53\AndroidManifest.xml:92:13-41
+	android:label
+		ADDED from [com.mesibo.api:calls:1.9.53] C:\Users\boxla\.gradle\caches\transforms-2\files-2.1\429c037de8ef8c5c1a67ba2bda63af0c\jetified-calls-1.9.53\AndroidManifest.xml:87:13-45
+	android:windowActionBar
+		ADDED from [com.mesibo.api:calls:1.9.53] C:\Users\boxla\.gradle\caches\transforms-2\files-2.1\429c037de8ef8c5c1a67ba2bda63af0c\jetified-calls-1.9.53\AndroidManifest.xml:90:13-44
+	android:windowSoftInputMode
+		ADDED from [com.mesibo.api:calls:1.9.53] C:\Users\boxla\.gradle\caches\transforms-2\files-2.1\429c037de8ef8c5c1a67ba2bda63af0c\jetified-calls-1.9.53\AndroidManifest.xml:93:13-60
+	android:windowFullscreen
+		ADDED from [com.mesibo.api:calls:1.9.53] C:\Users\boxla\.gradle\caches\transforms-2\files-2.1\429c037de8ef8c5c1a67ba2bda63af0c\jetified-calls-1.9.53\AndroidManifest.xml:91:13-44
+	android:theme
+		ADDED from [com.mesibo.api:calls:1.9.53] C:\Users\boxla\.gradle\caches\transforms-2\files-2.1\429c037de8ef8c5c1a67ba2bda63af0c\jetified-calls-1.9.53\AndroidManifest.xml:89:13-65
+	android:name
+		ADDED from [com.mesibo.api:calls:1.9.53] C:\Users\boxla\.gradle\caches\transforms-2\files-2.1\429c037de8ef8c5c1a67ba2bda63af0c\jetified-calls-1.9.53\AndroidManifest.xml:86:13-74
+service#com.mesibo.calls.api.MesiboConnectionService
+ADDED from [com.mesibo.api:calls:1.9.53] C:\Users\boxla\.gradle\caches\transforms-2\files-2.1\429c037de8ef8c5c1a67ba2bda63af0c\jetified-calls-1.9.53\AndroidManifest.xml:96:9-104:19
+	android:label
+		ADDED from [com.mesibo.api:calls:1.9.53] C:\Users\boxla\.gradle\caches\transforms-2\files-2.1\429c037de8ef8c5c1a67ba2bda63af0c\jetified-calls-1.9.53\AndroidManifest.xml:99:13-52
+	android:exported
+		ADDED from [com.mesibo.api:calls:1.9.53] C:\Users\boxla\.gradle\caches\transforms-2\files-2.1\429c037de8ef8c5c1a67ba2bda63af0c\jetified-calls-1.9.53\AndroidManifest.xml:98:13-36
+	android:permission
+		ADDED from [com.mesibo.api:calls:1.9.53] C:\Users\boxla\.gradle\caches\transforms-2\files-2.1\429c037de8ef8c5c1a67ba2bda63af0c\jetified-calls-1.9.53\AndroidManifest.xml:100:13-84
+	android:name
+		ADDED from [com.mesibo.api:calls:1.9.53] C:\Users\boxla\.gradle\caches\transforms-2\files-2.1\429c037de8ef8c5c1a67ba2bda63af0c\jetified-calls-1.9.53\AndroidManifest.xml:97:13-72
+intent-filter#action:name:android.telecom.ConnectionService
+ADDED from [com.mesibo.api:calls:1.9.53] C:\Users\boxla\.gradle\caches\transforms-2\files-2.1\429c037de8ef8c5c1a67ba2bda63af0c\jetified-calls-1.9.53\AndroidManifest.xml:101:13-103:29
+action#android.telecom.ConnectionService
+ADDED from [com.mesibo.api:calls:1.9.53] C:\Users\boxla\.gradle\caches\transforms-2\files-2.1\429c037de8ef8c5c1a67ba2bda63af0c\jetified-calls-1.9.53\AndroidManifest.xml:102:17-76
+	android:name
+		ADDED from [com.mesibo.api:calls:1.9.53] C:\Users\boxla\.gradle\caches\transforms-2\files-2.1\429c037de8ef8c5c1a67ba2bda63af0c\jetified-calls-1.9.53\AndroidManifest.xml:102:25-73
+uses-feature#android.hardware.location.network
+ADDED from [com.mesibo.api:ContactUtils:1.6.3] C:\Users\boxla\.gradle\caches\transforms-2\files-2.1\d2a6372232edd32ff0b5bb7a63802707\jetified-ContactUtils-1.6.3\AndroidManifest.xml:16:5-18:36
+	android:required
+		ADDED from [com.mesibo.api:ContactUtils:1.6.3] C:\Users\boxla\.gradle\caches\transforms-2\files-2.1\d2a6372232edd32ff0b5bb7a63802707\jetified-ContactUtils-1.6.3\AndroidManifest.xml:18:9-33
+	android:name
+		ADDED from [com.mesibo.api:ContactUtils:1.6.3] C:\Users\boxla\.gradle\caches\transforms-2\files-2.1\d2a6372232edd32ff0b5bb7a63802707\jetified-ContactUtils-1.6.3\AndroidManifest.xml:17:9-57
+uses-feature#android.hardware.location
+ADDED from [com.mesibo.api:ContactUtils:1.6.3] C:\Users\boxla\.gradle\caches\transforms-2\files-2.1\d2a6372232edd32ff0b5bb7a63802707\jetified-ContactUtils-1.6.3\AndroidManifest.xml:19:5-21:36
+	android:required
+		ADDED from [com.mesibo.api:ContactUtils:1.6.3] C:\Users\boxla\.gradle\caches\transforms-2\files-2.1\d2a6372232edd32ff0b5bb7a63802707\jetified-ContactUtils-1.6.3\AndroidManifest.xml:21:9-33
+	android:name
+		ADDED from [com.mesibo.api:ContactUtils:1.6.3] C:\Users\boxla\.gradle\caches\transforms-2\files-2.1\d2a6372232edd32ff0b5bb7a63802707\jetified-ContactUtils-1.6.3\AndroidManifest.xml:20:9-49
+uses-feature#android.hardware.location.gps
+ADDED from [com.mesibo.api:ContactUtils:1.6.3] C:\Users\boxla\.gradle\caches\transforms-2\files-2.1\d2a6372232edd32ff0b5bb7a63802707\jetified-ContactUtils-1.6.3\AndroidManifest.xml:22:5-24:36
+	android:required
+		ADDED from [com.mesibo.api:ContactUtils:1.6.3] C:\Users\boxla\.gradle\caches\transforms-2\files-2.1\d2a6372232edd32ff0b5bb7a63802707\jetified-ContactUtils-1.6.3\AndroidManifest.xml:24:9-33
+	android:name
+		ADDED from [com.mesibo.api:ContactUtils:1.6.3] C:\Users\boxla\.gradle\caches\transforms-2\files-2.1\d2a6372232edd32ff0b5bb7a63802707\jetified-ContactUtils-1.6.3\AndroidManifest.xml:23:9-53
+uses-feature#android.hardware.wifi
+ADDED from [com.mesibo.api:ContactUtils:1.6.3] C:\Users\boxla\.gradle\caches\transforms-2\files-2.1\d2a6372232edd32ff0b5bb7a63802707\jetified-ContactUtils-1.6.3\AndroidManifest.xml:28:5-30:36
+	android:required
+		ADDED from [com.mesibo.api:ContactUtils:1.6.3] C:\Users\boxla\.gradle\caches\transforms-2\files-2.1\d2a6372232edd32ff0b5bb7a63802707\jetified-ContactUtils-1.6.3\AndroidManifest.xml:30:9-33
+	android:name
+		ADDED from [com.mesibo.api:ContactUtils:1.6.3] C:\Users\boxla\.gradle\caches\transforms-2\files-2.1\d2a6372232edd32ff0b5bb7a63802707\jetified-ContactUtils-1.6.3\AndroidManifest.xml:29:9-45
+uses-permission#com.android.alarm.permission.SET_ALARM
+ADDED from [com.mesibo.api:mesibo:1.9.53] C:\Users\boxla\.gradle\caches\transforms-2\files-2.1\3a0270acd5517463989765cbb330550f\jetified-mesibo-1.9.53\AndroidManifest.xml:14:5-78
+	android:name
+		ADDED from [com.mesibo.api:mesibo:1.9.53] C:\Users\boxla\.gradle\caches\transforms-2\files-2.1\3a0270acd5517463989765cbb330550f\jetified-mesibo-1.9.53\AndroidManifest.xml:14:22-75
+service#com.mesibo.api.MesiboService
+ADDED from [com.mesibo.api:mesibo:1.9.53] C:\Users\boxla\.gradle\caches\transforms-2\files-2.1\3a0270acd5517463989765cbb330550f\jetified-mesibo-1.9.53\AndroidManifest.xml:17:9-21:19
+	android:enabled
+		ADDED from [com.mesibo.api:mesibo:1.9.53] C:\Users\boxla\.gradle\caches\transforms-2\files-2.1\3a0270acd5517463989765cbb330550f\jetified-mesibo-1.9.53\AndroidManifest.xml:19:13-35
+	android:exported
+		ADDED from [com.mesibo.api:mesibo:1.9.53] C:\Users\boxla\.gradle\caches\transforms-2\files-2.1\3a0270acd5517463989765cbb330550f\jetified-mesibo-1.9.53\AndroidManifest.xml:20:13-37
+	android:name
+		ADDED from [com.mesibo.api:mesibo:1.9.53] C:\Users\boxla\.gradle\caches\transforms-2\files-2.1\3a0270acd5517463989765cbb330550f\jetified-mesibo-1.9.53\AndroidManifest.xml:18:13-56
+receiver#com.mesibo.api.GenericReceiver
+ADDED from [com.mesibo.api:mesibo:1.9.53] C:\Users\boxla\.gradle\caches\transforms-2\files-2.1\3a0270acd5517463989765cbb330550f\jetified-mesibo-1.9.53\AndroidManifest.xml:37:9-50:20
+	android:enabled
+		ADDED from [com.mesibo.api:mesibo:1.9.53] C:\Users\boxla\.gradle\caches\transforms-2\files-2.1\3a0270acd5517463989765cbb330550f\jetified-mesibo-1.9.53\AndroidManifest.xml:39:13-35
+	android:exported
+		ADDED from [com.mesibo.api:mesibo:1.9.53] C:\Users\boxla\.gradle\caches\transforms-2\files-2.1\3a0270acd5517463989765cbb330550f\jetified-mesibo-1.9.53\AndroidManifest.xml:40:13-36
+	android:name
+		ADDED from [com.mesibo.api:mesibo:1.9.53] C:\Users\boxla\.gradle\caches\transforms-2\files-2.1\3a0270acd5517463989765cbb330550f\jetified-mesibo-1.9.53\AndroidManifest.xml:38:13-58
+intent-filter#action:name:android.intent.action.ACTION_BATTERY_CHANGED+action:name:android.intent.action.ACTION_POWER_CONNECTED+action:name:android.intent.action.ACTION_POWER_DISCONNECTED+action:name:android.intent.action.ACTION_SHUTDOWN+action:name:android.intent.action.SCREEN_OFF+action:name:android.intent.action.SCREEN_ON+action:name:android.intent.action.USER_PRESENT
+ADDED from [com.mesibo.api:mesibo:1.9.53] C:\Users\boxla\.gradle\caches\transforms-2\files-2.1\3a0270acd5517463989765cbb330550f\jetified-mesibo-1.9.53\AndroidManifest.xml:41:13-49:29
+action#android.intent.action.ACTION_POWER_CONNECTED
+ADDED from [com.mesibo.api:mesibo:1.9.53] C:\Users\boxla\.gradle\caches\transforms-2\files-2.1\3a0270acd5517463989765cbb330550f\jetified-mesibo-1.9.53\AndroidManifest.xml:42:17-87
+	android:name
+		ADDED from [com.mesibo.api:mesibo:1.9.53] C:\Users\boxla\.gradle\caches\transforms-2\files-2.1\3a0270acd5517463989765cbb330550f\jetified-mesibo-1.9.53\AndroidManifest.xml:42:25-84
+action#android.intent.action.ACTION_POWER_DISCONNECTED
+ADDED from [com.mesibo.api:mesibo:1.9.53] C:\Users\boxla\.gradle\caches\transforms-2\files-2.1\3a0270acd5517463989765cbb330550f\jetified-mesibo-1.9.53\AndroidManifest.xml:43:17-90
+	android:name
+		ADDED from [com.mesibo.api:mesibo:1.9.53] C:\Users\boxla\.gradle\caches\transforms-2\files-2.1\3a0270acd5517463989765cbb330550f\jetified-mesibo-1.9.53\AndroidManifest.xml:43:25-87
+action#android.intent.action.ACTION_BATTERY_CHANGED
+ADDED from [com.mesibo.api:mesibo:1.9.53] C:\Users\boxla\.gradle\caches\transforms-2\files-2.1\3a0270acd5517463989765cbb330550f\jetified-mesibo-1.9.53\AndroidManifest.xml:44:17-87
+	android:name
+		ADDED from [com.mesibo.api:mesibo:1.9.53] C:\Users\boxla\.gradle\caches\transforms-2\files-2.1\3a0270acd5517463989765cbb330550f\jetified-mesibo-1.9.53\AndroidManifest.xml:44:25-84
+action#android.intent.action.USER_PRESENT
+ADDED from [com.mesibo.api:mesibo:1.9.53] C:\Users\boxla\.gradle\caches\transforms-2\files-2.1\3a0270acd5517463989765cbb330550f\jetified-mesibo-1.9.53\AndroidManifest.xml:45:17-77
+	android:name
+		ADDED from [com.mesibo.api:mesibo:1.9.53] C:\Users\boxla\.gradle\caches\transforms-2\files-2.1\3a0270acd5517463989765cbb330550f\jetified-mesibo-1.9.53\AndroidManifest.xml:45:25-74
+action#android.intent.action.SCREEN_ON
+ADDED from [com.mesibo.api:mesibo:1.9.53] C:\Users\boxla\.gradle\caches\transforms-2\files-2.1\3a0270acd5517463989765cbb330550f\jetified-mesibo-1.9.53\AndroidManifest.xml:46:17-74
+	android:name
+		ADDED from [com.mesibo.api:mesibo:1.9.53] C:\Users\boxla\.gradle\caches\transforms-2\files-2.1\3a0270acd5517463989765cbb330550f\jetified-mesibo-1.9.53\AndroidManifest.xml:46:25-71
+action#android.intent.action.SCREEN_OFF
+ADDED from [com.mesibo.api:mesibo:1.9.53] C:\Users\boxla\.gradle\caches\transforms-2\files-2.1\3a0270acd5517463989765cbb330550f\jetified-mesibo-1.9.53\AndroidManifest.xml:47:17-75
+	android:name
+		ADDED from [com.mesibo.api:mesibo:1.9.53] C:\Users\boxla\.gradle\caches\transforms-2\files-2.1\3a0270acd5517463989765cbb330550f\jetified-mesibo-1.9.53\AndroidManifest.xml:47:25-72
+action#android.intent.action.ACTION_SHUTDOWN
+ADDED from [com.mesibo.api:mesibo:1.9.53] C:\Users\boxla\.gradle\caches\transforms-2\files-2.1\3a0270acd5517463989765cbb330550f\jetified-mesibo-1.9.53\AndroidManifest.xml:48:17-80
+	android:name
+		ADDED from [com.mesibo.api:mesibo:1.9.53] C:\Users\boxla\.gradle\caches\transforms-2\files-2.1\3a0270acd5517463989765cbb330550f\jetified-mesibo-1.9.53\AndroidManifest.xml:48:25-77
+provider#com.mesibo.api.MesiboFileProvider
+ADDED from [com.mesibo.api:mesibo:1.9.53] C:\Users\boxla\.gradle\caches\transforms-2\files-2.1\3a0270acd5517463989765cbb330550f\jetified-mesibo-1.9.53\AndroidManifest.xml:52:9-60:20
+	android:grantUriPermissions
+		ADDED from [com.mesibo.api:mesibo:1.9.53] C:\Users\boxla\.gradle\caches\transforms-2\files-2.1\3a0270acd5517463989765cbb330550f\jetified-mesibo-1.9.53\AndroidManifest.xml:56:13-47
+	android:authorities
+		ADDED from [com.mesibo.api:mesibo:1.9.53] C:\Users\boxla\.gradle\caches\transforms-2\files-2.1\3a0270acd5517463989765cbb330550f\jetified-mesibo-1.9.53\AndroidManifest.xml:54:13-70
+	android:exported
+		ADDED from [com.mesibo.api:mesibo:1.9.53] C:\Users\boxla\.gradle\caches\transforms-2\files-2.1\3a0270acd5517463989765cbb330550f\jetified-mesibo-1.9.53\AndroidManifest.xml:55:13-37
+	android:name
+		ADDED from [com.mesibo.api:mesibo:1.9.53] C:\Users\boxla\.gradle\caches\transforms-2\files-2.1\3a0270acd5517463989765cbb330550f\jetified-mesibo-1.9.53\AndroidManifest.xml:53:13-61
+activity#com.google.android.libraries.places.widget.AutocompleteActivity
+ADDED from [com.google.android.libraries.places:places:2.6.0] C:\Users\boxla\.gradle\caches\transforms-2\files-2.1\3e80ab14bbabd569e211ac1860c37633\jetified-places-2.6.0\AndroidManifest.xml:14:9-20:20
+	android:label
+		ADDED from [com.google.android.libraries.places:places:2.6.0] C:\Users\boxla\.gradle\caches\transforms-2\files-2.1\3e80ab14bbabd569e211ac1860c37633\jetified-places-2.6.0\AndroidManifest.xml:17:13-62
+	android:windowSoftInputMode
+		ADDED from [com.google.android.libraries.places:places:2.6.0] C:\Users\boxla\.gradle\caches\transforms-2\files-2.1\3e80ab14bbabd569e211ac1860c37633\jetified-places-2.6.0\AndroidManifest.xml:19:13-55
+	android:exported
+		ADDED from [com.google.android.libraries.places:places:2.6.0] C:\Users\boxla\.gradle\caches\transforms-2\files-2.1\3e80ab14bbabd569e211ac1860c37633\jetified-places-2.6.0\AndroidManifest.xml:16:13-37
+	android:theme
+		ADDED from [com.google.android.libraries.places:places:2.6.0] C:\Users\boxla\.gradle\caches\transforms-2\files-2.1\3e80ab14bbabd569e211ac1860c37633\jetified-places-2.6.0\AndroidManifest.xml:18:13-61
+	android:name
+		ADDED from [com.google.android.libraries.places:places:2.6.0] C:\Users\boxla\.gradle\caches\transforms-2\files-2.1\3e80ab14bbabd569e211ac1860c37633\jetified-places-2.6.0\AndroidManifest.xml:15:13-91
+activity#com.google.android.gms.auth.api.signin.internal.SignInHubActivity
+ADDED from [com.google.android.gms:play-services-auth:16.0.1] C:\Users\boxla\.gradle\caches\transforms-2\files-2.1\c5c71505525c360990892529605f9198\jetified-play-services-auth-16.0.1\AndroidManifest.xml:23:9-27:75
+	android:excludeFromRecents
+		ADDED from [com.google.android.gms:play-services-auth:16.0.1] C:\Users\boxla\.gradle\caches\transforms-2\files-2.1\c5c71505525c360990892529605f9198\jetified-play-services-auth-16.0.1\AndroidManifest.xml:25:13-46
+	android:exported
+		ADDED from [com.google.android.gms:play-services-auth:16.0.1] C:\Users\boxla\.gradle\caches\transforms-2\files-2.1\c5c71505525c360990892529605f9198\jetified-play-services-auth-16.0.1\AndroidManifest.xml:26:13-37
+	android:theme
+		ADDED from [com.google.android.gms:play-services-auth:16.0.1] C:\Users\boxla\.gradle\caches\transforms-2\files-2.1\c5c71505525c360990892529605f9198\jetified-play-services-auth-16.0.1\AndroidManifest.xml:27:13-72
+	android:name
+		ADDED from [com.google.android.gms:play-services-auth:16.0.1] C:\Users\boxla\.gradle\caches\transforms-2\files-2.1\c5c71505525c360990892529605f9198\jetified-play-services-auth-16.0.1\AndroidManifest.xml:24:13-93
+service#com.google.android.gms.auth.api.signin.RevocationBoundService
+ADDED from [com.google.android.gms:play-services-auth:16.0.1] C:\Users\boxla\.gradle\caches\transforms-2\files-2.1\c5c71505525c360990892529605f9198\jetified-play-services-auth-16.0.1\AndroidManifest.xml:33:9-36:110
+	android:exported
+		ADDED from [com.google.android.gms:play-services-auth:16.0.1] C:\Users\boxla\.gradle\caches\transforms-2\files-2.1\c5c71505525c360990892529605f9198\jetified-play-services-auth-16.0.1\AndroidManifest.xml:35:13-36
+	android:permission
+		ADDED from [com.google.android.gms:play-services-auth:16.0.1] C:\Users\boxla\.gradle\caches\transforms-2\files-2.1\c5c71505525c360990892529605f9198\jetified-play-services-auth-16.0.1\AndroidManifest.xml:36:13-107
+	android:name
+		ADDED from [com.google.android.gms:play-services-auth:16.0.1] C:\Users\boxla\.gradle\caches\transforms-2\files-2.1\c5c71505525c360990892529605f9198\jetified-play-services-auth-16.0.1\AndroidManifest.xml:34:13-89
+service#com.google.firebase.messaging.FirebaseMessagingService
+ADDED from [com.google.firebase:firebase-messaging:18.0.0] C:\Users\boxla\.gradle\caches\transforms-2\files-2.1\4f361da270a7c409c35c81134a4b0ff4\jetified-firebase-messaging-18.0.0\AndroidManifest.xml:28:9-34:19
+	android:exported
+		ADDED from [com.google.firebase:firebase-messaging:18.0.0] C:\Users\boxla\.gradle\caches\transforms-2\files-2.1\4f361da270a7c409c35c81134a4b0ff4\jetified-firebase-messaging-18.0.0\AndroidManifest.xml:30:13-37
+	android:name
+		ADDED from [com.google.firebase:firebase-messaging:18.0.0] C:\Users\boxla\.gradle\caches\transforms-2\files-2.1\4f361da270a7c409c35c81134a4b0ff4\jetified-firebase-messaging-18.0.0\AndroidManifest.xml:29:13-82
+service#com.google.firebase.components.ComponentDiscoveryService
+ADDED from [com.google.android.gms:play-services-measurement-api:16.5.0] C:\Users\boxla\.gradle\caches\transforms-2\files-2.1\ee4acb9561e8a718f0e2d2e237a7550f\jetified-play-services-measurement-api-16.5.0\AndroidManifest.xml:27:9-33:19
+MERGED from [com.google.firebase:firebase-iid:18.0.0] C:\Users\boxla\.gradle\caches\transforms-2\files-2.1\7b296d16f19647438690df5d4bf9abb5\jetified-firebase-iid-18.0.0\AndroidManifest.xml:29:9-35:19
+MERGED from [com.google.firebase:firebase-iid:18.0.0] C:\Users\boxla\.gradle\caches\transforms-2\files-2.1\7b296d16f19647438690df5d4bf9abb5\jetified-firebase-iid-18.0.0\AndroidManifest.xml:29:9-35:19
+	android:exported
+		ADDED from [com.google.android.gms:play-services-measurement-api:16.5.0] C:\Users\boxla\.gradle\caches\transforms-2\files-2.1\ee4acb9561e8a718f0e2d2e237a7550f\jetified-play-services-measurement-api-16.5.0\AndroidManifest.xml:29:13-37
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement-api:16.5.0] C:\Users\boxla\.gradle\caches\transforms-2\files-2.1\ee4acb9561e8a718f0e2d2e237a7550f\jetified-play-services-measurement-api-16.5.0\AndroidManifest.xml:28:13-84
+meta-data#com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar
+ADDED from [com.google.android.gms:play-services-measurement-api:16.5.0] C:\Users\boxla\.gradle\caches\transforms-2\files-2.1\ee4acb9561e8a718f0e2d2e237a7550f\jetified-play-services-measurement-api-16.5.0\AndroidManifest.xml:30:13-32:85
+	android:value
+		ADDED from [com.google.android.gms:play-services-measurement-api:16.5.0] C:\Users\boxla\.gradle\caches\transforms-2\files-2.1\ee4acb9561e8a718f0e2d2e237a7550f\jetified-play-services-measurement-api-16.5.0\AndroidManifest.xml:32:17-82
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement-api:16.5.0] C:\Users\boxla\.gradle\caches\transforms-2\files-2.1\ee4acb9561e8a718f0e2d2e237a7550f\jetified-play-services-measurement-api-16.5.0\AndroidManifest.xml:31:17-139
+uses-permission#com.google.android.c2dm.permission.RECEIVE
+ADDED from [com.google.firebase:firebase-iid:18.0.0] C:\Users\boxla\.gradle\caches\transforms-2\files-2.1\7b296d16f19647438690df5d4bf9abb5\jetified-firebase-iid-18.0.0\AndroidManifest.xml:26:5-82
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:18.0.0] C:\Users\boxla\.gradle\caches\transforms-2\files-2.1\7b296d16f19647438690df5d4bf9abb5\jetified-firebase-iid-18.0.0\AndroidManifest.xml:26:22-79
+meta-data#com.google.firebase.components:com.google.firebase.iid.Registrar
+ADDED from [com.google.firebase:firebase-iid:18.0.0] C:\Users\boxla\.gradle\caches\transforms-2\files-2.1\7b296d16f19647438690df5d4bf9abb5\jetified-firebase-iid-18.0.0\AndroidManifest.xml:32:13-34:85
+	android:value
+		ADDED from [com.google.firebase:firebase-iid:18.0.0] C:\Users\boxla\.gradle\caches\transforms-2\files-2.1\7b296d16f19647438690df5d4bf9abb5\jetified-firebase-iid-18.0.0\AndroidManifest.xml:34:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:18.0.0] C:\Users\boxla\.gradle\caches\transforms-2\files-2.1\7b296d16f19647438690df5d4bf9abb5\jetified-firebase-iid-18.0.0\AndroidManifest.xml:33:17-96
+receiver#com.google.firebase.iid.FirebaseInstanceIdReceiver
+ADDED from [com.google.firebase:firebase-iid:18.0.0] C:\Users\boxla\.gradle\caches\transforms-2\files-2.1\7b296d16f19647438690df5d4bf9abb5\jetified-firebase-iid-18.0.0\AndroidManifest.xml:37:9-44:20
+	android:exported
+		ADDED from [com.google.firebase:firebase-iid:18.0.0] C:\Users\boxla\.gradle\caches\transforms-2\files-2.1\7b296d16f19647438690df5d4bf9abb5\jetified-firebase-iid-18.0.0\AndroidManifest.xml:39:13-36
+	android:permission
+		ADDED from [com.google.firebase:firebase-iid:18.0.0] C:\Users\boxla\.gradle\caches\transforms-2\files-2.1\7b296d16f19647438690df5d4bf9abb5\jetified-firebase-iid-18.0.0\AndroidManifest.xml:40:13-73
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:18.0.0] C:\Users\boxla\.gradle\caches\transforms-2\files-2.1\7b296d16f19647438690df5d4bf9abb5\jetified-firebase-iid-18.0.0\AndroidManifest.xml:38:13-78
+intent-filter#action:name:com.google.android.c2dm.intent.RECEIVE
+ADDED from [com.google.firebase:firebase-iid:18.0.0] C:\Users\boxla\.gradle\caches\transforms-2\files-2.1\7b296d16f19647438690df5d4bf9abb5\jetified-firebase-iid-18.0.0\AndroidManifest.xml:41:13-43:29
+action#com.google.android.c2dm.intent.RECEIVE
+ADDED from [com.google.firebase:firebase-iid:18.0.0] C:\Users\boxla\.gradle\caches\transforms-2\files-2.1\7b296d16f19647438690df5d4bf9abb5\jetified-firebase-iid-18.0.0\AndroidManifest.xml:42:17-81
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:18.0.0] C:\Users\boxla\.gradle\caches\transforms-2\files-2.1\7b296d16f19647438690df5d4bf9abb5\jetified-firebase-iid-18.0.0\AndroidManifest.xml:42:25-78
+uses-library#org.apache.http.legacy
+ADDED from [com.google.android.gms:play-services-maps:17.0.0] C:\Users\boxla\.gradle\caches\transforms-2\files-2.1\09b6dd3e7c87a3d12384e8a4a2a85e44\jetified-play-services-maps-17.0.0\AndroidManifest.xml:33:9-35:40
+	android:required
+		ADDED from [com.google.android.gms:play-services-maps:17.0.0] C:\Users\boxla\.gradle\caches\transforms-2\files-2.1\09b6dd3e7c87a3d12384e8a4a2a85e44\jetified-play-services-maps-17.0.0\AndroidManifest.xml:35:13-37
+	android:name
+		ADDED from [com.google.android.gms:play-services-maps:17.0.0] C:\Users\boxla\.gradle\caches\transforms-2\files-2.1\09b6dd3e7c87a3d12384e8a4a2a85e44\jetified-play-services-maps-17.0.0\AndroidManifest.xml:34:13-50
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:18.0.1] C:\Users\boxla\.gradle\caches\transforms-2\files-2.1\37b595b2d2745886dcd0edc0a5df4b65\jetified-play-services-base-18.0.1\AndroidManifest.xml:20:9-22:45
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:18.0.1] C:\Users\boxla\.gradle\caches\transforms-2\files-2.1\37b595b2d2745886dcd0edc0a5df4b65\jetified-play-services-base-18.0.1\AndroidManifest.xml:22:19-43
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:18.0.1] C:\Users\boxla\.gradle\caches\transforms-2\files-2.1\37b595b2d2745886dcd0edc0a5df4b65\jetified-play-services-base-18.0.1\AndroidManifest.xml:21:19-78
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:18.0.1] C:\Users\boxla\.gradle\caches\transforms-2\files-2.1\37b595b2d2745886dcd0edc0a5df4b65\jetified-play-services-base-18.0.1\AndroidManifest.xml:20:19-85
+provider#com.google.firebase.provider.FirebaseInitProvider
+ADDED from [com.google.firebase:firebase-common:17.0.0] C:\Users\boxla\.gradle\caches\transforms-2\files-2.1\e406c13e15f53398374ab553ddc9c28a\jetified-firebase-common-17.0.0\AndroidManifest.xml:12:9-16:39
+	android:authorities
+		ADDED from [com.google.firebase:firebase-common:17.0.0] C:\Users\boxla\.gradle\caches\transforms-2\files-2.1\e406c13e15f53398374ab553ddc9c28a\jetified-firebase-common-17.0.0\AndroidManifest.xml:14:13-72
+	android:exported
+		ADDED from [com.google.firebase:firebase-common:17.0.0] C:\Users\boxla\.gradle\caches\transforms-2\files-2.1\e406c13e15f53398374ab553ddc9c28a\jetified-firebase-common-17.0.0\AndroidManifest.xml:15:13-37
+	android:initOrder
+		ADDED from [com.google.firebase:firebase-common:17.0.0] C:\Users\boxla\.gradle\caches\transforms-2\files-2.1\e406c13e15f53398374ab553ddc9c28a\jetified-firebase-common-17.0.0\AndroidManifest.xml:16:13-36
+	android:name
+		ADDED from [com.google.firebase:firebase-common:17.0.0] C:\Users\boxla\.gradle\caches\transforms-2\files-2.1\e406c13e15f53398374ab553ddc9c28a\jetified-firebase-common-17.0.0\AndroidManifest.xml:13:13-77
+uses-permission#com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE
+ADDED from [com.google.android.gms:play-services-measurement:16.5.0] C:\Users\boxla\.gradle\caches\transforms-2\files-2.1\f040517769c6e7dea4608481b75748d7\jetified-play-services-measurement-16.5.0\AndroidManifest.xml:26:5-110
+MERGED from [com.google.android.gms:play-services-measurement-impl:16.5.0] C:\Users\boxla\.gradle\caches\transforms-2\files-2.1\c3be7f042392793eccf230366a0b0077\jetified-play-services-measurement-impl-16.5.0\AndroidManifest.xml:26:5-110
+MERGED from [com.google.android.gms:play-services-measurement-impl:16.5.0] C:\Users\boxla\.gradle\caches\transforms-2\files-2.1\c3be7f042392793eccf230366a0b0077\jetified-play-services-measurement-impl-16.5.0\AndroidManifest.xml:26:5-110
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:16.5.0] C:\Users\boxla\.gradle\caches\transforms-2\files-2.1\63c789e7a6bd34f2ee2200a81d8b67c6\jetified-play-services-measurement-sdk-api-16.5.0\AndroidManifest.xml:26:5-110
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:16.5.0] C:\Users\boxla\.gradle\caches\transforms-2\files-2.1\63c789e7a6bd34f2ee2200a81d8b67c6\jetified-play-services-measurement-sdk-api-16.5.0\AndroidManifest.xml:26:5-110
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement:16.5.0] C:\Users\boxla\.gradle\caches\transforms-2\files-2.1\f040517769c6e7dea4608481b75748d7\jetified-play-services-measurement-16.5.0\AndroidManifest.xml:26:22-107
+receiver#com.google.android.gms.measurement.AppMeasurementReceiver
+ADDED from [com.google.android.gms:play-services-measurement:16.5.0] C:\Users\boxla\.gradle\caches\transforms-2\files-2.1\f040517769c6e7dea4608481b75748d7\jetified-play-services-measurement-16.5.0\AndroidManifest.xml:29:9-33:20
+	android:enabled
+		ADDED from [com.google.android.gms:play-services-measurement:16.5.0] C:\Users\boxla\.gradle\caches\transforms-2\files-2.1\f040517769c6e7dea4608481b75748d7\jetified-play-services-measurement-16.5.0\AndroidManifest.xml:31:13-35
+	android:exported
+		ADDED from [com.google.android.gms:play-services-measurement:16.5.0] C:\Users\boxla\.gradle\caches\transforms-2\files-2.1\f040517769c6e7dea4608481b75748d7\jetified-play-services-measurement-16.5.0\AndroidManifest.xml:32:13-37
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement:16.5.0] C:\Users\boxla\.gradle\caches\transforms-2\files-2.1\f040517769c6e7dea4608481b75748d7\jetified-play-services-measurement-16.5.0\AndroidManifest.xml:30:13-85
+receiver#com.google.android.gms.measurement.AppMeasurementInstallReferrerReceiver
+ADDED from [com.google.android.gms:play-services-measurement:16.5.0] C:\Users\boxla\.gradle\caches\transforms-2\files-2.1\f040517769c6e7dea4608481b75748d7\jetified-play-services-measurement-16.5.0\AndroidManifest.xml:34:9-42:20
+MERGED from [com.google.android.gms:play-services-measurement-impl:16.5.0] C:\Users\boxla\.gradle\caches\transforms-2\files-2.1\c3be7f042392793eccf230366a0b0077\jetified-play-services-measurement-impl-16.5.0\AndroidManifest.xml:29:9-37:20
+MERGED from [com.google.android.gms:play-services-measurement-impl:16.5.0] C:\Users\boxla\.gradle\caches\transforms-2\files-2.1\c3be7f042392793eccf230366a0b0077\jetified-play-services-measurement-impl-16.5.0\AndroidManifest.xml:29:9-37:20
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:16.5.0] C:\Users\boxla\.gradle\caches\transforms-2\files-2.1\63c789e7a6bd34f2ee2200a81d8b67c6\jetified-play-services-measurement-sdk-api-16.5.0\AndroidManifest.xml:29:9-37:20
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:16.5.0] C:\Users\boxla\.gradle\caches\transforms-2\files-2.1\63c789e7a6bd34f2ee2200a81d8b67c6\jetified-play-services-measurement-sdk-api-16.5.0\AndroidManifest.xml:29:9-37:20
+	android:enabled
+		ADDED from [com.google.android.gms:play-services-measurement:16.5.0] C:\Users\boxla\.gradle\caches\transforms-2\files-2.1\f040517769c6e7dea4608481b75748d7\jetified-play-services-measurement-16.5.0\AndroidManifest.xml:36:13-35
+	android:exported
+		ADDED from [com.google.android.gms:play-services-measurement:16.5.0] C:\Users\boxla\.gradle\caches\transforms-2\files-2.1\f040517769c6e7dea4608481b75748d7\jetified-play-services-measurement-16.5.0\AndroidManifest.xml:37:13-36
+	android:permission
+		ADDED from [com.google.android.gms:play-services-measurement:16.5.0] C:\Users\boxla\.gradle\caches\transforms-2\files-2.1\f040517769c6e7dea4608481b75748d7\jetified-play-services-measurement-16.5.0\AndroidManifest.xml:38:13-69
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement:16.5.0] C:\Users\boxla\.gradle\caches\transforms-2\files-2.1\f040517769c6e7dea4608481b75748d7\jetified-play-services-measurement-16.5.0\AndroidManifest.xml:35:13-100
+intent-filter#action:name:com.android.vending.INSTALL_REFERRER
+ADDED from [com.google.android.gms:play-services-measurement:16.5.0] C:\Users\boxla\.gradle\caches\transforms-2\files-2.1\f040517769c6e7dea4608481b75748d7\jetified-play-services-measurement-16.5.0\AndroidManifest.xml:39:13-41:29
+action#com.android.vending.INSTALL_REFERRER
+ADDED from [com.google.android.gms:play-services-measurement:16.5.0] C:\Users\boxla\.gradle\caches\transforms-2\files-2.1\f040517769c6e7dea4608481b75748d7\jetified-play-services-measurement-16.5.0\AndroidManifest.xml:40:17-79
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement:16.5.0] C:\Users\boxla\.gradle\caches\transforms-2\files-2.1\f040517769c6e7dea4608481b75748d7\jetified-play-services-measurement-16.5.0\AndroidManifest.xml:40:25-76
+service#com.google.android.gms.measurement.AppMeasurementService
+ADDED from [com.google.android.gms:play-services-measurement:16.5.0] C:\Users\boxla\.gradle\caches\transforms-2\files-2.1\f040517769c6e7dea4608481b75748d7\jetified-play-services-measurement-16.5.0\AndroidManifest.xml:44:9-47:40
+	android:enabled
+		ADDED from [com.google.android.gms:play-services-measurement:16.5.0] C:\Users\boxla\.gradle\caches\transforms-2\files-2.1\f040517769c6e7dea4608481b75748d7\jetified-play-services-measurement-16.5.0\AndroidManifest.xml:46:13-35
+	android:exported
+		ADDED from [com.google.android.gms:play-services-measurement:16.5.0] C:\Users\boxla\.gradle\caches\transforms-2\files-2.1\f040517769c6e7dea4608481b75748d7\jetified-play-services-measurement-16.5.0\AndroidManifest.xml:47:13-37
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement:16.5.0] C:\Users\boxla\.gradle\caches\transforms-2\files-2.1\f040517769c6e7dea4608481b75748d7\jetified-play-services-measurement-16.5.0\AndroidManifest.xml:45:13-84
+service#com.google.android.gms.measurement.AppMeasurementJobService
+ADDED from [com.google.android.gms:play-services-measurement:16.5.0] C:\Users\boxla\.gradle\caches\transforms-2\files-2.1\f040517769c6e7dea4608481b75748d7\jetified-play-services-measurement-16.5.0\AndroidManifest.xml:48:9-52:72
+	android:enabled
+		ADDED from [com.google.android.gms:play-services-measurement:16.5.0] C:\Users\boxla\.gradle\caches\transforms-2\files-2.1\f040517769c6e7dea4608481b75748d7\jetified-play-services-measurement-16.5.0\AndroidManifest.xml:50:13-35
+	android:exported
+		ADDED from [com.google.android.gms:play-services-measurement:16.5.0] C:\Users\boxla\.gradle\caches\transforms-2\files-2.1\f040517769c6e7dea4608481b75748d7\jetified-play-services-measurement-16.5.0\AndroidManifest.xml:51:13-37
+	android:permission
+		ADDED from [com.google.android.gms:play-services-measurement:16.5.0] C:\Users\boxla\.gradle\caches\transforms-2\files-2.1\f040517769c6e7dea4608481b75748d7\jetified-play-services-measurement-16.5.0\AndroidManifest.xml:52:13-69
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement:16.5.0] C:\Users\boxla\.gradle\caches\transforms-2\files-2.1\f040517769c6e7dea4608481b75748d7\jetified-play-services-measurement-16.5.0\AndroidManifest.xml:49:13-87
+service#com.google.android.datatransport.runtime.backends.TransportBackendDiscovery
+ADDED from [com.google.android.datatransport:transport-backend-cct:2.3.0] C:\Users\boxla\.gradle\caches\transforms-2\files-2.1\0a3b0ef6850894272622c25d5a5af2ba\jetified-transport-backend-cct-2.3.0\AndroidManifest.xml:29:9-35:19
+MERGED from [com.google.android.datatransport:transport-runtime:2.2.3] C:\Users\boxla\.gradle\caches\transforms-2\files-2.1\99a4f9408f7872ea688ac3bf34c11d30\jetified-transport-runtime-2.2.3\AndroidManifest.xml:36:9-38:40
+MERGED from [com.google.android.datatransport:transport-runtime:2.2.3] C:\Users\boxla\.gradle\caches\transforms-2\files-2.1\99a4f9408f7872ea688ac3bf34c11d30\jetified-transport-runtime-2.2.3\AndroidManifest.xml:36:9-38:40
+	android:exported
+		ADDED from [com.google.android.datatransport:transport-backend-cct:2.3.0] C:\Users\boxla\.gradle\caches\transforms-2\files-2.1\0a3b0ef6850894272622c25d5a5af2ba\jetified-transport-backend-cct-2.3.0\AndroidManifest.xml:31:13-37
+	android:name
+		ADDED from [com.google.android.datatransport:transport-backend-cct:2.3.0] C:\Users\boxla\.gradle\caches\transforms-2\files-2.1\0a3b0ef6850894272622c25d5a5af2ba\jetified-transport-backend-cct-2.3.0\AndroidManifest.xml:30:13-103
+meta-data#backend:com.google.android.datatransport.cct.CctBackendFactory
+ADDED from [com.google.android.datatransport:transport-backend-cct:2.3.0] C:\Users\boxla\.gradle\caches\transforms-2\files-2.1\0a3b0ef6850894272622c25d5a5af2ba\jetified-transport-backend-cct-2.3.0\AndroidManifest.xml:32:13-34:39
+	android:value
+		ADDED from [com.google.android.datatransport:transport-backend-cct:2.3.0] C:\Users\boxla\.gradle\caches\transforms-2\files-2.1\0a3b0ef6850894272622c25d5a5af2ba\jetified-transport-backend-cct-2.3.0\AndroidManifest.xml:34:17-36
+	android:name
+		ADDED from [com.google.android.datatransport:transport-backend-cct:2.3.0] C:\Users\boxla\.gradle\caches\transforms-2\files-2.1\0a3b0ef6850894272622c25d5a5af2ba\jetified-transport-backend-cct-2.3.0\AndroidManifest.xml:33:17-94
+service#com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService
+ADDED from [com.google.android.datatransport:transport-runtime:2.2.3] C:\Users\boxla\.gradle\caches\transforms-2\files-2.1\99a4f9408f7872ea688ac3bf34c11d30\jetified-transport-runtime-2.2.3\AndroidManifest.xml:26:9-30:19
+	android:exported
+		ADDED from [com.google.android.datatransport:transport-runtime:2.2.3] C:\Users\boxla\.gradle\caches\transforms-2\files-2.1\99a4f9408f7872ea688ac3bf34c11d30\jetified-transport-runtime-2.2.3\AndroidManifest.xml:28:13-37
+	android:permission
+		ADDED from [com.google.android.datatransport:transport-runtime:2.2.3] C:\Users\boxla\.gradle\caches\transforms-2\files-2.1\99a4f9408f7872ea688ac3bf34c11d30\jetified-transport-runtime-2.2.3\AndroidManifest.xml:29:13-69
+	android:name
+		ADDED from [com.google.android.datatransport:transport-runtime:2.2.3] C:\Users\boxla\.gradle\caches\transforms-2\files-2.1\99a4f9408f7872ea688ac3bf34c11d30\jetified-transport-runtime-2.2.3\AndroidManifest.xml:27:13-117
+receiver#com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver
+ADDED from [com.google.android.datatransport:transport-runtime:2.2.3] C:\Users\boxla\.gradle\caches\transforms-2\files-2.1\99a4f9408f7872ea688ac3bf34c11d30\jetified-transport-runtime-2.2.3\AndroidManifest.xml:32:9-34:40
+	android:exported
+		ADDED from [com.google.android.datatransport:transport-runtime:2.2.3] C:\Users\boxla\.gradle\caches\transforms-2\files-2.1\99a4f9408f7872ea688ac3bf34c11d30\jetified-transport-runtime-2.2.3\AndroidManifest.xml:34:13-37
+	android:name
+		ADDED from [com.google.android.datatransport:transport-runtime:2.2.3] C:\Users\boxla\.gradle\caches\transforms-2\files-2.1\99a4f9408f7872ea688ac3bf34c11d30\jetified-transport-runtime-2.2.3\AndroidManifest.xml:33:13-132
+provider#androidx.lifecycle.ProcessLifecycleOwnerInitializer
+ADDED from [androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\boxla\.gradle\caches\transforms-2\files-2.1\22148d685580ed3826a245eb225c8e0c\jetified-lifecycle-process-2.0.0\AndroidManifest.xml:23:9-27:43
+	android:authorities
+		ADDED from [androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\boxla\.gradle\caches\transforms-2\files-2.1\22148d685580ed3826a245eb225c8e0c\jetified-lifecycle-process-2.0.0\AndroidManifest.xml:25:13-69
+	android:multiprocess
+		ADDED from [androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\boxla\.gradle\caches\transforms-2\files-2.1\22148d685580ed3826a245eb225c8e0c\jetified-lifecycle-process-2.0.0\AndroidManifest.xml:27:13-40
+	android:exported
+		ADDED from [androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\boxla\.gradle\caches\transforms-2\files-2.1\22148d685580ed3826a245eb225c8e0c\jetified-lifecycle-process-2.0.0\AndroidManifest.xml:26:13-37
+	android:name
+		ADDED from [androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\boxla\.gradle\caches\transforms-2\files-2.1\22148d685580ed3826a245eb225c8e0c\jetified-lifecycle-process-2.0.0\AndroidManifest.xml:24:13-79

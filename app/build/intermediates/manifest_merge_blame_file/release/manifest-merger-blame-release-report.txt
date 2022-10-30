@@ -1,0 +1,824 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="org.chatapps.messenger"
+4    android:versionCode="1"
+5    android:versionName="1.1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="26"
+8-->/Users/noname/Documents/messenger-app-android/app/src/main/AndroidManifest.xml
+9        android:targetSdkVersion="31" />
+9-->/Users/noname/Documents/messenger-app-android/app/src/main/AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->/Users/noname/Documents/messenger-app-android/app/src/main/AndroidManifest.xml:5:5-67
+11-->/Users/noname/Documents/messenger-app-android/app/src/main/AndroidManifest.xml:5:22-64
+12    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+12-->/Users/noname/Documents/messenger-app-android/app/src/main/AndroidManifest.xml:6:5-79
+12-->/Users/noname/Documents/messenger-app-android/app/src/main/AndroidManifest.xml:6:22-76
+13    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+13-->/Users/noname/Documents/messenger-app-android/app/src/main/AndroidManifest.xml:7:5-76
+13-->/Users/noname/Documents/messenger-app-android/app/src/main/AndroidManifest.xml:7:22-73
+14    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+14-->/Users/noname/Documents/messenger-app-android/app/src/main/AndroidManifest.xml:8:5-81
+14-->/Users/noname/Documents/messenger-app-android/app/src/main/AndroidManifest.xml:8:22-78
+15    <uses-permission
+15-->/Users/noname/Documents/messenger-app-android/app/src/main/AndroidManifest.xml:9:5-81
+16        android:name="android.permission.ACCESS_COARSE_LOCATION"
+16-->/Users/noname/Documents/messenger-app-android/app/src/main/AndroidManifest.xml:9:22-78
+17        android:required="false" />
+17-->[com.mesibo.api:ContactUtils:1.6.3] /Users/noname/.gradle/caches/transforms-2/files-2.1/d2a6372232edd32ff0b5bb7a63802707/jetified-ContactUtils-1.6.3/AndroidManifest.xml:37:9-33
+18    <uses-permission
+18-->/Users/noname/Documents/messenger-app-android/app/src/main/AndroidManifest.xml:10:5-79
+19        android:name="android.permission.ACCESS_FINE_LOCATION"
+19-->/Users/noname/Documents/messenger-app-android/app/src/main/AndroidManifest.xml:10:22-76
+20        android:required="false" />
+20-->[com.mesibo.api:ContactUtils:1.6.3] /Users/noname/.gradle/caches/transforms-2/files-2.1/d2a6372232edd32ff0b5bb7a63802707/jetified-ContactUtils-1.6.3/AndroidManifest.xml:40:9-33
+21    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+21-->/Users/noname/Documents/messenger-app-android/app/src/main/AndroidManifest.xml:8:5-81
+21-->/Users/noname/Documents/messenger-app-android/app/src/main/AndroidManifest.xml:8:22-78
+22    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+22-->/Users/noname/Documents/messenger-app-android/app/src/main/AndroidManifest.xml:12:5-80
+22-->/Users/noname/Documents/messenger-app-android/app/src/main/AndroidManifest.xml:12:22-77
+23    <uses-permission android:name="android.permission.CAMERA" />
+23-->/Users/noname/Documents/messenger-app-android/app/src/main/AndroidManifest.xml:13:5-65
+23-->/Users/noname/Documents/messenger-app-android/app/src/main/AndroidManifest.xml:13:22-62
+24    <uses-permission android:name="android.permission.READ_CONTACTS" />
+24-->/Users/noname/Documents/messenger-app-android/app/src/main/AndroidManifest.xml:14:5-72
+24-->/Users/noname/Documents/messenger-app-android/app/src/main/AndroidManifest.xml:14:22-69
+25    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+25-->/Users/noname/Documents/messenger-app-android/app/src/main/AndroidManifest.xml:15:5-81
+25-->/Users/noname/Documents/messenger-app-android/app/src/main/AndroidManifest.xml:15:22-78
+26    <uses-permission android:name="android.permission.WAKE_LOCK" />
+26-->/Users/noname/Documents/messenger-app-android/app/src/main/AndroidManifest.xml:16:5-68
+26-->/Users/noname/Documents/messenger-app-android/app/src/main/AndroidManifest.xml:16:22-65
+27    <uses-permission android:name="android.permission.USE_FULL_SCREEN_INTENT" />
+27-->/Users/noname/Documents/messenger-app-android/app/src/main/AndroidManifest.xml:17:5-81
+27-->/Users/noname/Documents/messenger-app-android/app/src/main/AndroidManifest.xml:17:22-78
+28    <uses-permission
+28-->[com.mesibo.api:uihelper:1.8.2] /Users/noname/.gradle/caches/transforms-2/files-2.1/35f1d776e9f905213ea6b964a0055c0f/jetified-uihelper-1.8.2/AndroidManifest.xml:15:5-17:36
+29        android:name="android.permission.READ_PHONE_STATE"
+29-->[com.mesibo.api:uihelper:1.8.2] /Users/noname/.gradle/caches/transforms-2/files-2.1/35f1d776e9f905213ea6b964a0055c0f/jetified-uihelper-1.8.2/AndroidManifest.xml:16:9-59
+30        android:required="false" />
+30-->[com.mesibo.api:uihelper:1.8.2] /Users/noname/.gradle/caches/transforms-2/files-2.1/35f1d776e9f905213ea6b964a0055c0f/jetified-uihelper-1.8.2/AndroidManifest.xml:17:9-33
+31    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+31-->[com.mesibo.api:ui:1.9.53] /Users/noname/.gradle/caches/transforms-2/files-2.1/1c6a8f9a68f75aef0cd24065bce150a7/jetified-ui-1.9.53/AndroidManifest.xml:12:5-71
+31-->[com.mesibo.api:ui:1.9.53] /Users/noname/.gradle/caches/transforms-2/files-2.1/1c6a8f9a68f75aef0cd24065bce150a7/jetified-ui-1.9.53/AndroidManifest.xml:12:22-68
+32    <uses-permission android:name="android.permission.STORAGE" />
+32-->[com.mesibo.api:mediapicker:1.6.1] /Users/noname/.gradle/caches/transforms-2/files-2.1/14f9cf399f9989124995645a8626efbc/jetified-mediapicker-1.6.1/AndroidManifest.xml:10:5-66
+32-->[com.mesibo.api:mediapicker:1.6.1] /Users/noname/.gradle/caches/transforms-2/files-2.1/14f9cf399f9989124995645a8626efbc/jetified-mediapicker-1.6.1/AndroidManifest.xml:10:22-63
+33    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+33-->[com.mesibo.api:calls:1.9.53] /Users/noname/.gradle/caches/transforms-2/files-2.1/429c037de8ef8c5c1a67ba2bda63af0c/jetified-calls-1.9.53/AndroidManifest.xml:9:5-78
+33-->[com.mesibo.api:calls:1.9.53] /Users/noname/.gradle/caches/transforms-2/files-2.1/429c037de8ef8c5c1a67ba2bda63af0c/jetified-calls-1.9.53/AndroidManifest.xml:9:22-75
+34    <uses-permission android:name="android.permission.ACTION_MANAGE_OVERLAY_PERMISSION" />
+34-->[com.mesibo.api:calls:1.9.53] /Users/noname/.gradle/caches/transforms-2/files-2.1/429c037de8ef8c5c1a67ba2bda63af0c/jetified-calls-1.9.53/AndroidManifest.xml:10:5-91
+34-->[com.mesibo.api:calls:1.9.53] /Users/noname/.gradle/caches/transforms-2/files-2.1/429c037de8ef8c5c1a67ba2bda63af0c/jetified-calls-1.9.53/AndroidManifest.xml:10:22-88
+35
+36    <uses-feature
+36-->[com.mesibo.api:calls:1.9.53] /Users/noname/.gradle/caches/transforms-2/files-2.1/429c037de8ef8c5c1a67ba2bda63af0c/jetified-calls-1.9.53/AndroidManifest.xml:12:5-14:36
+37        android:name="android.hardware.telephony"
+37-->[com.mesibo.api:calls:1.9.53] /Users/noname/.gradle/caches/transforms-2/files-2.1/429c037de8ef8c5c1a67ba2bda63af0c/jetified-calls-1.9.53/AndroidManifest.xml:13:9-50
+38        android:required="false" />
+38-->[com.mesibo.api:calls:1.9.53] /Users/noname/.gradle/caches/transforms-2/files-2.1/429c037de8ef8c5c1a67ba2bda63af0c/jetified-calls-1.9.53/AndroidManifest.xml:14:9-33
+39    <uses-feature
+39-->[com.mesibo.api:calls:1.9.53] /Users/noname/.gradle/caches/transforms-2/files-2.1/429c037de8ef8c5c1a67ba2bda63af0c/jetified-calls-1.9.53/AndroidManifest.xml:15:5-17:36
+40        android:name="android.hardware.bluetooth"
+40-->[com.mesibo.api:calls:1.9.53] /Users/noname/.gradle/caches/transforms-2/files-2.1/429c037de8ef8c5c1a67ba2bda63af0c/jetified-calls-1.9.53/AndroidManifest.xml:16:9-50
+41        android:required="false" />
+41-->[com.mesibo.api:calls:1.9.53] /Users/noname/.gradle/caches/transforms-2/files-2.1/429c037de8ef8c5c1a67ba2bda63af0c/jetified-calls-1.9.53/AndroidManifest.xml:17:9-33
+42
+43    <uses-permission android:name="android.permission.BLUETOOTH" />
+43-->[com.mesibo.api:calls:1.9.53] /Users/noname/.gradle/caches/transforms-2/files-2.1/429c037de8ef8c5c1a67ba2bda63af0c/jetified-calls-1.9.53/AndroidManifest.xml:19:5-68
+43-->[com.mesibo.api:calls:1.9.53] /Users/noname/.gradle/caches/transforms-2/files-2.1/429c037de8ef8c5c1a67ba2bda63af0c/jetified-calls-1.9.53/AndroidManifest.xml:19:22-65
+44    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+44-->[com.mesibo.api:calls:1.9.53] /Users/noname/.gradle/caches/transforms-2/files-2.1/429c037de8ef8c5c1a67ba2bda63af0c/jetified-calls-1.9.53/AndroidManifest.xml:20:5-74
+44-->[com.mesibo.api:calls:1.9.53] /Users/noname/.gradle/caches/transforms-2/files-2.1/429c037de8ef8c5c1a67ba2bda63af0c/jetified-calls-1.9.53/AndroidManifest.xml:20:22-71
+45    <uses-permission android:name="android.permission.BLUETOOTH_CONNECT" />
+45-->[com.mesibo.api:calls:1.9.53] /Users/noname/.gradle/caches/transforms-2/files-2.1/429c037de8ef8c5c1a67ba2bda63af0c/jetified-calls-1.9.53/AndroidManifest.xml:21:5-76
+45-->[com.mesibo.api:calls:1.9.53] /Users/noname/.gradle/caches/transforms-2/files-2.1/429c037de8ef8c5c1a67ba2bda63af0c/jetified-calls-1.9.53/AndroidManifest.xml:21:22-73
+46    <uses-permission android:name="android.permission.MANAGE_OWN_CALLS" />
+46-->[com.mesibo.api:calls:1.9.53] /Users/noname/.gradle/caches/transforms-2/files-2.1/429c037de8ef8c5c1a67ba2bda63af0c/jetified-calls-1.9.53/AndroidManifest.xml:23:5-75
+46-->[com.mesibo.api:calls:1.9.53] /Users/noname/.gradle/caches/transforms-2/files-2.1/429c037de8ef8c5c1a67ba2bda63af0c/jetified-calls-1.9.53/AndroidManifest.xml:23:22-72
+47    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS" />
+47-->[com.mesibo.api:calls:1.9.53] /Users/noname/.gradle/caches/transforms-2/files-2.1/429c037de8ef8c5c1a67ba2bda63af0c/jetified-calls-1.9.53/AndroidManifest.xml:24:5-80
+47-->[com.mesibo.api:calls:1.9.53] /Users/noname/.gradle/caches/transforms-2/files-2.1/429c037de8ef8c5c1a67ba2bda63af0c/jetified-calls-1.9.53/AndroidManifest.xml:24:22-77
+48    <uses-permission android:name="android.permission.USE_CREDENTIALS" />
+48-->[com.mesibo.api:calls:1.9.53] /Users/noname/.gradle/caches/transforms-2/files-2.1/429c037de8ef8c5c1a67ba2bda63af0c/jetified-calls-1.9.53/AndroidManifest.xml:26:5-74
+48-->[com.mesibo.api:calls:1.9.53] /Users/noname/.gradle/caches/transforms-2/files-2.1/429c037de8ef8c5c1a67ba2bda63af0c/jetified-calls-1.9.53/AndroidManifest.xml:26:22-71
+49    <uses-permission android:name="android.permission.VIBRATE" /> <!-- some device having issues with this hence we keeping it options -->
+49-->[com.mesibo.api:calls:1.9.53] /Users/noname/.gradle/caches/transforms-2/files-2.1/429c037de8ef8c5c1a67ba2bda63af0c/jetified-calls-1.9.53/AndroidManifest.xml:27:5-66
+49-->[com.mesibo.api:calls:1.9.53] /Users/noname/.gradle/caches/transforms-2/files-2.1/429c037de8ef8c5c1a67ba2bda63af0c/jetified-calls-1.9.53/AndroidManifest.xml:27:22-63
+50    <uses-feature
+50-->[com.mesibo.api:calls:1.9.53] /Users/noname/.gradle/caches/transforms-2/files-2.1/429c037de8ef8c5c1a67ba2bda63af0c/jetified-calls-1.9.53/AndroidManifest.xml:30:5-32:36
+51        android:name="android.hardware.camera"
+51-->[com.mesibo.api:calls:1.9.53] /Users/noname/.gradle/caches/transforms-2/files-2.1/429c037de8ef8c5c1a67ba2bda63af0c/jetified-calls-1.9.53/AndroidManifest.xml:31:9-47
+52        android:required="false" />
+52-->[com.mesibo.api:calls:1.9.53] /Users/noname/.gradle/caches/transforms-2/files-2.1/429c037de8ef8c5c1a67ba2bda63af0c/jetified-calls-1.9.53/AndroidManifest.xml:32:9-33
+53    <uses-feature
+53-->[com.mesibo.api:calls:1.9.53] /Users/noname/.gradle/caches/transforms-2/files-2.1/429c037de8ef8c5c1a67ba2bda63af0c/jetified-calls-1.9.53/AndroidManifest.xml:33:5-35:36
+54        android:name="android.hardware.camera.autofocus"
+54-->[com.mesibo.api:calls:1.9.53] /Users/noname/.gradle/caches/transforms-2/files-2.1/429c037de8ef8c5c1a67ba2bda63af0c/jetified-calls-1.9.53/AndroidManifest.xml:34:9-57
+55        android:required="false" />
+55-->[com.mesibo.api:calls:1.9.53] /Users/noname/.gradle/caches/transforms-2/files-2.1/429c037de8ef8c5c1a67ba2bda63af0c/jetified-calls-1.9.53/AndroidManifest.xml:35:9-33
+56    <uses-feature
+56-->[com.mesibo.api:calls:1.9.53] /Users/noname/.gradle/caches/transforms-2/files-2.1/429c037de8ef8c5c1a67ba2bda63af0c/jetified-calls-1.9.53/AndroidManifest.xml:36:5-38:35
+57        android:glEsVersion="0x00020000"
+57-->[com.mesibo.api:calls:1.9.53] /Users/noname/.gradle/caches/transforms-2/files-2.1/429c037de8ef8c5c1a67ba2bda63af0c/jetified-calls-1.9.53/AndroidManifest.xml:37:9-41
+58        android:required="true" />
+58-->[com.mesibo.api:calls:1.9.53] /Users/noname/.gradle/caches/transforms-2/files-2.1/429c037de8ef8c5c1a67ba2bda63af0c/jetified-calls-1.9.53/AndroidManifest.xml:38:9-32
+59
+60    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+60-->[com.mesibo.api:calls:1.9.53] /Users/noname/.gradle/caches/transforms-2/files-2.1/429c037de8ef8c5c1a67ba2bda63af0c/jetified-calls-1.9.53/AndroidManifest.xml:42:5-77
+60-->[com.mesibo.api:calls:1.9.53] /Users/noname/.gradle/caches/transforms-2/files-2.1/429c037de8ef8c5c1a67ba2bda63af0c/jetified-calls-1.9.53/AndroidManifest.xml:42:22-74
+61
+62    <uses-feature
+62-->[com.mesibo.api:ContactUtils:1.6.3] /Users/noname/.gradle/caches/transforms-2/files-2.1/d2a6372232edd32ff0b5bb7a63802707/jetified-ContactUtils-1.6.3/AndroidManifest.xml:16:5-18:36
+63        android:name="android.hardware.location.network"
+63-->[com.mesibo.api:ContactUtils:1.6.3] /Users/noname/.gradle/caches/transforms-2/files-2.1/d2a6372232edd32ff0b5bb7a63802707/jetified-ContactUtils-1.6.3/AndroidManifest.xml:17:9-57
+64        android:required="false" />
+64-->[com.mesibo.api:ContactUtils:1.6.3] /Users/noname/.gradle/caches/transforms-2/files-2.1/d2a6372232edd32ff0b5bb7a63802707/jetified-ContactUtils-1.6.3/AndroidManifest.xml:18:9-33
+65    <uses-feature
+65-->[com.mesibo.api:ContactUtils:1.6.3] /Users/noname/.gradle/caches/transforms-2/files-2.1/d2a6372232edd32ff0b5bb7a63802707/jetified-ContactUtils-1.6.3/AndroidManifest.xml:19:5-21:36
+66        android:name="android.hardware.location"
+66-->[com.mesibo.api:ContactUtils:1.6.3] /Users/noname/.gradle/caches/transforms-2/files-2.1/d2a6372232edd32ff0b5bb7a63802707/jetified-ContactUtils-1.6.3/AndroidManifest.xml:20:9-49
+67        android:required="false" />
+67-->[com.mesibo.api:ContactUtils:1.6.3] /Users/noname/.gradle/caches/transforms-2/files-2.1/d2a6372232edd32ff0b5bb7a63802707/jetified-ContactUtils-1.6.3/AndroidManifest.xml:21:9-33
+68    <uses-feature
+68-->[com.mesibo.api:ContactUtils:1.6.3] /Users/noname/.gradle/caches/transforms-2/files-2.1/d2a6372232edd32ff0b5bb7a63802707/jetified-ContactUtils-1.6.3/AndroidManifest.xml:22:5-24:36
+69        android:name="android.hardware.location.gps"
+69-->[com.mesibo.api:ContactUtils:1.6.3] /Users/noname/.gradle/caches/transforms-2/files-2.1/d2a6372232edd32ff0b5bb7a63802707/jetified-ContactUtils-1.6.3/AndroidManifest.xml:23:9-53
+70        android:required="false" />
+70-->[com.mesibo.api:ContactUtils:1.6.3] /Users/noname/.gradle/caches/transforms-2/files-2.1/d2a6372232edd32ff0b5bb7a63802707/jetified-ContactUtils-1.6.3/AndroidManifest.xml:24:9-33
+71    <uses-feature
+71-->[com.mesibo.api:ContactUtils:1.6.3] /Users/noname/.gradle/caches/transforms-2/files-2.1/d2a6372232edd32ff0b5bb7a63802707/jetified-ContactUtils-1.6.3/AndroidManifest.xml:28:5-30:36
+72        android:name="android.hardware.wifi"
+72-->[com.mesibo.api:ContactUtils:1.6.3] /Users/noname/.gradle/caches/transforms-2/files-2.1/d2a6372232edd32ff0b5bb7a63802707/jetified-ContactUtils-1.6.3/AndroidManifest.xml:29:9-45
+73        android:required="false" />
+73-->[com.mesibo.api:ContactUtils:1.6.3] /Users/noname/.gradle/caches/transforms-2/files-2.1/d2a6372232edd32ff0b5bb7a63802707/jetified-ContactUtils-1.6.3/AndroidManifest.xml:30:9-33
+74
+75    <uses-permission android:name="com.android.alarm.permission.SET_ALARM" /> <!-- Required by older versions of Google Play services to create IID tokens -->
+75-->[com.mesibo.api:mesibo:1.9.53] /Users/noname/.gradle/caches/transforms-2/files-2.1/3a0270acd5517463989765cbb330550f/jetified-mesibo-1.9.53/AndroidManifest.xml:14:5-78
+75-->[com.mesibo.api:mesibo:1.9.53] /Users/noname/.gradle/caches/transforms-2/files-2.1/3a0270acd5517463989765cbb330550f/jetified-mesibo-1.9.53/AndroidManifest.xml:14:22-75
+76    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+76-->[com.google.firebase:firebase-iid:18.0.0] /Users/noname/.gradle/caches/transforms-2/files-2.1/e9b1e4f60a8214df13b89240d78ca159/jetified-firebase-iid-18.0.0/AndroidManifest.xml:26:5-82
+76-->[com.google.firebase:firebase-iid:18.0.0] /Users/noname/.gradle/caches/transforms-2/files-2.1/e9b1e4f60a8214df13b89240d78ca159/jetified-firebase-iid-18.0.0/AndroidManifest.xml:26:22-79
+77    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" />
+77-->[com.google.android.gms:play-services-measurement:16.5.0] /Users/noname/.gradle/caches/transforms-2/files-2.1/d19951d47129ba252ef7acc8028f5962/jetified-play-services-measurement-16.5.0/AndroidManifest.xml:26:5-110
+77-->[com.google.android.gms:play-services-measurement:16.5.0] /Users/noname/.gradle/caches/transforms-2/files-2.1/d19951d47129ba252ef7acc8028f5962/jetified-play-services-measurement-16.5.0/AndroidManifest.xml:26:22-107
+78
+79    <application
+79-->/Users/noname/Documents/messenger-app-android/app/src/main/AndroidManifest.xml:20:5-109:19
+80        android:name="org.chatapps.messenger.MainApplication"
+80-->/Users/noname/Documents/messenger-app-android/app/src/main/AndroidManifest.xml:21:9-62
+81        android:allowBackup="false"
+81-->/Users/noname/Documents/messenger-app-android/app/src/main/AndroidManifest.xml:22:9-36
+82        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+82-->[androidx.core:core:1.2.0] /Users/noname/.gradle/caches/transforms-2/files-2.1/9ba3c5b3668408979874ab21eefbfb61/core-1.2.0/AndroidManifest.xml:24:18-86
+83        android:debuggable="true"
+84        android:extractNativeLibs="false"
+85        android:icon="@mipmap/ic_launcher"
+85-->/Users/noname/Documents/messenger-app-android/app/src/main/AndroidManifest.xml:23:9-43
+86        android:label="ChatApps"
+86-->/Users/noname/Documents/messenger-app-android/app/src/main/AndroidManifest.xml:24:9-33
+87        android:requestLegacyExternalStorage="true"
+87-->/Users/noname/Documents/messenger-app-android/app/src/main/AndroidManifest.xml:27:9-52
+88        android:supportsRtl="true"
+88-->/Users/noname/Documents/messenger-app-android/app/src/main/AndroidManifest.xml:25:9-35
+89        android:testOnly="false"
+89-->/Users/noname/Documents/messenger-app-android/app/src/main/AndroidManifest.xml:26:9-33
+90        android:theme="@style/AppTheme" >
+90-->/Users/noname/Documents/messenger-app-android/app/src/main/AndroidManifest.xml:28:9-40
+91        <meta-data
+91-->/Users/noname/Documents/messenger-app-android/app/src/main/AndroidManifest.xml:31:9-33:71
+92            android:name="com.google.android.geo.API_KEY"
+92-->/Users/noname/Documents/messenger-app-android/app/src/main/AndroidManifest.xml:32:13-58
+93            android:value="AIzaSyAClnwMgbM2qmzjqyf-1Y_TNatid6f41eY" />
+93-->/Users/noname/Documents/messenger-app-android/app/src/main/AndroidManifest.xml:33:13-68
+94
+95        <activity
+95-->/Users/noname/Documents/messenger-app-android/app/src/main/AndroidManifest.xml:36:9-39:55
+96            android:name="org.chatapps.messenger.EditProfileActivity"
+96-->/Users/noname/Documents/messenger-app-android/app/src/main/AndroidManifest.xml:37:13-70
+97            android:theme="@style/EditProfileTheme"
+97-->/Users/noname/Documents/messenger-app-android/app/src/main/AndroidManifest.xml:38:13-52
+98            android:windowSoftInputMode="adjustPan" />
+98-->/Users/noname/Documents/messenger-app-android/app/src/main/AndroidManifest.xml:39:13-52
+99        <activity
+99-->/Users/noname/Documents/messenger-app-android/app/src/main/AndroidManifest.xml:41:9-43:15
+100            android:name="org.chatapps.messenger.ShowProfileActivity"
+100-->/Users/noname/Documents/messenger-app-android/app/src/main/AndroidManifest.xml:41:19-76
+101            android:theme="@style/ShowUserProfileTheme" />
+101-->/Users/noname/Documents/messenger-app-android/app/src/main/AndroidManifest.xml:42:13-56
+102        <activity
+102-->/Users/noname/Documents/messenger-app-android/app/src/main/AndroidManifest.xml:45:9-59:20
+103            android:name="org.chatapps.messenger.StartUpActivity"
+103-->/Users/noname/Documents/messenger-app-android/app/src/main/AndroidManifest.xml:45:19-72
+104            android:exported="true"
+104-->/Users/noname/Documents/messenger-app-android/app/src/main/AndroidManifest.xml:52:6-29
+105            android:label="@string/app_name"
+105-->/Users/noname/Documents/messenger-app-android/app/src/main/AndroidManifest.xml:47:13-45
+106            android:launchMode="singleTop"
+106-->/Users/noname/Documents/messenger-app-android/app/src/main/AndroidManifest.xml:51:13-43
+107            android:noHistory="true"
+107-->/Users/noname/Documents/messenger-app-android/app/src/main/AndroidManifest.xml:50:13-37
+108            android:screenOrientation="portrait"
+108-->/Users/noname/Documents/messenger-app-android/app/src/main/AndroidManifest.xml:48:13-49
+109            android:theme="@style/ShowUserProfileTheme"
+109-->/Users/noname/Documents/messenger-app-android/app/src/main/AndroidManifest.xml:46:13-56
+110            android:windowSoftInputMode="stateAlwaysHidden" >
+110-->/Users/noname/Documents/messenger-app-android/app/src/main/AndroidManifest.xml:49:13-60
+111            <intent-filter>
+111-->/Users/noname/Documents/messenger-app-android/app/src/main/AndroidManifest.xml:54:13-58:29
+112                <action android:name="android.intent.action.MAIN" />
+112-->/Users/noname/Documents/messenger-app-android/app/src/main/AndroidManifest.xml:55:17-69
+112-->/Users/noname/Documents/messenger-app-android/app/src/main/AndroidManifest.xml:55:25-66
+113
+114                <category android:name="android.intent.category.LAUNCHER" />
+114-->/Users/noname/Documents/messenger-app-android/app/src/main/AndroidManifest.xml:57:17-77
+114-->/Users/noname/Documents/messenger-app-android/app/src/main/AndroidManifest.xml:57:27-74
+115            </intent-filter>
+116        </activity>
+117
+118        <meta-data
+118-->/Users/noname/Documents/messenger-app-android/app/src/main/AndroidManifest.xml:61:9-62:55
+119            android:name="com.facebook.sdk.ApplicationId"
+119-->/Users/noname/Documents/messenger-app-android/app/src/main/AndroidManifest.xml:61:20-65
+120            android:value="@string/FACEBOOK_APP_ID" />
+120-->/Users/noname/Documents/messenger-app-android/app/src/main/AndroidManifest.xml:62:13-52
+121        <meta-data
+121-->/Users/noname/Documents/messenger-app-android/app/src/main/AndroidManifest.xml:65:9-67:69
+122            android:name="com.google.android.gms.version"
+122-->/Users/noname/Documents/messenger-app-android/app/src/main/AndroidManifest.xml:66:13-58
+123            android:value="@integer/google_play_services_version" />
+123-->/Users/noname/Documents/messenger-app-android/app/src/main/AndroidManifest.xml:67:13-66
+124
+125        <activity
+125-->/Users/noname/Documents/messenger-app-android/app/src/main/AndroidManifest.xml:69:9-72:55
+126            android:name="org.chatapps.messenger.AppSettings.SettingsActivity"
+126-->/Users/noname/Documents/messenger-app-android/app/src/main/AndroidManifest.xml:70:13-79
+127            android:theme="@style/SettingsTheme"
+127-->/Users/noname/Documents/messenger-app-android/app/src/main/AndroidManifest.xml:71:13-49
+128            android:windowSoftInputMode="adjustPan" />
+128-->/Users/noname/Documents/messenger-app-android/app/src/main/AndroidManifest.xml:72:13-52
+129
+130        <receiver
+130-->/Users/noname/Documents/messenger-app-android/app/src/main/AndroidManifest.xml:74:9-81:20
+131            android:name="org.chatapps.messenger.AutoStart"
+131-->/Users/noname/Documents/messenger-app-android/app/src/main/AndroidManifest.xml:74:19-66
+132            android:exported="true" >
+132-->/Users/noname/Documents/messenger-app-android/app/src/main/AndroidManifest.xml:75:3-26
+133            <intent-filter>
+133-->/Users/noname/Documents/messenger-app-android/app/src/main/AndroidManifest.xml:77:13-80:29
+134                <action android:name="android.intent.action.BOOT_COMPLETED" />
+134-->/Users/noname/Documents/messenger-app-android/app/src/main/AndroidManifest.xml:78:17-79
+134-->/Users/noname/Documents/messenger-app-android/app/src/main/AndroidManifest.xml:78:25-76
+135                <action android:name="org.mesibo.messenger.restart" />
+135-->/Users/noname/Documents/messenger-app-android/app/src/main/AndroidManifest.xml:79:17-71
+135-->/Users/noname/Documents/messenger-app-android/app/src/main/AndroidManifest.xml:79:25-68
+136            </intent-filter>
+137        </receiver>
+138
+139        <!-- Firebase Notifications -->
+140        <service
+140-->/Users/noname/Documents/messenger-app-android/app/src/main/AndroidManifest.xml:84:9-90:19
+141            android:name="org.chatapps.messenger.fcm.MesiboGcmListenerService"
+141-->/Users/noname/Documents/messenger-app-android/app/src/main/AndroidManifest.xml:84:18-84
+142            android:exported="false" >
+142-->/Users/noname/Documents/messenger-app-android/app/src/main/AndroidManifest.xml:85:3-27
+143            <intent-filter>
+143-->/Users/noname/Documents/messenger-app-android/app/src/main/AndroidManifest.xml:87:13-89:29
+144                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+144-->/Users/noname/Documents/messenger-app-android/app/src/main/AndroidManifest.xml:88:17-78
+144-->/Users/noname/Documents/messenger-app-android/app/src/main/AndroidManifest.xml:88:25-75
+145            </intent-filter>
+146        </service>
+147        <service
+147-->/Users/noname/Documents/messenger-app-android/app/src/main/AndroidManifest.xml:92:9-98:19
+148            android:name="org.chatapps.messenger.fcm.MesiboInstanceIDListenerService"
+148-->/Users/noname/Documents/messenger-app-android/app/src/main/AndroidManifest.xml:92:18-91
+149            android:exported="false" >
+149-->/Users/noname/Documents/messenger-app-android/app/src/main/AndroidManifest.xml:93:13-37
+150            <intent-filter>
+150-->/Users/noname/Documents/messenger-app-android/app/src/main/AndroidManifest.xml:95:13-97:29
+151                <action android:name="com.google.android.gms.iid.InstanceID" />
+151-->/Users/noname/Documents/messenger-app-android/app/src/main/AndroidManifest.xml:96:17-80
+151-->/Users/noname/Documents/messenger-app-android/app/src/main/AndroidManifest.xml:96:25-77
+152            </intent-filter>
+153        </service>
+154        <service
+154-->/Users/noname/Documents/messenger-app-android/app/src/main/AndroidManifest.xml:99:9-102:71
+155            android:name="org.chatapps.messenger.fcm.MesiboRegistrationIntentService"
+155-->/Users/noname/Documents/messenger-app-android/app/src/main/AndroidManifest.xml:100:13-86
+156            android:exported="false"
+156-->/Users/noname/Documents/messenger-app-android/app/src/main/AndroidManifest.xml:101:13-37
+157            android:permission="android.permission.BIND_JOB_SERVICE" />
+157-->/Users/noname/Documents/messenger-app-android/app/src/main/AndroidManifest.xml:102:13-69
+158        <service
+158-->/Users/noname/Documents/messenger-app-android/app/src/main/AndroidManifest.xml:103:9-106:72
+159            android:name="org.chatapps.messenger.fcm.MesiboJobIntentService"
+159-->/Users/noname/Documents/messenger-app-android/app/src/main/AndroidManifest.xml:104:13-77
+160            android:exported="false"
+160-->/Users/noname/Documents/messenger-app-android/app/src/main/AndroidManifest.xml:105:13-37
+161            android:permission="android.permission.BIND_JOB_SERVICE" />
+161-->/Users/noname/Documents/messenger-app-android/app/src/main/AndroidManifest.xml:106:13-69
+162
+163        <activity
+163-->[com.mesibo.api:uihelper:1.8.2] /Users/noname/.gradle/caches/transforms-2/files-2.1/35f1d776e9f905213ea6b964a0055c0f/jetified-uihelper-1.8.2/AndroidManifest.xml:20:9-22:51
+164            android:name="com.mesibo.uihelper.LoginActivity"
+164-->[com.mesibo.api:uihelper:1.8.2] /Users/noname/.gradle/caches/transforms-2/files-2.1/35f1d776e9f905213ea6b964a0055c0f/jetified-uihelper-1.8.2/AndroidManifest.xml:21:13-61
+165            android:theme="@style/WelcomeTheme" />
+165-->[com.mesibo.api:uihelper:1.8.2] /Users/noname/.gradle/caches/transforms-2/files-2.1/35f1d776e9f905213ea6b964a0055c0f/jetified-uihelper-1.8.2/AndroidManifest.xml:22:13-48
+166        <activity
+166-->[com.mesibo.api:uihelper:1.8.2] /Users/noname/.gradle/caches/transforms-2/files-2.1/35f1d776e9f905213ea6b964a0055c0f/jetified-uihelper-1.8.2/AndroidManifest.xml:23:9-26:51
+167            android:name="com.mesibo.uihelper.ProductTourActivity"
+167-->[com.mesibo.api:uihelper:1.8.2] /Users/noname/.gradle/caches/transforms-2/files-2.1/35f1d776e9f905213ea6b964a0055c0f/jetified-uihelper-1.8.2/AndroidManifest.xml:24:13-67
+168            android:screenOrientation="portrait"
+168-->[com.mesibo.api:uihelper:1.8.2] /Users/noname/.gradle/caches/transforms-2/files-2.1/35f1d776e9f905213ea6b964a0055c0f/jetified-uihelper-1.8.2/AndroidManifest.xml:25:13-49
+169            android:theme="@style/WelcomeTheme" />
+169-->[com.mesibo.api:uihelper:1.8.2] /Users/noname/.gradle/caches/transforms-2/files-2.1/35f1d776e9f905213ea6b964a0055c0f/jetified-uihelper-1.8.2/AndroidManifest.xml:26:13-48
+170        <activity
+170-->[com.mesibo.api:ui:1.9.53] /Users/noname/.gradle/caches/transforms-2/files-2.1/1c6a8f9a68f75aef0cd24065bce150a7/jetified-ui-1.9.53/AndroidManifest.xml:15:9-18:59
+171            android:name="com.mesibo.messaging.MesiboActivity"
+171-->[com.mesibo.api:ui:1.9.53] /Users/noname/.gradle/caches/transforms-2/files-2.1/1c6a8f9a68f75aef0cd24065bce150a7/jetified-ui-1.9.53/AndroidManifest.xml:16:13-63
+172            android:theme="@style/MesiboAppTheme"
+172-->[com.mesibo.api:ui:1.9.53] /Users/noname/.gradle/caches/transforms-2/files-2.1/1c6a8f9a68f75aef0cd24065bce150a7/jetified-ui-1.9.53/AndroidManifest.xml:17:13-50
+173            android:windowSoftInputMode="adjustNothing" />
+173-->[com.mesibo.api:ui:1.9.53] /Users/noname/.gradle/caches/transforms-2/files-2.1/1c6a8f9a68f75aef0cd24065bce150a7/jetified-ui-1.9.53/AndroidManifest.xml:18:13-56
+174        <activity
+174-->[com.mesibo.api:ui:1.9.53] /Users/noname/.gradle/caches/transforms-2/files-2.1/1c6a8f9a68f75aef0cd24065bce150a7/jetified-ui-1.9.53/AndroidManifest.xml:19:9-21:53
+175            android:name="com.mesibo.messaging.MessagingActivityNew"
+175-->[com.mesibo.api:ui:1.9.53] /Users/noname/.gradle/caches/transforms-2/files-2.1/1c6a8f9a68f75aef0cd24065bce150a7/jetified-ui-1.9.53/AndroidManifest.xml:20:13-69
+176            android:theme="@style/MesiboAppTheme" />
+176-->[com.mesibo.api:ui:1.9.53] /Users/noname/.gradle/caches/transforms-2/files-2.1/1c6a8f9a68f75aef0cd24065bce150a7/jetified-ui-1.9.53/AndroidManifest.xml:21:13-50
+177        <activity
+177-->[com.mesibo.api:ui:1.9.53] /Users/noname/.gradle/caches/transforms-2/files-2.1/1c6a8f9a68f75aef0cd24065bce150a7/jetified-ui-1.9.53/AndroidManifest.xml:22:9-24:55
+178            android:name="com.mesibo.messaging.CreateNewGroupActivity"
+178-->[com.mesibo.api:ui:1.9.53] /Users/noname/.gradle/caches/transforms-2/files-2.1/1c6a8f9a68f75aef0cd24065bce150a7/jetified-ui-1.9.53/AndroidManifest.xml:23:13-71
+179            android:theme="@style/CreateGroupTheme" />
+179-->[com.mesibo.api:ui:1.9.53] /Users/noname/.gradle/caches/transforms-2/files-2.1/1c6a8f9a68f75aef0cd24065bce150a7/jetified-ui-1.9.53/AndroidManifest.xml:24:13-52
+180        <activity
+180-->[com.mesibo.api:ui:1.9.53] /Users/noname/.gradle/caches/transforms-2/files-2.1/1c6a8f9a68f75aef0cd24065bce150a7/jetified-ui-1.9.53/AndroidManifest.xml:25:9-27:53
+181            android:name="com.mesibo.messaging.MesiboEndToEndEncryptionActivity"
+181-->[com.mesibo.api:ui:1.9.53] /Users/noname/.gradle/caches/transforms-2/files-2.1/1c6a8f9a68f75aef0cd24065bce150a7/jetified-ui-1.9.53/AndroidManifest.xml:26:13-81
+182            android:theme="@style/MesiboAppTheme" />
+182-->[com.mesibo.api:ui:1.9.53] /Users/noname/.gradle/caches/transforms-2/files-2.1/1c6a8f9a68f75aef0cd24065bce150a7/jetified-ui-1.9.53/AndroidManifest.xml:27:13-50
+183        <activity
+183-->[com.mesibo.api:ui:1.9.53] /Users/noname/.gradle/caches/transforms-2/files-2.1/1c6a8f9a68f75aef0cd24065bce150a7/jetified-ui-1.9.53/AndroidManifest.xml:28:9-30:53
+184            android:name="com.mesibo.messaging.MesiboMapActivity"
+184-->[com.mesibo.api:ui:1.9.53] /Users/noname/.gradle/caches/transforms-2/files-2.1/1c6a8f9a68f75aef0cd24065bce150a7/jetified-ui-1.9.53/AndroidManifest.xml:29:13-66
+185            android:theme="@style/MesiboAppTheme" />
+185-->[com.mesibo.api:ui:1.9.53] /Users/noname/.gradle/caches/transforms-2/files-2.1/1c6a8f9a68f75aef0cd24065bce150a7/jetified-ui-1.9.53/AndroidManifest.xml:30:13-50
+186        <activity
+186-->[com.mesibo.api:callui:1.9.53] /Users/noname/.gradle/caches/transforms-2/files-2.1/6ccc9ff5db4e4f16ad49b79b503fa9ce/jetified-callui-1.9.53/AndroidManifest.xml:12:9-17:63
+187            android:name="com.mesibo.calls.ui.CallLogs.CallLogsActivity"
+187-->[com.mesibo.api:callui:1.9.53] /Users/noname/.gradle/caches/transforms-2/files-2.1/6ccc9ff5db4e4f16ad49b79b503fa9ce/jetified-callui-1.9.53/AndroidManifest.xml:13:13-73
+188            android:configChanges="orientation|keyboardHidden"
+188-->[com.mesibo.api:callui:1.9.53] /Users/noname/.gradle/caches/transforms-2/files-2.1/6ccc9ff5db4e4f16ad49b79b503fa9ce/jetified-callui-1.9.53/AndroidManifest.xml:14:13-63
+189            android:screenOrientation="portrait"
+189-->[com.mesibo.api:callui:1.9.53] /Users/noname/.gradle/caches/transforms-2/files-2.1/6ccc9ff5db4e4f16ad49b79b503fa9ce/jetified-callui-1.9.53/AndroidManifest.xml:15:13-49
+190            android:theme="@style/CallLogsActivityTheme"
+190-->[com.mesibo.api:callui:1.9.53] /Users/noname/.gradle/caches/transforms-2/files-2.1/6ccc9ff5db4e4f16ad49b79b503fa9ce/jetified-callui-1.9.53/AndroidManifest.xml:16:13-57
+191            android:windowSoftInputMode="stateAlwaysHidden" />
+191-->[com.mesibo.api:callui:1.9.53] /Users/noname/.gradle/caches/transforms-2/files-2.1/6ccc9ff5db4e4f16ad49b79b503fa9ce/jetified-callui-1.9.53/AndroidManifest.xml:17:13-60
+192        <activity
+192-->[com.mesibo.api:callui:1.9.53] /Users/noname/.gradle/caches/transforms-2/files-2.1/6ccc9ff5db4e4f16ad49b79b503fa9ce/jetified-callui-1.9.53/AndroidManifest.xml:18:9-23:63
+193            android:name="com.mesibo.calls.ui.CallLogs.CallLogsDetailsActivity"
+193-->[com.mesibo.api:callui:1.9.53] /Users/noname/.gradle/caches/transforms-2/files-2.1/6ccc9ff5db4e4f16ad49b79b503fa9ce/jetified-callui-1.9.53/AndroidManifest.xml:19:13-80
+194            android:configChanges="orientation|keyboardHidden"
+194-->[com.mesibo.api:callui:1.9.53] /Users/noname/.gradle/caches/transforms-2/files-2.1/6ccc9ff5db4e4f16ad49b79b503fa9ce/jetified-callui-1.9.53/AndroidManifest.xml:20:13-63
+195            android:screenOrientation="portrait"
+195-->[com.mesibo.api:callui:1.9.53] /Users/noname/.gradle/caches/transforms-2/files-2.1/6ccc9ff5db4e4f16ad49b79b503fa9ce/jetified-callui-1.9.53/AndroidManifest.xml:21:13-49
+196            android:theme="@style/CallLogsDetailsActivityTheme"
+196-->[com.mesibo.api:callui:1.9.53] /Users/noname/.gradle/caches/transforms-2/files-2.1/6ccc9ff5db4e4f16ad49b79b503fa9ce/jetified-callui-1.9.53/AndroidManifest.xml:22:13-64
+197            android:windowSoftInputMode="stateAlwaysHidden" />
+197-->[com.mesibo.api:callui:1.9.53] /Users/noname/.gradle/caches/transforms-2/files-2.1/6ccc9ff5db4e4f16ad49b79b503fa9ce/jetified-callui-1.9.53/AndroidManifest.xml:23:13-60
+198        <activity
+198-->[com.mesibo.api:mediapicker:1.6.1] /Users/noname/.gradle/caches/transforms-2/files-2.1/14f9cf399f9989124995645a8626efbc/jetified-mediapicker-1.6.1/AndroidManifest.xml:16:9-19:59
+199            android:name="com.mesibo.mediapicker.AlbumStartActivity"
+199-->[com.mesibo.api:mediapicker:1.6.1] /Users/noname/.gradle/caches/transforms-2/files-2.1/14f9cf399f9989124995645a8626efbc/jetified-mediapicker-1.6.1/AndroidManifest.xml:17:13-69
+200            android:label="@string/title_activity_facebook_album"
+200-->[com.mesibo.api:mediapicker:1.6.1] /Users/noname/.gradle/caches/transforms-2/files-2.1/14f9cf399f9989124995645a8626efbc/jetified-mediapicker-1.6.1/AndroidManifest.xml:18:13-66
+201            android:theme="@style/AppTheme.NoActionBar" />
+201-->[com.mesibo.api:mediapicker:1.6.1] /Users/noname/.gradle/caches/transforms-2/files-2.1/14f9cf399f9989124995645a8626efbc/jetified-mediapicker-1.6.1/AndroidManifest.xml:19:13-56
+202        <activity
+202-->[com.mesibo.api:mediapicker:1.6.1] /Users/noname/.gradle/caches/transforms-2/files-2.1/14f9cf399f9989124995645a8626efbc/jetified-mediapicker-1.6.1/AndroidManifest.xml:20:9-23:55
+203            android:name="com.mesibo.mediapicker.zoomVuPictureActivity"
+203-->[com.mesibo.api:mediapicker:1.6.1] /Users/noname/.gradle/caches/transforms-2/files-2.1/14f9cf399f9989124995645a8626efbc/jetified-mediapicker-1.6.1/AndroidManifest.xml:21:13-72
+204            android:label="@string/title_activity_zoomPictureVu"
+204-->[com.mesibo.api:mediapicker:1.6.1] /Users/noname/.gradle/caches/transforms-2/files-2.1/14f9cf399f9989124995645a8626efbc/jetified-mediapicker-1.6.1/AndroidManifest.xml:22:13-65
+205            android:theme="@style/ImageEditorTheme" />
+205-->[com.mesibo.api:mediapicker:1.6.1] /Users/noname/.gradle/caches/transforms-2/files-2.1/14f9cf399f9989124995645a8626efbc/jetified-mediapicker-1.6.1/AndroidManifest.xml:23:13-52
+206        <activity
+206-->[com.mesibo.api:mediapicker:1.6.1] /Users/noname/.gradle/caches/transforms-2/files-2.1/14f9cf399f9989124995645a8626efbc/jetified-mediapicker-1.6.1/AndroidManifest.xml:24:9-27:70
+207            android:name="com.mesibo.mediapicker.ImageEditor"
+207-->[com.mesibo.api:mediapicker:1.6.1] /Users/noname/.gradle/caches/transforms-2/files-2.1/14f9cf399f9989124995645a8626efbc/jetified-mediapicker-1.6.1/AndroidManifest.xml:25:13-62
+208            android:theme="@style/ImageEditorTheme"
+208-->[com.mesibo.api:mediapicker:1.6.1] /Users/noname/.gradle/caches/transforms-2/files-2.1/14f9cf399f9989124995645a8626efbc/jetified-mediapicker-1.6.1/AndroidManifest.xml:26:13-52
+209            android:windowSoftInputMode="stateHidden|adjustResize" /> <!-- if we change authorities herem we need to change in getAuthority() in MediaPicker.java too -->
+209-->[com.mesibo.api:mediapicker:1.6.1] /Users/noname/.gradle/caches/transforms-2/files-2.1/14f9cf399f9989124995645a8626efbc/jetified-mediapicker-1.6.1/AndroidManifest.xml:27:13-67
+210        <provider
+210-->[com.mesibo.api:mediapicker:1.6.1] /Users/noname/.gradle/caches/transforms-2/files-2.1/14f9cf399f9989124995645a8626efbc/jetified-mediapicker-1.6.1/AndroidManifest.xml:30:9-38:20
+211            android:name="com.mesibo.mediapicker.MediaPickerFileProvider"
+211-->[com.mesibo.api:mediapicker:1.6.1] /Users/noname/.gradle/caches/transforms-2/files-2.1/14f9cf399f9989124995645a8626efbc/jetified-mediapicker-1.6.1/AndroidManifest.xml:31:13-74
+212            android:authorities="org.chatapps.messenger.com.mesibo.mediapicker"
+212-->[com.mesibo.api:mediapicker:1.6.1] /Users/noname/.gradle/caches/transforms-2/files-2.1/14f9cf399f9989124995645a8626efbc/jetified-mediapicker-1.6.1/AndroidManifest.xml:32:13-74
+213            android:exported="false"
+213-->[com.mesibo.api:mediapicker:1.6.1] /Users/noname/.gradle/caches/transforms-2/files-2.1/14f9cf399f9989124995645a8626efbc/jetified-mediapicker-1.6.1/AndroidManifest.xml:33:13-37
+214            android:grantUriPermissions="true" >
+214-->[com.mesibo.api:mediapicker:1.6.1] /Users/noname/.gradle/caches/transforms-2/files-2.1/14f9cf399f9989124995645a8626efbc/jetified-mediapicker-1.6.1/AndroidManifest.xml:34:13-47
+215            <meta-data
+215-->[com.mesibo.api:mediapicker:1.6.1] /Users/noname/.gradle/caches/transforms-2/files-2.1/14f9cf399f9989124995645a8626efbc/jetified-mediapicker-1.6.1/AndroidManifest.xml:35:13-37:58
+216                android:name="android.support.FILE_PROVIDER_PATHS"
+216-->[com.mesibo.api:mediapicker:1.6.1] /Users/noname/.gradle/caches/transforms-2/files-2.1/14f9cf399f9989124995645a8626efbc/jetified-mediapicker-1.6.1/AndroidManifest.xml:36:17-67
+217                android:resource="@xml/provider_paths" />
+217-->[com.mesibo.api:mediapicker:1.6.1] /Users/noname/.gradle/caches/transforms-2/files-2.1/14f9cf399f9989124995645a8626efbc/jetified-mediapicker-1.6.1/AndroidManifest.xml:37:17-55
+218        </provider>
+219
+220        <service
+220-->[com.mesibo.api:calls:1.9.53] /Users/noname/.gradle/caches/transforms-2/files-2.1/429c037de8ef8c5c1a67ba2bda63af0c/jetified-calls-1.9.53/AndroidManifest.xml:46:9-50:63
+221            android:name="com.mesibo.calls.api.MesiboScreenSharingService"
+221-->[com.mesibo.api:calls:1.9.53] /Users/noname/.gradle/caches/transforms-2/files-2.1/429c037de8ef8c5c1a67ba2bda63af0c/jetified-calls-1.9.53/AndroidManifest.xml:47:13-75
+222            android:enabled="true"
+222-->[com.mesibo.api:calls:1.9.53] /Users/noname/.gradle/caches/transforms-2/files-2.1/429c037de8ef8c5c1a67ba2bda63af0c/jetified-calls-1.9.53/AndroidManifest.xml:48:13-35
+223            android:exported="true"
+223-->[com.mesibo.api:calls:1.9.53] /Users/noname/.gradle/caches/transforms-2/files-2.1/429c037de8ef8c5c1a67ba2bda63af0c/jetified-calls-1.9.53/AndroidManifest.xml:49:13-36
+224            android:foregroundServiceType="mediaProjection" />
+224-->[com.mesibo.api:calls:1.9.53] /Users/noname/.gradle/caches/transforms-2/files-2.1/429c037de8ef8c5c1a67ba2bda63af0c/jetified-calls-1.9.53/AndroidManifest.xml:50:13-60
+225        <service
+225-->[com.mesibo.api:calls:1.9.53] /Users/noname/.gradle/caches/transforms-2/files-2.1/429c037de8ef8c5c1a67ba2bda63af0c/jetified-calls-1.9.53/AndroidManifest.xml:51:9-55:61
+226            android:name="com.mesibo.calls.api.MesiboRingtoneService"
+226-->[com.mesibo.api:calls:1.9.53] /Users/noname/.gradle/caches/transforms-2/files-2.1/429c037de8ef8c5c1a67ba2bda63af0c/jetified-calls-1.9.53/AndroidManifest.xml:52:13-70
+227            android:enabled="true"
+227-->[com.mesibo.api:calls:1.9.53] /Users/noname/.gradle/caches/transforms-2/files-2.1/429c037de8ef8c5c1a67ba2bda63af0c/jetified-calls-1.9.53/AndroidManifest.xml:53:13-35
+228            android:exported="true"
+228-->[com.mesibo.api:calls:1.9.53] /Users/noname/.gradle/caches/transforms-2/files-2.1/429c037de8ef8c5c1a67ba2bda63af0c/jetified-calls-1.9.53/AndroidManifest.xml:54:13-36
+229            android:foregroundServiceType="mediaPlayback" />
+229-->[com.mesibo.api:calls:1.9.53] /Users/noname/.gradle/caches/transforms-2/files-2.1/429c037de8ef8c5c1a67ba2bda63af0c/jetified-calls-1.9.53/AndroidManifest.xml:55:13-58
+230
+231        <receiver
+231-->[com.mesibo.api:calls:1.9.53] /Users/noname/.gradle/caches/transforms-2/files-2.1/429c037de8ef8c5c1a67ba2bda63af0c/jetified-calls-1.9.53/AndroidManifest.xml:57:9-60:39
+232            android:name="com.mesibo.calls.api.MesiboCallsReceiver"
+232-->[com.mesibo.api:calls:1.9.53] /Users/noname/.gradle/caches/transforms-2/files-2.1/429c037de8ef8c5c1a67ba2bda63af0c/jetified-calls-1.9.53/AndroidManifest.xml:58:13-68
+233            android:enabled="true"
+233-->[com.mesibo.api:calls:1.9.53] /Users/noname/.gradle/caches/transforms-2/files-2.1/429c037de8ef8c5c1a67ba2bda63af0c/jetified-calls-1.9.53/AndroidManifest.xml:59:13-35
+234            android:exported="true" />
+234-->[com.mesibo.api:calls:1.9.53] /Users/noname/.gradle/caches/transforms-2/files-2.1/429c037de8ef8c5c1a67ba2bda63af0c/jetified-calls-1.9.53/AndroidManifest.xml:60:13-36
+235
+236        <activity
+236-->[com.mesibo.api:calls:1.9.53] /Users/noname/.gradle/caches/transforms-2/files-2.1/429c037de8ef8c5c1a67ba2bda63af0c/jetified-calls-1.9.53/AndroidManifest.xml:62:9-66:63
+237            android:name="com.mesibo.calls.api.MesiboCallActivity"
+237-->[com.mesibo.api:calls:1.9.53] /Users/noname/.gradle/caches/transforms-2/files-2.1/429c037de8ef8c5c1a67ba2bda63af0c/jetified-calls-1.9.53/AndroidManifest.xml:63:13-67
+238            android:configChanges="orientation|smallestScreenSize|screenSize|screenLayout"
+238-->[com.mesibo.api:calls:1.9.53] /Users/noname/.gradle/caches/transforms-2/files-2.1/429c037de8ef8c5c1a67ba2bda63af0c/jetified-calls-1.9.53/AndroidManifest.xml:64:13-91
+239            android:screenOrientation="fullUser"
+239-->[com.mesibo.api:calls:1.9.53] /Users/noname/.gradle/caches/transforms-2/files-2.1/429c037de8ef8c5c1a67ba2bda63af0c/jetified-calls-1.9.53/AndroidManifest.xml:65:13-49
+240            android:windowSoftInputMode="stateAlwaysHidden" />
+240-->[com.mesibo.api:calls:1.9.53] /Users/noname/.gradle/caches/transforms-2/files-2.1/429c037de8ef8c5c1a67ba2bda63af0c/jetified-calls-1.9.53/AndroidManifest.xml:66:13-60
+241        <activity
+241-->[com.mesibo.api:calls:1.9.53] /Users/noname/.gradle/caches/transforms-2/files-2.1/429c037de8ef8c5c1a67ba2bda63af0c/jetified-calls-1.9.53/AndroidManifest.xml:67:9-75:63
+242            android:name="com.mesibo.calls.api.ui.MesiboDefaultCallActivity"
+242-->[com.mesibo.api:calls:1.9.53] /Users/noname/.gradle/caches/transforms-2/files-2.1/429c037de8ef8c5c1a67ba2bda63af0c/jetified-calls-1.9.53/AndroidManifest.xml:68:13-77
+243            android:configChanges="orientation|keyboardHidden"
+243-->[com.mesibo.api:calls:1.9.53] /Users/noname/.gradle/caches/transforms-2/files-2.1/429c037de8ef8c5c1a67ba2bda63af0c/jetified-calls-1.9.53/AndroidManifest.xml:69:13-63
+244            android:screenOrientation="portrait"
+244-->[com.mesibo.api:calls:1.9.53] /Users/noname/.gradle/caches/transforms-2/files-2.1/429c037de8ef8c5c1a67ba2bda63af0c/jetified-calls-1.9.53/AndroidManifest.xml:70:13-49
+245            android:theme="@style/Theme.MesiboCallActivityLight"
+245-->[com.mesibo.api:calls:1.9.53] /Users/noname/.gradle/caches/transforms-2/files-2.1/429c037de8ef8c5c1a67ba2bda63af0c/jetified-calls-1.9.53/AndroidManifest.xml:71:13-65
+246            android:windowActionBar="false"
+246-->[com.mesibo.api:calls:1.9.53] /Users/noname/.gradle/caches/transforms-2/files-2.1/429c037de8ef8c5c1a67ba2bda63af0c/jetified-calls-1.9.53/AndroidManifest.xml:72:13-44
+247            android:windowFullscreen="true"
+247-->[com.mesibo.api:calls:1.9.53] /Users/noname/.gradle/caches/transforms-2/files-2.1/429c037de8ef8c5c1a67ba2bda63af0c/jetified-calls-1.9.53/AndroidManifest.xml:73:13-44
+248            android:windowNoTitle="true"
+248-->[com.mesibo.api:calls:1.9.53] /Users/noname/.gradle/caches/transforms-2/files-2.1/429c037de8ef8c5c1a67ba2bda63af0c/jetified-calls-1.9.53/AndroidManifest.xml:74:13-41
+249            android:windowSoftInputMode="stateAlwaysHidden" />
+249-->[com.mesibo.api:calls:1.9.53] /Users/noname/.gradle/caches/transforms-2/files-2.1/429c037de8ef8c5c1a67ba2bda63af0c/jetified-calls-1.9.53/AndroidManifest.xml:75:13-60
+250        <activity
+250-->[com.mesibo.api:calls:1.9.53] /Users/noname/.gradle/caches/transforms-2/files-2.1/429c037de8ef8c5c1a67ba2bda63af0c/jetified-calls-1.9.53/AndroidManifest.xml:76:9-84:63
+251            android:name="com.mesibo.calls.api.ui.MesiboDefaultGroupCallActivity"
+251-->[com.mesibo.api:calls:1.9.53] /Users/noname/.gradle/caches/transforms-2/files-2.1/429c037de8ef8c5c1a67ba2bda63af0c/jetified-calls-1.9.53/AndroidManifest.xml:77:13-82
+252            android:configChanges="orientation|keyboardHidden"
+252-->[com.mesibo.api:calls:1.9.53] /Users/noname/.gradle/caches/transforms-2/files-2.1/429c037de8ef8c5c1a67ba2bda63af0c/jetified-calls-1.9.53/AndroidManifest.xml:78:13-63
+253            android:screenOrientation="portrait"
+253-->[com.mesibo.api:calls:1.9.53] /Users/noname/.gradle/caches/transforms-2/files-2.1/429c037de8ef8c5c1a67ba2bda63af0c/jetified-calls-1.9.53/AndroidManifest.xml:79:13-49
+254            android:theme="@style/Theme.MesiboCallActivityLight"
+254-->[com.mesibo.api:calls:1.9.53] /Users/noname/.gradle/caches/transforms-2/files-2.1/429c037de8ef8c5c1a67ba2bda63af0c/jetified-calls-1.9.53/AndroidManifest.xml:80:13-65
+255            android:windowActionBar="false"
+255-->[com.mesibo.api:calls:1.9.53] /Users/noname/.gradle/caches/transforms-2/files-2.1/429c037de8ef8c5c1a67ba2bda63af0c/jetified-calls-1.9.53/AndroidManifest.xml:81:13-44
+256            android:windowFullscreen="true"
+256-->[com.mesibo.api:calls:1.9.53] /Users/noname/.gradle/caches/transforms-2/files-2.1/429c037de8ef8c5c1a67ba2bda63af0c/jetified-calls-1.9.53/AndroidManifest.xml:82:13-44
+257            android:windowNoTitle="true"
+257-->[com.mesibo.api:calls:1.9.53] /Users/noname/.gradle/caches/transforms-2/files-2.1/429c037de8ef8c5c1a67ba2bda63af0c/jetified-calls-1.9.53/AndroidManifest.xml:83:13-41
+258            android:windowSoftInputMode="stateAlwaysHidden" />
+258-->[com.mesibo.api:calls:1.9.53] /Users/noname/.gradle/caches/transforms-2/files-2.1/429c037de8ef8c5c1a67ba2bda63af0c/jetified-calls-1.9.53/AndroidManifest.xml:84:13-60
+259        <activity
+259-->[com.mesibo.api:calls:1.9.53] /Users/noname/.gradle/caches/transforms-2/files-2.1/429c037de8ef8c5c1a67ba2bda63af0c/jetified-calls-1.9.53/AndroidManifest.xml:85:9-94:20
+260            android:name="com.mesibo.calls.api.ui.MesiboJoinRoomActivity"
+260-->[com.mesibo.api:calls:1.9.53] /Users/noname/.gradle/caches/transforms-2/files-2.1/429c037de8ef8c5c1a67ba2bda63af0c/jetified-calls-1.9.53/AndroidManifest.xml:86:13-74
+261            android:label="@string/app_name"
+261-->[com.mesibo.api:calls:1.9.53] /Users/noname/.gradle/caches/transforms-2/files-2.1/429c037de8ef8c5c1a67ba2bda63af0c/jetified-calls-1.9.53/AndroidManifest.xml:87:13-45
+262            android:screenOrientation="portrait"
+262-->[com.mesibo.api:calls:1.9.53] /Users/noname/.gradle/caches/transforms-2/files-2.1/429c037de8ef8c5c1a67ba2bda63af0c/jetified-calls-1.9.53/AndroidManifest.xml:88:13-49
+263            android:theme="@style/Theme.MesiboCallActivityLight"
+263-->[com.mesibo.api:calls:1.9.53] /Users/noname/.gradle/caches/transforms-2/files-2.1/429c037de8ef8c5c1a67ba2bda63af0c/jetified-calls-1.9.53/AndroidManifest.xml:89:13-65
+264            android:windowActionBar="false"
+264-->[com.mesibo.api:calls:1.9.53] /Users/noname/.gradle/caches/transforms-2/files-2.1/429c037de8ef8c5c1a67ba2bda63af0c/jetified-calls-1.9.53/AndroidManifest.xml:90:13-44
+265            android:windowFullscreen="true"
+265-->[com.mesibo.api:calls:1.9.53] /Users/noname/.gradle/caches/transforms-2/files-2.1/429c037de8ef8c5c1a67ba2bda63af0c/jetified-calls-1.9.53/AndroidManifest.xml:91:13-44
+266            android:windowNoTitle="true"
+266-->[com.mesibo.api:calls:1.9.53] /Users/noname/.gradle/caches/transforms-2/files-2.1/429c037de8ef8c5c1a67ba2bda63af0c/jetified-calls-1.9.53/AndroidManifest.xml:92:13-41
+267            android:windowSoftInputMode="stateAlwaysHidden" >
+267-->[com.mesibo.api:calls:1.9.53] /Users/noname/.gradle/caches/transforms-2/files-2.1/429c037de8ef8c5c1a67ba2bda63af0c/jetified-calls-1.9.53/AndroidManifest.xml:93:13-60
+268        </activity>
+269
+270        <service
+270-->[com.mesibo.api:calls:1.9.53] /Users/noname/.gradle/caches/transforms-2/files-2.1/429c037de8ef8c5c1a67ba2bda63af0c/jetified-calls-1.9.53/AndroidManifest.xml:96:9-104:19
+271            android:name="com.mesibo.calls.api.MesiboConnectionService"
+271-->[com.mesibo.api:calls:1.9.53] /Users/noname/.gradle/caches/transforms-2/files-2.1/429c037de8ef8c5c1a67ba2bda63af0c/jetified-calls-1.9.53/AndroidManifest.xml:97:13-72
+272            android:exported="true"
+272-->[com.mesibo.api:calls:1.9.53] /Users/noname/.gradle/caches/transforms-2/files-2.1/429c037de8ef8c5c1a67ba2bda63af0c/jetified-calls-1.9.53/AndroidManifest.xml:98:13-36
+273            android:label="MesiboConnectionService"
+273-->[com.mesibo.api:calls:1.9.53] /Users/noname/.gradle/caches/transforms-2/files-2.1/429c037de8ef8c5c1a67ba2bda63af0c/jetified-calls-1.9.53/AndroidManifest.xml:99:13-52
+274            android:permission="android.permission.BIND_TELECOM_CONNECTION_SERVICE" >
+274-->[com.mesibo.api:calls:1.9.53] /Users/noname/.gradle/caches/transforms-2/files-2.1/429c037de8ef8c5c1a67ba2bda63af0c/jetified-calls-1.9.53/AndroidManifest.xml:100:13-84
+275            <intent-filter>
+275-->[com.mesibo.api:calls:1.9.53] /Users/noname/.gradle/caches/transforms-2/files-2.1/429c037de8ef8c5c1a67ba2bda63af0c/jetified-calls-1.9.53/AndroidManifest.xml:101:13-103:29
+276                <action android:name="android.telecom.ConnectionService" />
+276-->[com.mesibo.api:calls:1.9.53] /Users/noname/.gradle/caches/transforms-2/files-2.1/429c037de8ef8c5c1a67ba2bda63af0c/jetified-calls-1.9.53/AndroidManifest.xml:102:17-76
+276-->[com.mesibo.api:calls:1.9.53] /Users/noname/.gradle/caches/transforms-2/files-2.1/429c037de8ef8c5c1a67ba2bda63af0c/jetified-calls-1.9.53/AndroidManifest.xml:102:25-73
+277            </intent-filter>
+278        </service>
+279        <service
+279-->[com.mesibo.api:mesibo:1.9.53] /Users/noname/.gradle/caches/transforms-2/files-2.1/3a0270acd5517463989765cbb330550f/jetified-mesibo-1.9.53/AndroidManifest.xml:17:9-21:19
+280            android:name="com.mesibo.api.MesiboService"
+280-->[com.mesibo.api:mesibo:1.9.53] /Users/noname/.gradle/caches/transforms-2/files-2.1/3a0270acd5517463989765cbb330550f/jetified-mesibo-1.9.53/AndroidManifest.xml:18:13-56
+281            android:enabled="true"
+281-->[com.mesibo.api:mesibo:1.9.53] /Users/noname/.gradle/caches/transforms-2/files-2.1/3a0270acd5517463989765cbb330550f/jetified-mesibo-1.9.53/AndroidManifest.xml:19:13-35
+282            android:exported="false" >
+282-->[com.mesibo.api:mesibo:1.9.53] /Users/noname/.gradle/caches/transforms-2/files-2.1/3a0270acd5517463989765cbb330550f/jetified-mesibo-1.9.53/AndroidManifest.xml:20:13-37
+283        </service>
+284        <!--
+285        <receiver
+286            android:name=".NetworkStateReceiver"
+287            android:enabled="true"
+288            android:exported="false"
+289            >
+290            <intent-filter>
+291                <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
+292            </intent-filter>
+293        </receiver>
+294        -->
+295        <!-- https://stackoverflow.com/questions/17759041/permission-denial-broadcasting-intent-is-not-exported -->
+296        <receiver
+296-->[com.mesibo.api:mesibo:1.9.53] /Users/noname/.gradle/caches/transforms-2/files-2.1/3a0270acd5517463989765cbb330550f/jetified-mesibo-1.9.53/AndroidManifest.xml:37:9-50:20
+297            android:name="com.mesibo.api.GenericReceiver"
+297-->[com.mesibo.api:mesibo:1.9.53] /Users/noname/.gradle/caches/transforms-2/files-2.1/3a0270acd5517463989765cbb330550f/jetified-mesibo-1.9.53/AndroidManifest.xml:38:13-58
+298            android:enabled="true"
+298-->[com.mesibo.api:mesibo:1.9.53] /Users/noname/.gradle/caches/transforms-2/files-2.1/3a0270acd5517463989765cbb330550f/jetified-mesibo-1.9.53/AndroidManifest.xml:39:13-35
+299            android:exported="true" >
+299-->[com.mesibo.api:mesibo:1.9.53] /Users/noname/.gradle/caches/transforms-2/files-2.1/3a0270acd5517463989765cbb330550f/jetified-mesibo-1.9.53/AndroidManifest.xml:40:13-36
+300            <intent-filter>
+300-->[com.mesibo.api:mesibo:1.9.53] /Users/noname/.gradle/caches/transforms-2/files-2.1/3a0270acd5517463989765cbb330550f/jetified-mesibo-1.9.53/AndroidManifest.xml:41:13-49:29
+301                <action android:name="android.intent.action.ACTION_POWER_CONNECTED" />
+301-->[com.mesibo.api:mesibo:1.9.53] /Users/noname/.gradle/caches/transforms-2/files-2.1/3a0270acd5517463989765cbb330550f/jetified-mesibo-1.9.53/AndroidManifest.xml:42:17-87
+301-->[com.mesibo.api:mesibo:1.9.53] /Users/noname/.gradle/caches/transforms-2/files-2.1/3a0270acd5517463989765cbb330550f/jetified-mesibo-1.9.53/AndroidManifest.xml:42:25-84
+302                <action android:name="android.intent.action.ACTION_POWER_DISCONNECTED" />
+302-->[com.mesibo.api:mesibo:1.9.53] /Users/noname/.gradle/caches/transforms-2/files-2.1/3a0270acd5517463989765cbb330550f/jetified-mesibo-1.9.53/AndroidManifest.xml:43:17-90
+302-->[com.mesibo.api:mesibo:1.9.53] /Users/noname/.gradle/caches/transforms-2/files-2.1/3a0270acd5517463989765cbb330550f/jetified-mesibo-1.9.53/AndroidManifest.xml:43:25-87
+303                <action android:name="android.intent.action.ACTION_BATTERY_CHANGED" />
+303-->[com.mesibo.api:mesibo:1.9.53] /Users/noname/.gradle/caches/transforms-2/files-2.1/3a0270acd5517463989765cbb330550f/jetified-mesibo-1.9.53/AndroidManifest.xml:44:17-87
+303-->[com.mesibo.api:mesibo:1.9.53] /Users/noname/.gradle/caches/transforms-2/files-2.1/3a0270acd5517463989765cbb330550f/jetified-mesibo-1.9.53/AndroidManifest.xml:44:25-84
+304                <action android:name="android.intent.action.USER_PRESENT" />
+304-->[com.mesibo.api:mesibo:1.9.53] /Users/noname/.gradle/caches/transforms-2/files-2.1/3a0270acd5517463989765cbb330550f/jetified-mesibo-1.9.53/AndroidManifest.xml:45:17-77
+304-->[com.mesibo.api:mesibo:1.9.53] /Users/noname/.gradle/caches/transforms-2/files-2.1/3a0270acd5517463989765cbb330550f/jetified-mesibo-1.9.53/AndroidManifest.xml:45:25-74
+305                <action android:name="android.intent.action.SCREEN_ON" />
+305-->[com.mesibo.api:mesibo:1.9.53] /Users/noname/.gradle/caches/transforms-2/files-2.1/3a0270acd5517463989765cbb330550f/jetified-mesibo-1.9.53/AndroidManifest.xml:46:17-74
+305-->[com.mesibo.api:mesibo:1.9.53] /Users/noname/.gradle/caches/transforms-2/files-2.1/3a0270acd5517463989765cbb330550f/jetified-mesibo-1.9.53/AndroidManifest.xml:46:25-71
+306                <action android:name="android.intent.action.SCREEN_OFF" />
+306-->[com.mesibo.api:mesibo:1.9.53] /Users/noname/.gradle/caches/transforms-2/files-2.1/3a0270acd5517463989765cbb330550f/jetified-mesibo-1.9.53/AndroidManifest.xml:47:17-75
+306-->[com.mesibo.api:mesibo:1.9.53] /Users/noname/.gradle/caches/transforms-2/files-2.1/3a0270acd5517463989765cbb330550f/jetified-mesibo-1.9.53/AndroidManifest.xml:47:25-72
+307                <action android:name="android.intent.action.ACTION_SHUTDOWN" />
+307-->[com.mesibo.api:mesibo:1.9.53] /Users/noname/.gradle/caches/transforms-2/files-2.1/3a0270acd5517463989765cbb330550f/jetified-mesibo-1.9.53/AndroidManifest.xml:48:17-80
+307-->[com.mesibo.api:mesibo:1.9.53] /Users/noname/.gradle/caches/transforms-2/files-2.1/3a0270acd5517463989765cbb330550f/jetified-mesibo-1.9.53/AndroidManifest.xml:48:25-77
+308            </intent-filter>
+309        </receiver>
+310
+311        <provider
+311-->[com.mesibo.api:mesibo:1.9.53] /Users/noname/.gradle/caches/transforms-2/files-2.1/3a0270acd5517463989765cbb330550f/jetified-mesibo-1.9.53/AndroidManifest.xml:52:9-60:20
+312            android:name="com.mesibo.api.MesiboFileProvider"
+312-->[com.mesibo.api:mesibo:1.9.53] /Users/noname/.gradle/caches/transforms-2/files-2.1/3a0270acd5517463989765cbb330550f/jetified-mesibo-1.9.53/AndroidManifest.xml:53:13-61
+313            android:authorities="org.chatapps.messenger.mesibofileprovider"
+313-->[com.mesibo.api:mesibo:1.9.53] /Users/noname/.gradle/caches/transforms-2/files-2.1/3a0270acd5517463989765cbb330550f/jetified-mesibo-1.9.53/AndroidManifest.xml:54:13-70
+314            android:exported="false"
+314-->[com.mesibo.api:mesibo:1.9.53] /Users/noname/.gradle/caches/transforms-2/files-2.1/3a0270acd5517463989765cbb330550f/jetified-mesibo-1.9.53/AndroidManifest.xml:55:13-37
+315            android:grantUriPermissions="true" >
+315-->[com.mesibo.api:mesibo:1.9.53] /Users/noname/.gradle/caches/transforms-2/files-2.1/3a0270acd5517463989765cbb330550f/jetified-mesibo-1.9.53/AndroidManifest.xml:56:13-47
+316            <meta-data
+316-->[com.mesibo.api:mediapicker:1.6.1] /Users/noname/.gradle/caches/transforms-2/files-2.1/14f9cf399f9989124995645a8626efbc/jetified-mediapicker-1.6.1/AndroidManifest.xml:35:13-37:58
+317                android:name="android.support.FILE_PROVIDER_PATHS"
+317-->[com.mesibo.api:mediapicker:1.6.1] /Users/noname/.gradle/caches/transforms-2/files-2.1/14f9cf399f9989124995645a8626efbc/jetified-mediapicker-1.6.1/AndroidManifest.xml:36:17-67
+318                android:resource="@xml/provider_paths" />
+318-->[com.mesibo.api:mediapicker:1.6.1] /Users/noname/.gradle/caches/transforms-2/files-2.1/14f9cf399f9989124995645a8626efbc/jetified-mediapicker-1.6.1/AndroidManifest.xml:37:17-55
+319        </provider>
+320
+321        <activity
+321-->[com.google.android.libraries.places:places:2.6.0] /Users/noname/.gradle/caches/transforms-2/files-2.1/3e80ab14bbabd569e211ac1860c37633/jetified-places-2.6.0/AndroidManifest.xml:14:9-20:20
+322            android:name="com.google.android.libraries.places.widget.AutocompleteActivity"
+322-->[com.google.android.libraries.places:places:2.6.0] /Users/noname/.gradle/caches/transforms-2/files-2.1/3e80ab14bbabd569e211ac1860c37633/jetified-places-2.6.0/AndroidManifest.xml:15:13-91
+323            android:exported="false"
+323-->[com.google.android.libraries.places:places:2.6.0] /Users/noname/.gradle/caches/transforms-2/files-2.1/3e80ab14bbabd569e211ac1860c37633/jetified-places-2.6.0/AndroidManifest.xml:16:13-37
+324            android:label="@string/places_autocomplete_label"
+324-->[com.google.android.libraries.places:places:2.6.0] /Users/noname/.gradle/caches/transforms-2/files-2.1/3e80ab14bbabd569e211ac1860c37633/jetified-places-2.6.0/AndroidManifest.xml:17:13-62
+325            android:theme="@style/PlacesAutocompleteOverlay"
+325-->[com.google.android.libraries.places:places:2.6.0] /Users/noname/.gradle/caches/transforms-2/files-2.1/3e80ab14bbabd569e211ac1860c37633/jetified-places-2.6.0/AndroidManifest.xml:18:13-61
+326            android:windowSoftInputMode="adjustResize" >
+326-->[com.google.android.libraries.places:places:2.6.0] /Users/noname/.gradle/caches/transforms-2/files-2.1/3e80ab14bbabd569e211ac1860c37633/jetified-places-2.6.0/AndroidManifest.xml:19:13-55
+327        </activity>
+328        <activity
+328-->[com.google.android.gms:play-services-auth:16.0.1] /Users/noname/.gradle/caches/transforms-2/files-2.1/43bbac68355fe7cbffb1468dba3aacc5/jetified-play-services-auth-16.0.1/AndroidManifest.xml:23:9-27:75
+329            android:name="com.google.android.gms.auth.api.signin.internal.SignInHubActivity"
+329-->[com.google.android.gms:play-services-auth:16.0.1] /Users/noname/.gradle/caches/transforms-2/files-2.1/43bbac68355fe7cbffb1468dba3aacc5/jetified-play-services-auth-16.0.1/AndroidManifest.xml:24:13-93
+330            android:excludeFromRecents="true"
+330-->[com.google.android.gms:play-services-auth:16.0.1] /Users/noname/.gradle/caches/transforms-2/files-2.1/43bbac68355fe7cbffb1468dba3aacc5/jetified-play-services-auth-16.0.1/AndroidManifest.xml:25:13-46
+331            android:exported="false"
+331-->[com.google.android.gms:play-services-auth:16.0.1] /Users/noname/.gradle/caches/transforms-2/files-2.1/43bbac68355fe7cbffb1468dba3aacc5/jetified-play-services-auth-16.0.1/AndroidManifest.xml:26:13-37
+332            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+332-->[com.google.android.gms:play-services-auth:16.0.1] /Users/noname/.gradle/caches/transforms-2/files-2.1/43bbac68355fe7cbffb1468dba3aacc5/jetified-play-services-auth-16.0.1/AndroidManifest.xml:27:13-72
+333        <!--
+334            Service handling Google Sign-In user revocation. For apps that do not integrate with
+335            Google Sign-In, this service will never be started.
+336        -->
+337        <service
+337-->[com.google.android.gms:play-services-auth:16.0.1] /Users/noname/.gradle/caches/transforms-2/files-2.1/43bbac68355fe7cbffb1468dba3aacc5/jetified-play-services-auth-16.0.1/AndroidManifest.xml:33:9-36:110
+338            android:name="com.google.android.gms.auth.api.signin.RevocationBoundService"
+338-->[com.google.android.gms:play-services-auth:16.0.1] /Users/noname/.gradle/caches/transforms-2/files-2.1/43bbac68355fe7cbffb1468dba3aacc5/jetified-play-services-auth-16.0.1/AndroidManifest.xml:34:13-89
+339            android:exported="true"
+339-->[com.google.android.gms:play-services-auth:16.0.1] /Users/noname/.gradle/caches/transforms-2/files-2.1/43bbac68355fe7cbffb1468dba3aacc5/jetified-play-services-auth-16.0.1/AndroidManifest.xml:35:13-36
+340            android:permission="com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION" />
+340-->[com.google.android.gms:play-services-auth:16.0.1] /Users/noname/.gradle/caches/transforms-2/files-2.1/43bbac68355fe7cbffb1468dba3aacc5/jetified-play-services-auth-16.0.1/AndroidManifest.xml:36:13-107
+341        <!--
+342             FirebaseMessagingService performs security checks at runtime,
+343             but set to not exported to explicitly avoid allowing another app to call it.
+344        -->
+345        <service
+345-->[com.google.firebase:firebase-messaging:18.0.0] /Users/noname/.gradle/caches/transforms-2/files-2.1/9f12aadb79c962fb79ae56b7b91011b6/jetified-firebase-messaging-18.0.0/AndroidManifest.xml:28:9-34:19
+346            android:name="com.google.firebase.messaging.FirebaseMessagingService"
+346-->[com.google.firebase:firebase-messaging:18.0.0] /Users/noname/.gradle/caches/transforms-2/files-2.1/9f12aadb79c962fb79ae56b7b91011b6/jetified-firebase-messaging-18.0.0/AndroidManifest.xml:29:13-82
+347            android:exported="false" >
+347-->[com.google.firebase:firebase-messaging:18.0.0] /Users/noname/.gradle/caches/transforms-2/files-2.1/9f12aadb79c962fb79ae56b7b91011b6/jetified-firebase-messaging-18.0.0/AndroidManifest.xml:30:13-37
+348            <intent-filter android:priority="-500" >
+348-->/Users/noname/Documents/messenger-app-android/app/src/main/AndroidManifest.xml:87:13-89:29
+349                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+349-->/Users/noname/Documents/messenger-app-android/app/src/main/AndroidManifest.xml:88:17-78
+349-->/Users/noname/Documents/messenger-app-android/app/src/main/AndroidManifest.xml:88:25-75
+350            </intent-filter>
+351        </service>
+352        <service
+352-->[com.google.android.gms:play-services-measurement-api:16.5.0] /Users/noname/.gradle/caches/transforms-2/files-2.1/ecca365c9a4b94134c67abbd521f6665/jetified-play-services-measurement-api-16.5.0/AndroidManifest.xml:27:9-33:19
+353            android:name="com.google.firebase.components.ComponentDiscoveryService"
+353-->[com.google.android.gms:play-services-measurement-api:16.5.0] /Users/noname/.gradle/caches/transforms-2/files-2.1/ecca365c9a4b94134c67abbd521f6665/jetified-play-services-measurement-api-16.5.0/AndroidManifest.xml:28:13-84
+354            android:exported="false" >
+354-->[com.google.android.gms:play-services-measurement-api:16.5.0] /Users/noname/.gradle/caches/transforms-2/files-2.1/ecca365c9a4b94134c67abbd521f6665/jetified-play-services-measurement-api-16.5.0/AndroidManifest.xml:29:13-37
+355            <meta-data
+355-->[com.google.android.gms:play-services-measurement-api:16.5.0] /Users/noname/.gradle/caches/transforms-2/files-2.1/ecca365c9a4b94134c67abbd521f6665/jetified-play-services-measurement-api-16.5.0/AndroidManifest.xml:30:13-32:85
+356                android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar"
+356-->[com.google.android.gms:play-services-measurement-api:16.5.0] /Users/noname/.gradle/caches/transforms-2/files-2.1/ecca365c9a4b94134c67abbd521f6665/jetified-play-services-measurement-api-16.5.0/AndroidManifest.xml:31:17-139
+357                android:value="com.google.firebase.components.ComponentRegistrar" />
+357-->[com.google.android.gms:play-services-measurement-api:16.5.0] /Users/noname/.gradle/caches/transforms-2/files-2.1/ecca365c9a4b94134c67abbd521f6665/jetified-play-services-measurement-api-16.5.0/AndroidManifest.xml:32:17-82
+358            <meta-data
+358-->[com.google.firebase:firebase-iid:18.0.0] /Users/noname/.gradle/caches/transforms-2/files-2.1/e9b1e4f60a8214df13b89240d78ca159/jetified-firebase-iid-18.0.0/AndroidManifest.xml:32:13-34:85
+359                android:name="com.google.firebase.components:com.google.firebase.iid.Registrar"
+359-->[com.google.firebase:firebase-iid:18.0.0] /Users/noname/.gradle/caches/transforms-2/files-2.1/e9b1e4f60a8214df13b89240d78ca159/jetified-firebase-iid-18.0.0/AndroidManifest.xml:33:17-96
+360                android:value="com.google.firebase.components.ComponentRegistrar" />
+360-->[com.google.firebase:firebase-iid:18.0.0] /Users/noname/.gradle/caches/transforms-2/files-2.1/e9b1e4f60a8214df13b89240d78ca159/jetified-firebase-iid-18.0.0/AndroidManifest.xml:34:17-82
+361        </service>
+362
+363        <receiver
+363-->[com.google.firebase:firebase-iid:18.0.0] /Users/noname/.gradle/caches/transforms-2/files-2.1/e9b1e4f60a8214df13b89240d78ca159/jetified-firebase-iid-18.0.0/AndroidManifest.xml:37:9-44:20
+364            android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
+364-->[com.google.firebase:firebase-iid:18.0.0] /Users/noname/.gradle/caches/transforms-2/files-2.1/e9b1e4f60a8214df13b89240d78ca159/jetified-firebase-iid-18.0.0/AndroidManifest.xml:38:13-78
+365            android:exported="true"
+365-->[com.google.firebase:firebase-iid:18.0.0] /Users/noname/.gradle/caches/transforms-2/files-2.1/e9b1e4f60a8214df13b89240d78ca159/jetified-firebase-iid-18.0.0/AndroidManifest.xml:39:13-36
+366            android:permission="com.google.android.c2dm.permission.SEND" >
+366-->[com.google.firebase:firebase-iid:18.0.0] /Users/noname/.gradle/caches/transforms-2/files-2.1/e9b1e4f60a8214df13b89240d78ca159/jetified-firebase-iid-18.0.0/AndroidManifest.xml:40:13-73
+367            <intent-filter>
+367-->[com.google.firebase:firebase-iid:18.0.0] /Users/noname/.gradle/caches/transforms-2/files-2.1/e9b1e4f60a8214df13b89240d78ca159/jetified-firebase-iid-18.0.0/AndroidManifest.xml:41:13-43:29
+368                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+368-->[com.google.firebase:firebase-iid:18.0.0] /Users/noname/.gradle/caches/transforms-2/files-2.1/e9b1e4f60a8214df13b89240d78ca159/jetified-firebase-iid-18.0.0/AndroidManifest.xml:42:17-81
+368-->[com.google.firebase:firebase-iid:18.0.0] /Users/noname/.gradle/caches/transforms-2/files-2.1/e9b1e4f60a8214df13b89240d78ca159/jetified-firebase-iid-18.0.0/AndroidManifest.xml:42:25-78
+369            </intent-filter>
+370        </receiver> <!-- Needs to be explicitly declared on P+ -->
+371        <uses-library
+371-->[com.google.android.gms:play-services-maps:17.0.0] /Users/noname/.gradle/caches/transforms-2/files-2.1/09b6dd3e7c87a3d12384e8a4a2a85e44/jetified-play-services-maps-17.0.0/AndroidManifest.xml:33:9-35:40
+372            android:name="org.apache.http.legacy"
+372-->[com.google.android.gms:play-services-maps:17.0.0] /Users/noname/.gradle/caches/transforms-2/files-2.1/09b6dd3e7c87a3d12384e8a4a2a85e44/jetified-play-services-maps-17.0.0/AndroidManifest.xml:34:13-50
+373            android:required="false" />
+373-->[com.google.android.gms:play-services-maps:17.0.0] /Users/noname/.gradle/caches/transforms-2/files-2.1/09b6dd3e7c87a3d12384e8a4a2a85e44/jetified-play-services-maps-17.0.0/AndroidManifest.xml:35:13-37
+374
+375        <activity
+375-->[com.google.android.gms:play-services-base:18.0.1] /Users/noname/.gradle/caches/transforms-2/files-2.1/37b595b2d2745886dcd0edc0a5df4b65/jetified-play-services-base-18.0.1/AndroidManifest.xml:20:9-22:45
+376            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+376-->[com.google.android.gms:play-services-base:18.0.1] /Users/noname/.gradle/caches/transforms-2/files-2.1/37b595b2d2745886dcd0edc0a5df4b65/jetified-play-services-base-18.0.1/AndroidManifest.xml:20:19-85
+377            android:exported="false"
+377-->[com.google.android.gms:play-services-base:18.0.1] /Users/noname/.gradle/caches/transforms-2/files-2.1/37b595b2d2745886dcd0edc0a5df4b65/jetified-play-services-base-18.0.1/AndroidManifest.xml:22:19-43
+378            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+378-->[com.google.android.gms:play-services-base:18.0.1] /Users/noname/.gradle/caches/transforms-2/files-2.1/37b595b2d2745886dcd0edc0a5df4b65/jetified-play-services-base-18.0.1/AndroidManifest.xml:21:19-78
+379
+380        <provider
+380-->[com.google.firebase:firebase-common:17.0.0] /Users/noname/.gradle/caches/transforms-2/files-2.1/d2b470ba1c048f9daa19edd1747937cd/jetified-firebase-common-17.0.0/AndroidManifest.xml:12:9-16:39
+381            android:name="com.google.firebase.provider.FirebaseInitProvider"
+381-->[com.google.firebase:firebase-common:17.0.0] /Users/noname/.gradle/caches/transforms-2/files-2.1/d2b470ba1c048f9daa19edd1747937cd/jetified-firebase-common-17.0.0/AndroidManifest.xml:13:13-77
+382            android:authorities="org.chatapps.messenger.firebaseinitprovider"
+382-->[com.google.firebase:firebase-common:17.0.0] /Users/noname/.gradle/caches/transforms-2/files-2.1/d2b470ba1c048f9daa19edd1747937cd/jetified-firebase-common-17.0.0/AndroidManifest.xml:14:13-72
+383            android:exported="false"
+383-->[com.google.firebase:firebase-common:17.0.0] /Users/noname/.gradle/caches/transforms-2/files-2.1/d2b470ba1c048f9daa19edd1747937cd/jetified-firebase-common-17.0.0/AndroidManifest.xml:15:13-37
+384            android:initOrder="100" />
+384-->[com.google.firebase:firebase-common:17.0.0] /Users/noname/.gradle/caches/transforms-2/files-2.1/d2b470ba1c048f9daa19edd1747937cd/jetified-firebase-common-17.0.0/AndroidManifest.xml:16:13-36
+385
+386        <receiver
+386-->[com.google.android.gms:play-services-measurement:16.5.0] /Users/noname/.gradle/caches/transforms-2/files-2.1/d19951d47129ba252ef7acc8028f5962/jetified-play-services-measurement-16.5.0/AndroidManifest.xml:29:9-33:20
+387            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
+387-->[com.google.android.gms:play-services-measurement:16.5.0] /Users/noname/.gradle/caches/transforms-2/files-2.1/d19951d47129ba252ef7acc8028f5962/jetified-play-services-measurement-16.5.0/AndroidManifest.xml:30:13-85
+388            android:enabled="true"
+388-->[com.google.android.gms:play-services-measurement:16.5.0] /Users/noname/.gradle/caches/transforms-2/files-2.1/d19951d47129ba252ef7acc8028f5962/jetified-play-services-measurement-16.5.0/AndroidManifest.xml:31:13-35
+389            android:exported="false" >
+389-->[com.google.android.gms:play-services-measurement:16.5.0] /Users/noname/.gradle/caches/transforms-2/files-2.1/d19951d47129ba252ef7acc8028f5962/jetified-play-services-measurement-16.5.0/AndroidManifest.xml:32:13-37
+390        </receiver>
+391        <receiver
+391-->[com.google.android.gms:play-services-measurement:16.5.0] /Users/noname/.gradle/caches/transforms-2/files-2.1/d19951d47129ba252ef7acc8028f5962/jetified-play-services-measurement-16.5.0/AndroidManifest.xml:34:9-42:20
+392            android:name="com.google.android.gms.measurement.AppMeasurementInstallReferrerReceiver"
+392-->[com.google.android.gms:play-services-measurement:16.5.0] /Users/noname/.gradle/caches/transforms-2/files-2.1/d19951d47129ba252ef7acc8028f5962/jetified-play-services-measurement-16.5.0/AndroidManifest.xml:35:13-100
+393            android:enabled="true"
+393-->[com.google.android.gms:play-services-measurement:16.5.0] /Users/noname/.gradle/caches/transforms-2/files-2.1/d19951d47129ba252ef7acc8028f5962/jetified-play-services-measurement-16.5.0/AndroidManifest.xml:36:13-35
+394            android:exported="true"
+394-->[com.google.android.gms:play-services-measurement:16.5.0] /Users/noname/.gradle/caches/transforms-2/files-2.1/d19951d47129ba252ef7acc8028f5962/jetified-play-services-measurement-16.5.0/AndroidManifest.xml:37:13-36
+395            android:permission="android.permission.INSTALL_PACKAGES" >
+395-->[com.google.android.gms:play-services-measurement:16.5.0] /Users/noname/.gradle/caches/transforms-2/files-2.1/d19951d47129ba252ef7acc8028f5962/jetified-play-services-measurement-16.5.0/AndroidManifest.xml:38:13-69
+396            <intent-filter>
+396-->[com.google.android.gms:play-services-measurement:16.5.0] /Users/noname/.gradle/caches/transforms-2/files-2.1/d19951d47129ba252ef7acc8028f5962/jetified-play-services-measurement-16.5.0/AndroidManifest.xml:39:13-41:29
+397                <action android:name="com.android.vending.INSTALL_REFERRER" />
+397-->[com.google.android.gms:play-services-measurement:16.5.0] /Users/noname/.gradle/caches/transforms-2/files-2.1/d19951d47129ba252ef7acc8028f5962/jetified-play-services-measurement-16.5.0/AndroidManifest.xml:40:17-79
+397-->[com.google.android.gms:play-services-measurement:16.5.0] /Users/noname/.gradle/caches/transforms-2/files-2.1/d19951d47129ba252ef7acc8028f5962/jetified-play-services-measurement-16.5.0/AndroidManifest.xml:40:25-76
+398            </intent-filter>
+399        </receiver>
+400
+401        <service
+401-->[com.google.android.gms:play-services-measurement:16.5.0] /Users/noname/.gradle/caches/transforms-2/files-2.1/d19951d47129ba252ef7acc8028f5962/jetified-play-services-measurement-16.5.0/AndroidManifest.xml:44:9-47:40
+402            android:name="com.google.android.gms.measurement.AppMeasurementService"
+402-->[com.google.android.gms:play-services-measurement:16.5.0] /Users/noname/.gradle/caches/transforms-2/files-2.1/d19951d47129ba252ef7acc8028f5962/jetified-play-services-measurement-16.5.0/AndroidManifest.xml:45:13-84
+403            android:enabled="true"
+403-->[com.google.android.gms:play-services-measurement:16.5.0] /Users/noname/.gradle/caches/transforms-2/files-2.1/d19951d47129ba252ef7acc8028f5962/jetified-play-services-measurement-16.5.0/AndroidManifest.xml:46:13-35
+404            android:exported="false" />
+404-->[com.google.android.gms:play-services-measurement:16.5.0] /Users/noname/.gradle/caches/transforms-2/files-2.1/d19951d47129ba252ef7acc8028f5962/jetified-play-services-measurement-16.5.0/AndroidManifest.xml:47:13-37
+405        <service
+405-->[com.google.android.gms:play-services-measurement:16.5.0] /Users/noname/.gradle/caches/transforms-2/files-2.1/d19951d47129ba252ef7acc8028f5962/jetified-play-services-measurement-16.5.0/AndroidManifest.xml:48:9-52:72
+406            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
+406-->[com.google.android.gms:play-services-measurement:16.5.0] /Users/noname/.gradle/caches/transforms-2/files-2.1/d19951d47129ba252ef7acc8028f5962/jetified-play-services-measurement-16.5.0/AndroidManifest.xml:49:13-87
+407            android:enabled="true"
+407-->[com.google.android.gms:play-services-measurement:16.5.0] /Users/noname/.gradle/caches/transforms-2/files-2.1/d19951d47129ba252ef7acc8028f5962/jetified-play-services-measurement-16.5.0/AndroidManifest.xml:50:13-35
+408            android:exported="false"
+408-->[com.google.android.gms:play-services-measurement:16.5.0] /Users/noname/.gradle/caches/transforms-2/files-2.1/d19951d47129ba252ef7acc8028f5962/jetified-play-services-measurement-16.5.0/AndroidManifest.xml:51:13-37
+409            android:permission="android.permission.BIND_JOB_SERVICE" />
+409-->[com.google.android.gms:play-services-measurement:16.5.0] /Users/noname/.gradle/caches/transforms-2/files-2.1/d19951d47129ba252ef7acc8028f5962/jetified-play-services-measurement-16.5.0/AndroidManifest.xml:52:13-69
+410        <service
+410-->[com.google.android.datatransport:transport-backend-cct:2.3.0] /Users/noname/.gradle/caches/transforms-2/files-2.1/0a3b0ef6850894272622c25d5a5af2ba/jetified-transport-backend-cct-2.3.0/AndroidManifest.xml:29:9-35:19
+411            android:name="com.google.android.datatransport.runtime.backends.TransportBackendDiscovery"
+411-->[com.google.android.datatransport:transport-backend-cct:2.3.0] /Users/noname/.gradle/caches/transforms-2/files-2.1/0a3b0ef6850894272622c25d5a5af2ba/jetified-transport-backend-cct-2.3.0/AndroidManifest.xml:30:13-103
+412            android:exported="false" >
+412-->[com.google.android.datatransport:transport-backend-cct:2.3.0] /Users/noname/.gradle/caches/transforms-2/files-2.1/0a3b0ef6850894272622c25d5a5af2ba/jetified-transport-backend-cct-2.3.0/AndroidManifest.xml:31:13-37
+413            <meta-data
+413-->[com.google.android.datatransport:transport-backend-cct:2.3.0] /Users/noname/.gradle/caches/transforms-2/files-2.1/0a3b0ef6850894272622c25d5a5af2ba/jetified-transport-backend-cct-2.3.0/AndroidManifest.xml:32:13-34:39
+414                android:name="backend:com.google.android.datatransport.cct.CctBackendFactory"
+414-->[com.google.android.datatransport:transport-backend-cct:2.3.0] /Users/noname/.gradle/caches/transforms-2/files-2.1/0a3b0ef6850894272622c25d5a5af2ba/jetified-transport-backend-cct-2.3.0/AndroidManifest.xml:33:17-94
+415                android:value="cct" />
+415-->[com.google.android.datatransport:transport-backend-cct:2.3.0] /Users/noname/.gradle/caches/transforms-2/files-2.1/0a3b0ef6850894272622c25d5a5af2ba/jetified-transport-backend-cct-2.3.0/AndroidManifest.xml:34:17-36
+416        </service>
+417        <service
+417-->[com.google.android.datatransport:transport-runtime:2.2.3] /Users/noname/.gradle/caches/transforms-2/files-2.1/99a4f9408f7872ea688ac3bf34c11d30/jetified-transport-runtime-2.2.3/AndroidManifest.xml:26:9-30:19
+418            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService"
+418-->[com.google.android.datatransport:transport-runtime:2.2.3] /Users/noname/.gradle/caches/transforms-2/files-2.1/99a4f9408f7872ea688ac3bf34c11d30/jetified-transport-runtime-2.2.3/AndroidManifest.xml:27:13-117
+419            android:exported="false"
+419-->[com.google.android.datatransport:transport-runtime:2.2.3] /Users/noname/.gradle/caches/transforms-2/files-2.1/99a4f9408f7872ea688ac3bf34c11d30/jetified-transport-runtime-2.2.3/AndroidManifest.xml:28:13-37
+420            android:permission="android.permission.BIND_JOB_SERVICE" >
+420-->[com.google.android.datatransport:transport-runtime:2.2.3] /Users/noname/.gradle/caches/transforms-2/files-2.1/99a4f9408f7872ea688ac3bf34c11d30/jetified-transport-runtime-2.2.3/AndroidManifest.xml:29:13-69
+421        </service>
+422
+423        <receiver
+423-->[com.google.android.datatransport:transport-runtime:2.2.3] /Users/noname/.gradle/caches/transforms-2/files-2.1/99a4f9408f7872ea688ac3bf34c11d30/jetified-transport-runtime-2.2.3/AndroidManifest.xml:32:9-34:40
+424            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver"
+424-->[com.google.android.datatransport:transport-runtime:2.2.3] /Users/noname/.gradle/caches/transforms-2/files-2.1/99a4f9408f7872ea688ac3bf34c11d30/jetified-transport-runtime-2.2.3/AndroidManifest.xml:33:13-132
+425            android:exported="false" />
+425-->[com.google.android.datatransport:transport-runtime:2.2.3] /Users/noname/.gradle/caches/transforms-2/files-2.1/99a4f9408f7872ea688ac3bf34c11d30/jetified-transport-runtime-2.2.3/AndroidManifest.xml:34:13-37
+426
+427        <provider
+427-->[androidx.lifecycle:lifecycle-process:2.0.0] /Users/noname/.gradle/caches/transforms-2/files-2.1/22148d685580ed3826a245eb225c8e0c/jetified-lifecycle-process-2.0.0/AndroidManifest.xml:23:9-27:43
+428            android:name="androidx.lifecycle.ProcessLifecycleOwnerInitializer"
+428-->[androidx.lifecycle:lifecycle-process:2.0.0] /Users/noname/.gradle/caches/transforms-2/files-2.1/22148d685580ed3826a245eb225c8e0c/jetified-lifecycle-process-2.0.0/AndroidManifest.xml:24:13-79
+429            android:authorities="org.chatapps.messenger.lifecycle-process"
+429-->[androidx.lifecycle:lifecycle-process:2.0.0] /Users/noname/.gradle/caches/transforms-2/files-2.1/22148d685580ed3826a245eb225c8e0c/jetified-lifecycle-process-2.0.0/AndroidManifest.xml:25:13-69
+430            android:exported="false"
+430-->[androidx.lifecycle:lifecycle-process:2.0.0] /Users/noname/.gradle/caches/transforms-2/files-2.1/22148d685580ed3826a245eb225c8e0c/jetified-lifecycle-process-2.0.0/AndroidManifest.xml:26:13-37
+431            android:multiprocess="true" />
+431-->[androidx.lifecycle:lifecycle-process:2.0.0] /Users/noname/.gradle/caches/transforms-2/files-2.1/22148d685580ed3826a245eb225c8e0c/jetified-lifecycle-process-2.0.0/AndroidManifest.xml:27:13-40
+432    </application>
+433
+434</manifest>

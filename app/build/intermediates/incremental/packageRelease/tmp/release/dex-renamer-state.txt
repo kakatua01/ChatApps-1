@@ -1,0 +1,7 @@
+#Sat Oct 08 17:32:07 WIB 2022
+base.1=/Users/noname/Documents/messenger-app-android/app/build/intermediates/dex/release/mergeProjectDexRelease/classes.dex
+path.1=classes.dex
+base.0=/Users/noname/Documents/messenger-app-android/app/build/intermediates/dex/release/mergeExtDexRelease/classes.dex
+renamed.1=classes2.dex
+renamed.0=classes.dex
+path.0=classes.dex

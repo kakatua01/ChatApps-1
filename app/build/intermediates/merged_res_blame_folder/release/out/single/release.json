@@ -1,0 +1,474 @@
+[
+    {
+        "merged": "/Users/noname/Documents/messenger-app-android/app/build/intermediates/res/merged/release/layout_activity_register_new_profile.xml.flat",
+        "source": "/Users/noname/Documents/messenger-app-android/app/src/main/res/layout/activity_register_new_profile.xml"
+    },
+    {
+        "merged": "/Users/noname/Documents/messenger-app-android/app/build/intermediates/res/merged/release/mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "/Users/noname/Documents/messenger-app-android/app/src/main/res/mipmap-xhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/noname/Documents/messenger-app-android/app/build/intermediates/res/merged/release/drawable-hdpi_ic_photo_camera_black_18dp.png.flat",
+        "source": "/Users/noname/Documents/messenger-app-android/app/src/main/res/drawable-hdpi/ic_photo_camera_black_18dp.png"
+    },
+    {
+        "merged": "/Users/noname/Documents/messenger-app-android/app/build/intermediates/res/merged/release/drawable-xxxhdpi_ic_lens_green_900_48dp.png.flat",
+        "source": "/Users/noname/Documents/messenger-app-android/app/src/main/res/drawable-xxxhdpi/ic_lens_green_900_48dp.png"
+    },
+    {
+        "merged": "/Users/noname/Documents/messenger-app-android/app/build/intermediates/res/merged/release/drawable-xxhdpi_ic_group_add_black_24dp.png.flat",
+        "source": "/Users/noname/Documents/messenger-app-android/app/src/main/res/drawable-xxhdpi/ic_group_add_black_24dp.png"
+    },
+    {
+        "merged": "/Users/noname/Documents/messenger-app-android/app/build/intermediates/res/merged/release/drawable-xhdpi_ic_call_black_24dp.png.flat",
+        "source": "/Users/noname/Documents/messenger-app-android/app/src/main/res/drawable-xhdpi/ic_call_black_24dp.png"
+    },
+    {
+        "merged": "/Users/noname/Documents/messenger-app-android/app/build/intermediates/res/merged/release/drawable-xhdpi_ic_notes.png.flat",
+        "source": "/Users/noname/Documents/messenger-app-android/app/src/main/res/drawable-xhdpi/ic_notes.png"
+    },
+    {
+        "merged": "/Users/noname/Documents/messenger-app-android/app/build/intermediates/res/merged/release/drawable-xxhdpi_ic_call_white_24dp.png.flat",
+        "source": "/Users/noname/Documents/messenger-app-android/app/src/main/res/drawable-xxhdpi/ic_call_white_24dp.png"
+    },
+    {
+        "merged": "/Users/noname/Documents/messenger-app-android/app/build/intermediates/res/merged/release/drawable-mdpi_ic_info_black_24dp.png.flat",
+        "source": "/Users/noname/Documents/messenger-app-android/app/src/main/res/drawable-mdpi/ic_info_black_24dp.png"
+    },
+    {
+        "merged": "/Users/noname/Documents/messenger-app-android/app/build/intermediates/res/merged/release/drawable-hdpi_ic_action_share.png.flat",
+        "source": "/Users/noname/Documents/messenger-app-android/app/src/main/res/drawable-hdpi/ic_action_share.png"
+    },
+    {
+        "merged": "/Users/noname/Documents/messenger-app-android/app/build/intermediates/res/merged/release/drawable-anydpi_ic_group_add_black_24dp.xml.flat",
+        "source": "/Users/noname/Documents/messenger-app-android/app/src/main/res/drawable-anydpi/ic_group_add_black_24dp.xml"
+    },
+    {
+        "merged": "/Users/noname/Documents/messenger-app-android/app/build/intermediates/res/merged/release/drawable-xhdpi_ic_lens_green_900_48dp.png.flat",
+        "source": "/Users/noname/Documents/messenger-app-android/app/src/main/res/drawable-xhdpi/ic_lens_green_900_48dp.png"
+    },
+    {
+        "merged": "/Users/noname/Documents/messenger-app-android/app/build/intermediates/res/merged/release/drawable-xhdpi_ic_play_circle_outline_black_36dp.png.flat",
+        "source": "/Users/noname/Documents/messenger-app-android/app/src/main/res/drawable-xhdpi/ic_play_circle_outline_black_36dp.png"
+    },
+    {
+        "merged": "/Users/noname/Documents/messenger-app-android/app/build/intermediates/res/merged/release/drawable-xxhdpi_ic_data_usage_black_24dp.png.flat",
+        "source": "/Users/noname/Documents/messenger-app-android/app/src/main/res/drawable-xxhdpi/ic_data_usage_black_24dp.png"
+    },
+    {
+        "merged": "/Users/noname/Documents/messenger-app-android/app/build/intermediates/res/merged/release/drawable_editor_background.xml.flat",
+        "source": "/Users/noname/Documents/messenger-app-android/app/src/main/res/drawable/editor_background.xml"
+    },
+    {
+        "merged": "/Users/noname/Documents/messenger-app-android/app/build/intermediates/res/merged/release/drawable-hdpi_ic_group_add_black_24dp.png.flat",
+        "source": "/Users/noname/Documents/messenger-app-android/app/src/main/res/drawable-hdpi/ic_group_add_black_24dp.png"
+    },
+    {
+        "merged": "/Users/noname/Documents/messenger-app-android/app/build/intermediates/res/merged/release/drawable-mdpi_ic_call_black_24dp.png.flat",
+        "source": "/Users/noname/Documents/messenger-app-android/app/src/main/res/drawable-mdpi/ic_call_black_24dp.png"
+    },
+    {
+        "merged": "/Users/noname/Documents/messenger-app-android/app/build/intermediates/res/merged/release/drawable_profile.png.flat",
+        "source": "/Users/noname/Documents/messenger-app-android/app/src/main/res/drawable/profile.png"
+    },
+    {
+        "merged": "/Users/noname/Documents/messenger-app-android/app/build/intermediates/res/merged/release/layout_activity_show_user_profile.xml.flat",
+        "source": "/Users/noname/Documents/messenger-app-android/app/src/main/res/layout/activity_show_user_profile.xml"
+    },
+    {
+        "merged": "/Users/noname/Documents/messenger-app-android/app/build/intermediates/res/merged/release/drawable-xxxhdpi_ic_message_white_24dp.png.flat",
+        "source": "/Users/noname/Documents/messenger-app-android/app/src/main/res/drawable-xxxhdpi/ic_message_white_24dp.png"
+    },
+    {
+        "merged": "/Users/noname/Documents/messenger-app-android/app/build/intermediates/res/merged/release/mipmap-mdpi_ic_launcher.png.flat",
+        "source": "/Users/noname/Documents/messenger-app-android/app/src/main/res/mipmap-mdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/noname/Documents/messenger-app-android/app/build/intermediates/res/merged/release/menu_messaging_activity_menu.xml.flat",
+        "source": "/Users/noname/Documents/messenger-app-android/app/src/main/res/menu/messaging_activity_menu.xml"
+    },
+    {
+        "merged": "/Users/noname/Documents/messenger-app-android/app/build/intermediates/res/merged/release/drawable-xhdpi_ic_chat_black_24dp.png.flat",
+        "source": "/Users/noname/Documents/messenger-app-android/app/src/main/res/drawable-xhdpi/ic_chat_black_24dp.png"
+    },
+    {
+        "merged": "/Users/noname/Documents/messenger-app-android/app/build/intermediates/res/merged/release/layout_activity_blank_launcher.xml.flat",
+        "source": "/Users/noname/Documents/messenger-app-android/app/src/main/res/layout/activity_blank_launcher.xml"
+    },
+    {
+        "merged": "/Users/noname/Documents/messenger-app-android/app/build/intermediates/res/merged/release/drawable-mdpi_ic_group_black.png.flat",
+        "source": "/Users/noname/Documents/messenger-app-android/app/src/main/res/drawable-mdpi/ic_group_black.png"
+    },
+    {
+        "merged": "/Users/noname/Documents/messenger-app-android/app/build/intermediates/res/merged/release/drawable-hdpi_ic_lens_green_900_48dp.png.flat",
+        "source": "/Users/noname/Documents/messenger-app-android/app/src/main/res/drawable-hdpi/ic_lens_green_900_48dp.png"
+    },
+    {
+        "merged": "/Users/noname/Documents/messenger-app-android/app/build/intermediates/res/merged/release/drawable_ic_launcher.png.flat",
+        "source": "/Users/noname/Documents/messenger-app-android/app/src/main/res/drawable/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/noname/Documents/messenger-app-android/app/build/intermediates/res/merged/release/drawable-mdpi_ic_videocam_white_24dp.png.flat",
+        "source": "/Users/noname/Documents/messenger-app-android/app/src/main/res/drawable-mdpi/ic_videocam_white_24dp.png"
+    },
+    {
+        "merged": "/Users/noname/Documents/messenger-app-android/app/build/intermediates/res/merged/release/drawable-xhdpi_ic_group_black.png.flat",
+        "source": "/Users/noname/Documents/messenger-app-android/app/src/main/res/drawable-xhdpi/ic_group_black.png"
+    },
+    {
+        "merged": "/Users/noname/Documents/messenger-app-android/app/build/intermediates/res/merged/release/drawable-mdpi_ic_play_circle_outline_black_36dp.png.flat",
+        "source": "/Users/noname/Documents/messenger-app-android/app/src/main/res/drawable-mdpi/ic_play_circle_outline_black_36dp.png"
+    },
+    {
+        "merged": "/Users/noname/Documents/messenger-app-android/app/build/intermediates/res/merged/release/drawable-xxhdpi_ic_security_white.png.flat",
+        "source": "/Users/noname/Documents/messenger-app-android/app/src/main/res/drawable-xxhdpi/ic_security_white.png"
+    },
+    {
+        "merged": "/Users/noname/Documents/messenger-app-android/app/build/intermediates/res/merged/release/menu_menu_messaging.xml.flat",
+        "source": "/Users/noname/Documents/messenger-app-android/app/src/main/res/menu/menu_messaging.xml"
+    },
+    {
+        "merged": "/Users/noname/Documents/messenger-app-android/app/build/intermediates/res/merged/release/drawable_trans400dp.xml.flat",
+        "source": "/Users/noname/Documents/messenger-app-android/app/src/main/res/drawable/trans400dp.xml"
+    },
+    {
+        "merged": "/Users/noname/Documents/messenger-app-android/app/build/intermediates/res/merged/release/drawable-xxhdpi_ic_notes.png.flat",
+        "source": "/Users/noname/Documents/messenger-app-android/app/src/main/res/drawable-xxhdpi/ic_notes.png"
+    },
+    {
+        "merged": "/Users/noname/Documents/messenger-app-android/app/build/intermediates/res/merged/release/drawable-xhdpi_ic_info_black_24dp.png.flat",
+        "source": "/Users/noname/Documents/messenger-app-android/app/src/main/res/drawable-xhdpi/ic_info_black_24dp.png"
+    },
+    {
+        "merged": "/Users/noname/Documents/messenger-app-android/app/build/intermediates/res/merged/release/drawable-xhdpi_ic_security_white.png.flat",
+        "source": "/Users/noname/Documents/messenger-app-android/app/src/main/res/drawable-xhdpi/ic_security_white.png"
+    },
+    {
+        "merged": "/Users/noname/Documents/messenger-app-android/app/build/intermediates/res/merged/release/drawable-hdpi_ic_group_black.png.flat",
+        "source": "/Users/noname/Documents/messenger-app-android/app/src/main/res/drawable-hdpi/ic_group_black.png"
+    },
+    {
+        "merged": "/Users/noname/Documents/messenger-app-android/app/build/intermediates/res/merged/release/drawable_payasyougrow.png.flat",
+        "source": "/Users/noname/Documents/messenger-app-android/app/src/main/res/drawable/payasyougrow.png"
+    },
+    {
+        "merged": "/Users/noname/Documents/messenger-app-android/app/build/intermediates/res/merged/release/drawable-anydpi_ic_action_share.xml.flat",
+        "source": "/Users/noname/Documents/messenger-app-android/app/src/main/res/drawable-anydpi/ic_action_share.xml"
+    },
+    {
+        "merged": "/Users/noname/Documents/messenger-app-android/app/build/intermediates/res/merged/release/drawable-xxhdpi_ic_group_add_black_36dp.png.flat",
+        "source": "/Users/noname/Documents/messenger-app-android/app/src/main/res/drawable-xxhdpi/ic_group_add_black_36dp.png"
+    },
+    {
+        "merged": "/Users/noname/Documents/messenger-app-android/app/build/intermediates/res/merged/release/drawable_notify_large.png.flat",
+        "source": "/Users/noname/Documents/messenger-app-android/app/src/main/res/drawable/notify_large.png"
+    },
+    {
+        "merged": "/Users/noname/Documents/messenger-app-android/app/build/intermediates/res/merged/release/drawable-xxxhdpi_ic_chat_black_24dp.png.flat",
+        "source": "/Users/noname/Documents/messenger-app-android/app/src/main/res/drawable-xxxhdpi/ic_chat_black_24dp.png"
+    },
+    {
+        "merged": "/Users/noname/Documents/messenger-app-android/app/build/intermediates/res/merged/release/drawable-xxxhdpi_ic_power_settings_new_black_24dp.png.flat",
+        "source": "/Users/noname/Documents/messenger-app-android/app/src/main/res/drawable-xxxhdpi/ic_power_settings_new_black_24dp.png"
+    },
+    {
+        "merged": "/Users/noname/Documents/messenger-app-android/app/build/intermediates/res/merged/release/drawable-xxhdpi_ic_power_settings_new_black_24dp.png.flat",
+        "source": "/Users/noname/Documents/messenger-app-android/app/src/main/res/drawable-xxhdpi/ic_power_settings_new_black_24dp.png"
+    },
+    {
+        "merged": "/Users/noname/Documents/messenger-app-android/app/build/intermediates/res/merged/release/drawable_notify_transparent.png.flat",
+        "source": "/Users/noname/Documents/messenger-app-android/app/src/main/res/drawable/notify_transparent.png"
+    },
+    {
+        "merged": "/Users/noname/Documents/messenger-app-android/app/build/intermediates/res/merged/release/layout_activity_settings.xml.flat",
+        "source": "/Users/noname/Documents/messenger-app-android/app/src/main/res/layout/activity_settings.xml"
+    },
+    {
+        "merged": "/Users/noname/Documents/messenger-app-android/app/build/intermediates/res/merged/release/drawable-xxxhdpi_ic_info_black_24dp.png.flat",
+        "source": "/Users/noname/Documents/messenger-app-android/app/src/main/res/drawable-xxxhdpi/ic_info_black_24dp.png"
+    },
+    {
+        "merged": "/Users/noname/Documents/messenger-app-android/app/build/intermediates/res/merged/release/mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "/Users/noname/Documents/messenger-app-android/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/noname/Documents/messenger-app-android/app/build/intermediates/res/merged/release/layout_fragment_register_new_profile.xml.flat",
+        "source": "/Users/noname/Documents/messenger-app-android/app/src/main/res/layout/fragment_register_new_profile.xml"
+    },
+    {
+        "merged": "/Users/noname/Documents/messenger-app-android/app/build/intermediates/res/merged/release/drawable-hdpi_ic_data_usage_black_24dp.png.flat",
+        "source": "/Users/noname/Documents/messenger-app-android/app/src/main/res/drawable-hdpi/ic_data_usage_black_24dp.png"
+    },
+    {
+        "merged": "/Users/noname/Documents/messenger-app-android/app/build/intermediates/res/merged/release/drawable_plug_play.png.flat",
+        "source": "/Users/noname/Documents/messenger-app-android/app/src/main/res/drawable/plug_play.png"
+    },
+    {
+        "merged": "/Users/noname/Documents/messenger-app-android/app/build/intermediates/res/merged/release/xml_data_usage.xml.flat",
+        "source": "/Users/noname/Documents/messenger-app-android/app/src/main/res/xml/data_usage.xml"
+    },
+    {
+        "merged": "/Users/noname/Documents/messenger-app-android/app/build/intermediates/res/merged/release/drawable-xxhdpi_ic_chat_black_24dp.png.flat",
+        "source": "/Users/noname/Documents/messenger-app-android/app/src/main/res/drawable-xxhdpi/ic_chat_black_24dp.png"
+    },
+    {
+        "merged": "/Users/noname/Documents/messenger-app-android/app/build/intermediates/res/merged/release/drawable_opensource_ios.png.flat",
+        "source": "/Users/noname/Documents/messenger-app-android/app/src/main/res/drawable/opensource_ios.png"
+    },
+    {
+        "merged": "/Users/noname/Documents/messenger-app-android/app/build/intermediates/res/merged/release/drawable-xxhdpi_ic_action_share.png.flat",
+        "source": "/Users/noname/Documents/messenger-app-android/app/src/main/res/drawable-xxhdpi/ic_action_share.png"
+    },
+    {
+        "merged": "/Users/noname/Documents/messenger-app-android/app/build/intermediates/res/merged/release/drawable-xhdpi_ic_videocam_white_24dp.png.flat",
+        "source": "/Users/noname/Documents/messenger-app-android/app/src/main/res/drawable-xhdpi/ic_videocam_white_24dp.png"
+    },
+    {
+        "merged": "/Users/noname/Documents/messenger-app-android/app/build/intermediates/res/merged/release/layout_video_layer_layout_horizontal_gallery.xml.flat",
+        "source": "/Users/noname/Documents/messenger-app-android/app/src/main/res/layout/video_layer_layout_horizontal_gallery.xml"
+    },
+    {
+        "merged": "/Users/noname/Documents/messenger-app-android/app/build/intermediates/res/merged/release/mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "/Users/noname/Documents/messenger-app-android/app/src/main/res/mipmap-xxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/noname/Documents/messenger-app-android/app/build/intermediates/res/merged/release/layout_about.xml.flat",
+        "source": "/Users/noname/Documents/messenger-app-android/app/src/main/res/layout/about.xml"
+    },
+    {
+        "merged": "/Users/noname/Documents/messenger-app-android/app/build/intermediates/res/merged/release/drawable_welcome.png.flat",
+        "source": "/Users/noname/Documents/messenger-app-android/app/src/main/res/drawable/welcome.png"
+    },
+    {
+        "merged": "/Users/noname/Documents/messenger-app-android/app/build/intermediates/res/merged/release/drawable-hdpi_ic_call_white_24dp.png.flat",
+        "source": "/Users/noname/Documents/messenger-app-android/app/src/main/res/drawable-hdpi/ic_call_white_24dp.png"
+    },
+    {
+        "merged": "/Users/noname/Documents/messenger-app-android/app/build/intermediates/res/merged/release/drawable-mdpi_ic_chat_black_24dp.png.flat",
+        "source": "/Users/noname/Documents/messenger-app-android/app/src/main/res/drawable-mdpi/ic_chat_black_24dp.png"
+    },
+    {
+        "merged": "/Users/noname/Documents/messenger-app-android/app/build/intermediates/res/merged/release/menu_user_profile_menu.xml.flat",
+        "source": "/Users/noname/Documents/messenger-app-android/app/src/main/res/menu/user_profile_menu.xml"
+    },
+    {
+        "merged": "/Users/noname/Documents/messenger-app-android/app/build/intermediates/res/merged/release/drawable-xxhdpi_ic_call_black_24dp.png.flat",
+        "source": "/Users/noname/Documents/messenger-app-android/app/src/main/res/drawable-xxhdpi/ic_call_black_24dp.png"
+    },
+    {
+        "merged": "/Users/noname/Documents/messenger-app-android/app/build/intermediates/res/merged/release/drawable-xxhdpi_ic_play_circle_outline_black_36dp.png.flat",
+        "source": "/Users/noname/Documents/messenger-app-android/app/src/main/res/drawable-xxhdpi/ic_play_circle_outline_black_36dp.png"
+    },
+    {
+        "merged": "/Users/noname/Documents/messenger-app-android/app/build/intermediates/res/merged/release/drawable-anydpi_ic_notes.xml.flat",
+        "source": "/Users/noname/Documents/messenger-app-android/app/src/main/res/drawable-anydpi/ic_notes.xml"
+    },
+    {
+        "merged": "/Users/noname/Documents/messenger-app-android/app/build/intermediates/res/merged/release/drawable-xxhdpi_ic_photo_camera_black_18dp.png.flat",
+        "source": "/Users/noname/Documents/messenger-app-android/app/src/main/res/drawable-xxhdpi/ic_photo_camera_black_18dp.png"
+    },
+    {
+        "merged": "/Users/noname/Documents/messenger-app-android/app/build/intermediates/res/merged/release/drawable-hdpi_ic_power_settings_new_black_24dp.png.flat",
+        "source": "/Users/noname/Documents/messenger-app-android/app/src/main/res/drawable-hdpi/ic_power_settings_new_black_24dp.png"
+    },
+    {
+        "merged": "/Users/noname/Documents/messenger-app-android/app/build/intermediates/res/merged/release/layout_showprofile_group_member_rv_item.xml.flat",
+        "source": "/Users/noname/Documents/messenger-app-android/app/src/main/res/layout/showprofile_group_member_rv_item.xml"
+    },
+    {
+        "merged": "/Users/noname/Documents/messenger-app-android/app/build/intermediates/res/merged/release/drawable-xhdpi_ic_call_white_24dp.png.flat",
+        "source": "/Users/noname/Documents/messenger-app-android/app/src/main/res/drawable-xhdpi/ic_call_white_24dp.png"
+    },
+    {
+        "merged": "/Users/noname/Documents/messenger-app-android/app/build/intermediates/res/merged/release/mipmap-hdpi_ic_launcher.png.flat",
+        "source": "/Users/noname/Documents/messenger-app-android/app/src/main/res/mipmap-hdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/noname/Documents/messenger-app-android/app/build/intermediates/res/merged/release/drawable-xhdpi_ic_group_add_black_36dp.png.flat",
+        "source": "/Users/noname/Documents/messenger-app-android/app/src/main/res/drawable-xhdpi/ic_group_add_black_36dp.png"
+    },
+    {
+        "merged": "/Users/noname/Documents/messenger-app-android/app/build/intermediates/res/merged/release/drawable-xxhdpi_ic_info_black_24dp.png.flat",
+        "source": "/Users/noname/Documents/messenger-app-android/app/src/main/res/drawable-xxhdpi/ic_info_black_24dp.png"
+    },
+    {
+        "merged": "/Users/noname/Documents/messenger-app-android/app/build/intermediates/res/merged/release/drawable-hdpi_ic_notes.png.flat",
+        "source": "/Users/noname/Documents/messenger-app-android/app/src/main/res/drawable-hdpi/ic_notes.png"
+    },
+    {
+        "merged": "/Users/noname/Documents/messenger-app-android/app/build/intermediates/res/merged/release/drawable-mdpi_ic_group_add_black_24dp.png.flat",
+        "source": "/Users/noname/Documents/messenger-app-android/app/src/main/res/drawable-mdpi/ic_group_add_black_24dp.png"
+    },
+    {
+        "merged": "/Users/noname/Documents/messenger-app-android/app/build/intermediates/res/merged/release/drawable-xxxhdpi_ic_group_add_black_36dp.png.flat",
+        "source": "/Users/noname/Documents/messenger-app-android/app/src/main/res/drawable-xxxhdpi/ic_group_add_black_36dp.png"
+    },
+    {
+        "merged": "/Users/noname/Documents/messenger-app-android/app/build/intermediates/res/merged/release/drawable-anydpi_ic_group_black.xml.flat",
+        "source": "/Users/noname/Documents/messenger-app-android/app/src/main/res/drawable-anydpi/ic_group_black.xml"
+    },
+    {
+        "merged": "/Users/noname/Documents/messenger-app-android/app/build/intermediates/res/merged/release/drawable-xxxhdpi_ic_play_circle_outline_black_36dp.png.flat",
+        "source": "/Users/noname/Documents/messenger-app-android/app/src/main/res/drawable-xxxhdpi/ic_play_circle_outline_black_36dp.png"
+    },
+    {
+        "merged": "/Users/noname/Documents/messenger-app-android/app/build/intermediates/res/merged/release/drawable-xxxhdpi_ic_data_usage_black_24dp.png.flat",
+        "source": "/Users/noname/Documents/messenger-app-android/app/src/main/res/drawable-xxxhdpi/ic_data_usage_black_24dp.png"
+    },
+    {
+        "merged": "/Users/noname/Documents/messenger-app-android/app/build/intermediates/res/merged/release/drawable-mdpi_ic_data_usage_black_24dp.png.flat",
+        "source": "/Users/noname/Documents/messenger-app-android/app/src/main/res/drawable-mdpi/ic_data_usage_black_24dp.png"
+    },
+    {
+        "merged": "/Users/noname/Documents/messenger-app-android/app/build/intermediates/res/merged/release/drawable-xxhdpi_ic_message_white_24dp.png.flat",
+        "source": "/Users/noname/Documents/messenger-app-android/app/src/main/res/drawable-xxhdpi/ic_message_white_24dp.png"
+    },
+    {
+        "merged": "/Users/noname/Documents/messenger-app-android/app/build/intermediates/res/merged/release/drawable-xhdpi_ic_data_usage_black_24dp.png.flat",
+        "source": "/Users/noname/Documents/messenger-app-android/app/src/main/res/drawable-xhdpi/ic_data_usage_black_24dp.png"
+    },
+    {
+        "merged": "/Users/noname/Documents/messenger-app-android/app/build/intermediates/res/merged/release/drawable-xxxhdpi_ic_call_black_24dp.png.flat",
+        "source": "/Users/noname/Documents/messenger-app-android/app/src/main/res/drawable-xxxhdpi/ic_call_black_24dp.png"
+    },
+    {
+        "merged": "/Users/noname/Documents/messenger-app-android/app/build/intermediates/res/merged/release/drawable_users.png.flat",
+        "source": "/Users/noname/Documents/messenger-app-android/app/src/main/res/drawable/users.png"
+    },
+    {
+        "merged": "/Users/noname/Documents/messenger-app-android/app/build/intermediates/res/merged/release/mipmap-ldpi_ic_launcher.png.flat",
+        "source": "/Users/noname/Documents/messenger-app-android/app/src/main/res/mipmap-ldpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/noname/Documents/messenger-app-android/app/build/intermediates/res/merged/release/drawable_notify_small.png.flat",
+        "source": "/Users/noname/Documents/messenger-app-android/app/src/main/res/drawable/notify_small.png"
+    },
+    {
+        "merged": "/Users/noname/Documents/messenger-app-android/app/build/intermediates/res/merged/release/drawable-mdpi_ic_call_white_24dp.png.flat",
+        "source": "/Users/noname/Documents/messenger-app-android/app/src/main/res/drawable-mdpi/ic_call_white_24dp.png"
+    },
+    {
+        "merged": "/Users/noname/Documents/messenger-app-android/app/build/intermediates/res/merged/release/drawable-xhdpi_ic_message_white_24dp.png.flat",
+        "source": "/Users/noname/Documents/messenger-app-android/app/src/main/res/drawable-xhdpi/ic_message_white_24dp.png"
+    },
+    {
+        "merged": "/Users/noname/Documents/messenger-app-android/app/build/intermediates/res/merged/release/drawable-hdpi_ic_chat_black_24dp.png.flat",
+        "source": "/Users/noname/Documents/messenger-app-android/app/src/main/res/drawable-hdpi/ic_chat_black_24dp.png"
+    },
+    {
+        "merged": "/Users/noname/Documents/messenger-app-android/app/build/intermediates/res/merged/release/drawable-hdpi_ic_security_white.png.flat",
+        "source": "/Users/noname/Documents/messenger-app-android/app/src/main/res/drawable-hdpi/ic_security_white.png"
+    },
+    {
+        "merged": "/Users/noname/Documents/messenger-app-android/app/build/intermediates/res/merged/release/drawable-xxhdpi_ic_lens_green_900_48dp.png.flat",
+        "source": "/Users/noname/Documents/messenger-app-android/app/src/main/res/drawable-xxhdpi/ic_lens_green_900_48dp.png"
+    },
+    {
+        "merged": "/Users/noname/Documents/messenger-app-android/app/build/intermediates/res/merged/release/drawable-hdpi_ic_info_black_24dp.png.flat",
+        "source": "/Users/noname/Documents/messenger-app-android/app/src/main/res/drawable-hdpi/ic_info_black_24dp.png"
+    },
+    {
+        "merged": "/Users/noname/Documents/messenger-app-android/app/build/intermediates/res/merged/release/drawable_videocall.png.flat",
+        "source": "/Users/noname/Documents/messenger-app-android/app/src/main/res/drawable/videocall.png"
+    },
+    {
+        "merged": "/Users/noname/Documents/messenger-app-android/app/build/intermediates/res/merged/release/drawable-mdpi_ic_action_share.png.flat",
+        "source": "/Users/noname/Documents/messenger-app-android/app/src/main/res/drawable-mdpi/ic_action_share.png"
+    },
+    {
+        "merged": "/Users/noname/Documents/messenger-app-android/app/build/intermediates/res/merged/release/drawable-hdpi_ic_message_white_24dp.png.flat",
+        "source": "/Users/noname/Documents/messenger-app-android/app/src/main/res/drawable-hdpi/ic_message_white_24dp.png"
+    },
+    {
+        "merged": "/Users/noname/Documents/messenger-app-android/app/build/intermediates/res/merged/release/drawable-xhdpi_ic_group_add_black_24dp.png.flat",
+        "source": "/Users/noname/Documents/messenger-app-android/app/src/main/res/drawable-xhdpi/ic_group_add_black_24dp.png"
+    },
+    {
+        "merged": "/Users/noname/Documents/messenger-app-android/app/build/intermediates/res/merged/release/drawable-hdpi_ic_call_black_24dp.png.flat",
+        "source": "/Users/noname/Documents/messenger-app-android/app/src/main/res/drawable-hdpi/ic_call_black_24dp.png"
+    },
+    {
+        "merged": "/Users/noname/Documents/messenger-app-android/app/build/intermediates/res/merged/release/drawable-hdpi_ic_group_add_black_36dp.png.flat",
+        "source": "/Users/noname/Documents/messenger-app-android/app/src/main/res/drawable-hdpi/ic_group_add_black_36dp.png"
+    },
+    {
+        "merged": "/Users/noname/Documents/messenger-app-android/app/build/intermediates/res/merged/release/drawable-anydpi_ic_security_white.xml.flat",
+        "source": "/Users/noname/Documents/messenger-app-android/app/src/main/res/drawable-anydpi/ic_security_white.xml"
+    },
+    {
+        "merged": "/Users/noname/Documents/messenger-app-android/app/build/intermediates/res/merged/release/drawable-xhdpi_ic_power_settings_new_black_24dp.png.flat",
+        "source": "/Users/noname/Documents/messenger-app-android/app/src/main/res/drawable-xhdpi/ic_power_settings_new_black_24dp.png"
+    },
+    {
+        "merged": "/Users/noname/Documents/messenger-app-android/app/build/intermediates/res/merged/release/layout_fragment_show_user_profile_details.xml.flat",
+        "source": "/Users/noname/Documents/messenger-app-android/app/src/main/res/layout/fragment_show_user_profile_details.xml"
+    },
+    {
+        "merged": "/Users/noname/Documents/messenger-app-android/app/build/intermediates/res/merged/release/drawable-mdpi_ic_group_add_black_36dp.png.flat",
+        "source": "/Users/noname/Documents/messenger-app-android/app/src/main/res/drawable-mdpi/ic_group_add_black_36dp.png"
+    },
+    {
+        "merged": "/Users/noname/Documents/messenger-app-android/app/build/intermediates/res/merged/release/drawable-mdpi_ic_notes.png.flat",
+        "source": "/Users/noname/Documents/messenger-app-android/app/src/main/res/drawable-mdpi/ic_notes.png"
+    },
+    {
+        "merged": "/Users/noname/Documents/messenger-app-android/app/build/intermediates/res/merged/release/drawable-xhdpi_ic_action_share.png.flat",
+        "source": "/Users/noname/Documents/messenger-app-android/app/src/main/res/drawable-xhdpi/ic_action_share.png"
+    },
+    {
+        "merged": "/Users/noname/Documents/messenger-app-android/app/build/intermediates/res/merged/release/drawable-xxxhdpi_ic_photo_camera_black_18dp.png.flat",
+        "source": "/Users/noname/Documents/messenger-app-android/app/src/main/res/drawable-xxxhdpi/ic_photo_camera_black_18dp.png"
+    },
+    {
+        "merged": "/Users/noname/Documents/messenger-app-android/app/build/intermediates/res/merged/release/drawable-mdpi_ic_security_white.png.flat",
+        "source": "/Users/noname/Documents/messenger-app-android/app/src/main/res/drawable-mdpi/ic_security_white.png"
+    },
+    {
+        "merged": "/Users/noname/Documents/messenger-app-android/app/build/intermediates/res/merged/release/drawable-xxxhdpi_ic_videocam_white_24dp.png.flat",
+        "source": "/Users/noname/Documents/messenger-app-android/app/src/main/res/drawable-xxxhdpi/ic_videocam_white_24dp.png"
+    },
+    {
+        "merged": "/Users/noname/Documents/messenger-app-android/app/build/intermediates/res/merged/release/drawable-mdpi_ic_photo_camera_black_18dp.png.flat",
+        "source": "/Users/noname/Documents/messenger-app-android/app/src/main/res/drawable-mdpi/ic_photo_camera_black_18dp.png"
+    },
+    {
+        "merged": "/Users/noname/Documents/messenger-app-android/app/build/intermediates/res/merged/release/drawable-xxhdpi_ic_videocam_white_24dp.png.flat",
+        "source": "/Users/noname/Documents/messenger-app-android/app/src/main/res/drawable-xxhdpi/ic_videocam_white_24dp.png"
+    },
+    {
+        "merged": "/Users/noname/Documents/messenger-app-android/app/build/intermediates/res/merged/release/drawable-mdpi_ic_message_white_24dp.png.flat",
+        "source": "/Users/noname/Documents/messenger-app-android/app/src/main/res/drawable-mdpi/ic_message_white_24dp.png"
+    },
+    {
+        "merged": "/Users/noname/Documents/messenger-app-android/app/build/intermediates/res/merged/release/drawable-mdpi_ic_power_settings_new_black_24dp.png.flat",
+        "source": "/Users/noname/Documents/messenger-app-android/app/src/main/res/drawable-mdpi/ic_power_settings_new_black_24dp.png"
+    },
+    {
+        "merged": "/Users/noname/Documents/messenger-app-android/app/build/intermediates/res/merged/release/drawable-xxxhdpi_ic_call_white_24dp.png.flat",
+        "source": "/Users/noname/Documents/messenger-app-android/app/src/main/res/drawable-xxxhdpi/ic_call_white_24dp.png"
+    },
+    {
+        "merged": "/Users/noname/Documents/messenger-app-android/app/build/intermediates/res/merged/release/drawable-xhdpi_ic_photo_camera_black_18dp.png.flat",
+        "source": "/Users/noname/Documents/messenger-app-android/app/src/main/res/drawable-xhdpi/ic_photo_camera_black_18dp.png"
+    },
+    {
+        "merged": "/Users/noname/Documents/messenger-app-android/app/build/intermediates/res/merged/release/layout_fragment_basic_settings.xml.flat",
+        "source": "/Users/noname/Documents/messenger-app-android/app/src/main/res/layout/fragment_basic_settings.xml"
+    },
+    {
+        "merged": "/Users/noname/Documents/messenger-app-android/app/build/intermediates/res/merged/release/drawable-xxhdpi_ic_group_black.png.flat",
+        "source": "/Users/noname/Documents/messenger-app-android/app/src/main/res/drawable-xxhdpi/ic_group_black.png"
+    },
+    {
+        "merged": "/Users/noname/Documents/messenger-app-android/app/build/intermediates/res/merged/release/drawable-hdpi_ic_play_circle_outline_black_36dp.png.flat",
+        "source": "/Users/noname/Documents/messenger-app-android/app/src/main/res/drawable-hdpi/ic_play_circle_outline_black_36dp.png"
+    },
+    {
+        "merged": "/Users/noname/Documents/messenger-app-android/app/build/intermediates/res/merged/release/drawable-mdpi_ic_lens_green_900_48dp.png.flat",
+        "source": "/Users/noname/Documents/messenger-app-android/app/src/main/res/drawable-mdpi/ic_lens_green_900_48dp.png"
+    },
+    {
+        "merged": "/Users/noname/Documents/messenger-app-android/app/build/intermediates/res/merged/release/drawable-hdpi_ic_videocam_white_24dp.png.flat",
+        "source": "/Users/noname/Documents/messenger-app-android/app/src/main/res/drawable-hdpi/ic_videocam_white_24dp.png"
+    }
+]
