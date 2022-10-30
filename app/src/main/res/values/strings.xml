@@ -1,0 +1,11 @@
+<resources tools:ignore="ExtraTranslation" xmlns:tools="http://schemas.android.com/tools">
+
+    <string name="app_name">ChatApps</string>
+    <string name="menu_conf">Jumpa</string>
+    <string name="menu_calllogs">Panggilan History</string>
+    <string name="menu_settings">Seting</string>
+
+    <string name="FACEBOOK_APP_ID">743410166003105</string>
+
+
+</resources>
